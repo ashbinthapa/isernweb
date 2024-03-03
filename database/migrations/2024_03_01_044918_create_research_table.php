@@ -13,6 +13,14 @@ return new class extends Migration
     {
         Schema::create('research', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->boolean('research_status')->default(false)->nullable();
+            $table->string('slug')->unique();
+            $table->longText('content')->nullable();
+            $table->date('published_at')->nullable();
+            $table->string('seo_title', 60)->nullable();
+            $table->string('seo_description', 160)->nullable();
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
