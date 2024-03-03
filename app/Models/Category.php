@@ -4,8 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class Categories extends Model
+class Category extends Model
 {
     use HasFactory;
     protected $fillable = [
@@ -17,9 +18,9 @@ class Categories extends Model
         'seo_description'
     ];
 
-    public function user(): BelongsTo
+    public function post(): HasMany
     {
-        return $this->hasMany(User::class);
+        return $this->hasMany(Post::class, 'category_id');
     }
 
 }

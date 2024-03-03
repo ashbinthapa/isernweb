@@ -4,13 +4,15 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class Posts extends Model
+
+class Post extends Model
 {
     use HasFactory;
     protected $fillable = [
         'user_id',
-        'catergory_id',
+        'category_id',
         'title',
         'slug',
         'content',
@@ -21,16 +23,16 @@ class Posts extends Model
     ];
 
 
-    /** @return BelongsTo<Users,self> */
+    /** @return BelongsTo<User,self> */
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class, 'user_id');
     }
 
-    /** @return BelongsTo<Categories,self> */
+    /** @return BelongsTo<Category,self> */
     public function category(): BelongsTo
     {
-        return $this->belongsTo(Categories::class, 'category_id');
+        return $this->belongsTo(Category::class, 'category_id');
     }
 
     /** @return MorphMany<Comment> */
