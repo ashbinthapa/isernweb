@@ -6,6 +6,9 @@ use App\Filament\Resources\DownloadResource\Pages;
 use App\Filament\Resources\DownloadResource\RelationManagers;
 use App\Models\Download;
 use Filament\Forms;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\MarkdownEditor;
+use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -31,7 +34,13 @@ class DownloadResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('title'),
+
+                TextInput::make('slug'),
+
+                MarkdownEditor::make('content')
+                    ->columnSpan('full'),
+                
             ]);
     }
 
