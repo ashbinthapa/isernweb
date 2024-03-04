@@ -12,6 +12,8 @@ use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -41,9 +43,9 @@ class TimelineResource extends Resource
                 MarkdownEditor::make('content')
                     ->columnSpan('full'),
                 
-                DatePicker::make('start_date'),
+                TextInput::make('start_date'),
 
-                DatePicker::make('end_date'),
+                TextInput::make('end_date'),
             ]);
     }
 
@@ -51,7 +53,28 @@ class TimelineResource extends Resource
     {
         return $table
             ->columns([
-                //
+                ImageColumn::make('image')
+                    ->label('Image'),
+                TextColumn::make('title')
+                    ->label('Title')
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('slug')
+                    ->label('Slug')
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('content')
+                    ->label('Content'),
+                TextColumn::make('start_date')
+                    ->label('Start Date')
+                    ->sortable(),
+                TextColumn::make('end_date')
+                    ->label('End Date')
+                    ->sortable(),
+                TextColumn::make('updated_at')
+                    ->label('Last Updated')
+                    ->date()
+                    ->sortable(),
             ])
             ->filters([
                 //

@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('research', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->boolean('research_status')->default(false)->nullable();
+            $table->string('research_status')->nullable();
             $table->string('slug')->unique();
             $table->longText('content')->nullable();
             $table->date('published_at')->nullable();

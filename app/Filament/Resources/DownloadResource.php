@@ -34,11 +34,14 @@ class DownloadResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('title'),
+                TextInput::make('title')
+                    ->label('Title'),
 
-                TextInput::make('slug'),
+                TextInput::make('slug')
+                    ->label('Slug'),
 
                 MarkdownEditor::make('content')
+                    ->label('Content')
                     ->columnSpan('full'),
                 
             ]);
@@ -48,7 +51,25 @@ class DownloadResource extends Resource
     {
         return $table
             ->columns([
-                //
+                ImageColumn::make('image')
+                    ->label('Image'),
+                TextColumn::make('title')
+                    ->label('Title')
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('slug')
+                    ->label('Slug')
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('content')
+                    ->label('Contect'),
+                TextColumn::make('download_status')
+                    ->label('Download Satus')
+                    ->sortable(),
+                TextColumn::make('updated_at')
+                    ->label('Last Updated')
+                    ->date()
+                    ->sortable(),
             ])
             ->filters([
                 //

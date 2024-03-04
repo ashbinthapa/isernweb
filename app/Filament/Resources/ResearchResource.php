@@ -13,6 +13,8 @@ use Filament\Forms\Components\Radio;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -35,11 +37,13 @@ class ResearchResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('title'),
+                TextInput::make('title')
+                    ->label("Title"),
 
-                TextInput::make('slug'),
+                TextInput::make('slug')
+                    ->label('Slug'),
 
-                Radio::make('feedback')
+                Radio::make('research_status')
                     ->label('Research Status?')
                     ->boolean()
                     ->options([
@@ -48,6 +52,7 @@ class ResearchResource extends Resource
                     ]),
 
                 MarkdownEditor::make('content')
+                    ->label('Content')
                     ->columnSpan('full')
                 
             ]);
@@ -57,7 +62,18 @@ class ResearchResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('title')
+                    ->label('Title')
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('slug')
+                    ->label('slug')
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('research_status')
+                    ->label('Research status!'),
+                TextColumn::make('content')
+                    ->label('Content'),
             ])
             ->filters([
                 //
