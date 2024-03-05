@@ -15,7 +15,7 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Columns\ImageColumn;
+use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -47,10 +47,10 @@ class PostResource extends Resource
                 
                 Select::make('category_id')
                 ->relationship('category', 'name')
-                ->searchable()
                 ->required(),
 
-                SpatieMediaLibraryFileUpload::make('image'),
+                SpatieMediaLibraryFileUpload::make('image')
+                ->imageEditor(),
                 
             ]);
     }
@@ -59,7 +59,7 @@ class PostResource extends Resource
     {
         return $table
             ->columns([
-                ImageColumn::make('image')
+                SpatieMediaLibraryImageColumn::make('image')
                     ->label('Image'),
                 TextColumn::make('title')
                     ->searchable()
