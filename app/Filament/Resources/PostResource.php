@@ -19,6 +19,7 @@ use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Auth;
 
 class PostResource extends Resource
 {
@@ -44,10 +45,15 @@ class PostResource extends Resource
 
                 MarkdownEditor::make('content')
                 ->columnSpan('full'),
+                Forms\Components\Checkbox::make('is_published'),
+                Forms\Components\Checkbox::make('is_featured'),
                 
                 Select::make('category_id')
                 ->relationship('category', 'name')
                 ->required(),
+
+                Forms\Components\Hidden::make('user_id')
+                ->dehydrateStateUsing(fn ($state) => Auth::id()),
 
                 SpatieMediaLibraryFileUpload::make('image')
                 ->imageEditor(),
@@ -59,15 +65,17 @@ class PostResource extends Resource
     {
         return $table
             ->columns([
-                SpatieMediaLibraryImageColumn::make('image')
+                SpatieMediaLibraryImageColumn::make('thumbnail')
                     ->label('Image'),
                 TextColumn::make('title')
                     ->searchable()
                     ->sortable(),
+                Tables\Columns\TextColumn::make('category.name')->searchable()->badge(),
                 TextColumn::make('slug')
                     ->searchable()
                     ->sortable(),
-                TextColumn::make('content'),
+                Tables\Columns\CheckboxColumn::make('is_featured'),
+                Tables\Columns\CheckboxColumn::make('is_published'),
                 TextColumn::make('updated_at')
                     ->label('Last Updated')
                     ->date()
@@ -75,7 +83,17 @@ class PostResource extends Resource
 
             ])
             ->filters([
-                //
+                Tables\Filters\Filter::make('is_featured')
+                    ->label('Featured')
+                    ->query(fn (Builder $query): Builder => $query->where('is_featured', true)),
+                Tables\Filters\Filter::make('is_published')
+                    ->label('Published')
+                    ->query(fn (Builder $query): Builder => $query->where('is_published', true)),
+                Tables\Filters\SelectFilter::make('categories')
+                    ->multiple()
+                    ->relationship('category', 'name'),
+                Tables\Filters\TrashedFilter::make()
+
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),

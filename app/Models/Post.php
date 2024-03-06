@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
@@ -12,6 +13,8 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 class Post extends Model implements HasMedia
 {
     use HasFactory;
+
+    use SoftDeletes;
 
     use InteractsWithMedia;
 
@@ -21,6 +24,9 @@ class Post extends Model implements HasMedia
         'title',
         'slug',
         'content',
+        'meta_description',
+        'is_featured',
+        'is_published',
         'published_at',
         'seo_title',
         'seo_description',

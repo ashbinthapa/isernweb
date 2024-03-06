@@ -59,7 +59,7 @@ class CategoryResource extends Resource
                 TextColumn::make('slug')
                     ->searchable()
                     ->sortable(),
-                IconColumn::make('is_visible')
+                    Tables\Columns\CheckboxColumn::make('is_visible')
                     ->label('Visibility'),
                 TextColumn::make('updated_at')
                     ->label('Last Updated')
