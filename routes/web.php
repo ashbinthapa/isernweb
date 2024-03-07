@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Models\Post;
+
 
 
 /*
@@ -27,5 +29,8 @@ Route::view('profile', 'profile')
 
 
 Route::get('/', [PostController::class, 'index']);
+Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
+Route::get('/posts', [PostController::class, 'archive']);
+
 
 require __DIR__.'/auth.php';
