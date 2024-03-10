@@ -29,6 +29,7 @@ Route::view('profile', 'profile')
 
 
 Route::get('/', [PostController::class, 'index']);
+Route::get('/', [PostController::class, 'sliderPost'])->name('posts.sliderPost');
 Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
 Route::get('/posts', [PostController::class, 'archive']);
 
