@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+use Illuminate\Support\Str;
+
 
 
 class Post extends Model implements HasMedia
@@ -17,6 +19,8 @@ class Post extends Model implements HasMedia
     use SoftDeletes;
 
     use InteractsWithMedia;
+
+    const EXCERPT_LENGTH = 100;
 
     protected $fillable = [
         'user_id',
@@ -33,6 +37,10 @@ class Post extends Model implements HasMedia
         'image'
     ];
 
+    public function excerpt()
+    {
+        return Str::limit($this->content, Post::EXCERPT_LENGTH);
+    }
 
     /** @return BelongsTo<User,self> */
     public function user(): BelongsTo
