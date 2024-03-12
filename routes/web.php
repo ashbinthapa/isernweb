@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\PageController;
 use App\Models\Post;
+use App\Models\Page;
+
 
 
 
@@ -32,6 +35,11 @@ Route::get('/', [PostController::class, 'index']);
 Route::get('/', [PostController::class, 'sliderPost'])->name('posts.sliderPost');
 Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
 Route::get('/posts', [PostController::class, 'archive']);
+
+Route::get('/', [PageController::class, 'index']);
+Route::get('/{slug}', [PageController::class, 'show']);
+
+
 
 
 require __DIR__.'/auth.php';
