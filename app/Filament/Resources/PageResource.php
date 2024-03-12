@@ -35,8 +35,25 @@ class PageResource extends Resource
 
                 Forms\Components\TextInput::make('slug'),
 
-                Forms\Components\MarkdownEditor::make('content')
-                ->columnSpan('full'),
+                Forms\Components\RichEditor::make('content')
+                ->columnSpan('full')
+                ->fileAttachmentsDirectory('attachments')
+                ->toolbarButtons([
+                    'attachFiles',
+                    'blockquote',
+                    'bold',
+                    'bulletList',
+                    'codeBlock',
+                    'h2',
+                    'h3',
+                    'italic',
+                    'link',
+                    'orderedList',
+                    'redo',
+                    'strike',
+                    'underline',
+                    'undo',
+                ]),
 
                 Forms\Components\Checkbox::make('is_published'),
 
