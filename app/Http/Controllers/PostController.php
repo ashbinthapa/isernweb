@@ -8,18 +8,7 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    public function index()
-    {
-        $posts = Post::latest()->take(3)->get(); // Retrieve latest 3 posts from the database
-        return view('index', ['posts' => $posts]);
-    }
-
-    public function sliderPost()
-    {
-        $posts = Post::latest()->take(10)->get(); // Retrieve latest 3 posts from the database
-        return view('index', ['posts' => $posts]);
-    }
-
+    
     public function archive()
     {
         $posts = Post::all(); // Retrieve all posts from the database

@@ -22,11 +22,11 @@
     <h2 class="mb-4">{{ $page->title }}</h2>
 
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12"> <!-- Increased width to 9 columns -->
             <p class="lead">{!! $page->content !!}</p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3"> <!-- Decreased width to 3 columns -->
             <div class="rounded-sm h-[200px] bg-white p-3 mb-4">
                 @if ($page->getFirstMediaUrl())
                     <img src="{{ $page->getFirstMediaUrl() }}" alt="" class="img-fluid rounded" />
@@ -35,6 +35,5 @@
         </div>
     </div>
 </div>
-
 @include('layouts.footer')
 

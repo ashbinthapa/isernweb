@@ -8,12 +8,6 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function index()
-    {
-        $posts = Page::all(); // Retrieve all pages from the database
-        return view('post-archive', ['posts' => $posts]);
-    }
-    
     public function show($slug)
     {
         $page = Page::where('slug', $slug)->firstOrFail();
