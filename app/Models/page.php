@@ -18,7 +18,7 @@ class page extends Model implements HasMedia
 
     use InteractsWithMedia;
 
-    const EXCERPT_LENGTH = 500;
+    const EXCERPT_LENGTH = 475;
 
     protected $fillable = [
         'user_id',
@@ -36,7 +36,7 @@ class page extends Model implements HasMedia
 
     public function excerpt()
     {
-        return Str::limit($this->content, Post::EXCERPT_LENGTH);
+        return Str::limit($this->content, Page::EXCERPT_LENGTH);
     }
 
     /** @return BelongsTo<User,self> */
