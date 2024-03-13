@@ -185,5 +185,47 @@
       </div>
   </div>
   <!-- latest news and announcement section ended -->
+  
+  <!-- timeline section starts -->
+  <div id="carouselExampleControls" class="carousel slide text-center" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @foreach($data['timeline_slider']->chunk(4) as $index => $chunk)
+        <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+            <div class="container-fluid py-5">
+                <div class="row">
+                    @foreach($chunk as $timeline)
+                    <div class="col-lg-3">
+                        <div class="horizontal-timeline">
+                            <ul class="list-inline items">
+                                <li class="list-inline-item items-list">
+                                    
+                                        <div class="event-date badge bg-info">{{ $timeline->start_date}}</div>
+                                        <p class="text-muted">{{ $timeline->title}}</p>
+                                        <div>
+                                            <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                        </div>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+        @endforeach
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+  <!-- timeline section ends -->  
 </body>
 @include('layouts.footer')

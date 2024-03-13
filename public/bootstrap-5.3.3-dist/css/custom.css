@@ -1,3 +1,8 @@
+.row {
+ --bs-gutter-x: 0rem !important;
+}
+
+
 .footer-details a {
     text-decoration: none !important; /* Remove underlines from anchor tags */
     color: white;
@@ -23,3 +28,50 @@
 a.social-icons-size {
     font-size: 35px;
 }
+
+
+/* timeline section css starts*/
+.horizontal-timeline .items {
+    border-top: 3px solid #e9ecef;
+  }
+  
+  .horizontal-timeline .items .items-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+  }
+  
+  .horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+  }
+  
+  .horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 88px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding-top: 0px;
+  }
+  
+  @media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+      display: inline-block;
+      width: 100%;
+      padding-top: 45px;
+    }
+  
+    .horizontal-timeline .items .items-list .event-date {
+      top: -40px;
+    }
+  }
+
+/* timeline section css ends*/
