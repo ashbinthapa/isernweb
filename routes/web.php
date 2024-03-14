@@ -5,11 +5,15 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\TimelineController;
+use App\Http\Controllers\ResearchController;
+
 
 
 use App\Models\Post;
 use App\Models\Page;
 use App\Models\Timeline;
+use App\Models\Research;
+
 
 
 
@@ -44,10 +48,19 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
 Route::get('/posts', [PostController::class, 'archive']);
 
-/*PageController*/
-Route::get('/{slug}', [PageController::class, 'single']);
 
 /*TimelineController*/
 Route::get('/timeline/{slug}', [TimelineController::class, 'single'])->name('timeline.single');
+
+/*ResearchController*/
+Route::get('/projects', [ResearchController::class, 'archive']);
+Route::get('/research/{research_status}', [ResearchController::class, 'status'])->name('research.status');
+
+/*PageController
+NOTE: LOAD THIS ROUTING AT LAST SO THAT IT DOESN'T CHANGES OTHER SINGLE NAME ROUTING
+*/
+Route::get('/{slug}', [PageController::class, 'single']);
+
+
 
 require __DIR__.'/auth.php';

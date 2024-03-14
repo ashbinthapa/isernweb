@@ -62,6 +62,8 @@ class ResearchResource extends Resource
     {
         return $table
             ->columns([
+                TextColumn::make('research_status')
+                    ->label('Research status!'),
                 TextColumn::make('title')
                     ->label('Title')
                     ->searchable()
@@ -70,10 +72,6 @@ class ResearchResource extends Resource
                     ->label('slug')
                     ->searchable()
                     ->sortable(),
-                TextColumn::make('research_status')
-                    ->label('Research status!'),
-                TextColumn::make('content')
-                    ->label('Content'),
             ])
             ->filters([
                 //
