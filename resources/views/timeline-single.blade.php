@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/posts/{{ $post->slug }}">{{ $post->title }}</a>
+                    <a class="nav-link" href="/timeline/{{ $data->slug }}">{{ $data->title }}</a>
                 </li>
                 <!-- Add more navigation items as needed -->
             </ul>
@@ -18,19 +18,10 @@
 </nav>
 
 <div class="container my-5">
-    <h2 class="mb-4">{{ $post->title }}</h2>
-
+    <h2 class="mb-4">{{ $data->title }}</h2>
     <div class="row">
         <div class="col-md-12"> <!-- Increased width to 9 columns -->
-            <p class="lead">{!! $post->content !!}</p>
-        </div>
-
-        <div class="col-md-3"> <!-- Decreased width to 3 columns -->
-            <div class="rounded-sm h-[200px] bg-white p-3 mb-4">
-                @if ($post->getFirstMediaUrl())
-                    <img src="{{ $post->getFirstMediaUrl() }}" alt="" class="img-fluid rounded" />
-                @endif
-            </div>
+            <p class="lead">{!! $data->content !!}</p>
         </div>
     </div>
 </div>

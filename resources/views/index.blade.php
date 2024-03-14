@@ -146,11 +146,11 @@
     
     <!-- about us section start -->
     @if ($data['page_about_us'])
-      <div class="container text-center bg-light">
+      <div class="container-fluid text-center bg-light">
         <h4 class="p-3" style="color: #01274c; margin-top: 20px; margin-bottom: 20px;">Improving Human Lives and Environmental Conditions</h2>
         <h2 class="p-3" style="color: #01274c; margin-top: 20px; margin-bottom: 20px;">Institute for Social and Environmental Research – Nepal (ISER-N)</h2>
-        <div class="row">
-            <div class="col-md-12"> <!-- Increased width to 9 columns -->
+        <div class="row px-5 mx-5">
+            <div class="col-md-12">
                 <p class="lead">{!! $data['page_about_us']->excerpt() !!}</p>
             </div>
         </div>
@@ -202,7 +202,7 @@
                                         <div class="event-date badge bg-info">{{ $timeline->start_date}}</div>
                                         <p class="text-muted">{{ $timeline->title}}</p>
                                         <div>
-                                            <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                            <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}" class="btn btn-primary btn-sm">Read more</a>
                                         </div>
                                     
                                 </li>
@@ -223,9 +223,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-</div>
-
-
+  </div>
   <!-- timeline section ends -->  
 </body>
 @include('layouts.footer')
