@@ -54,7 +54,7 @@ Route::get('/timeline/{slug}', [TimelineController::class, 'single'])->name('tim
 
 /*ResearchController*/
 Route::get('/projects', [ResearchController::class, 'archive']);
-Route::get('/research/{research_status}', [ResearchController::class, 'status'])->name('research.status');
+Route::get('/projects/{research_status}', [ResearchController::class, 'status'])->name('research.status');
 
 /*PageController
 NOTE: LOAD THIS ROUTING AT LAST SO THAT IT DOESN'T CHANGES OTHER SINGLE NAME ROUTING
