@@ -1,4 +1,5 @@
 @include('layouts.header')
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">Home</a>
@@ -14,26 +15,23 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/projects/{{ $data->first()->research_status }}">{{ $data->first()->research_status }}</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/projects/{{ $data->slug }}">{{ $data->title }}</a>
+                </li>
                 <!-- Add more navigation items as needed -->
             </ul>
         </div>
     </div>
 </nav>
-<div class="container-fluid">
-    <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-            @foreach($data as $data)
-                <div class="col p-2">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <a href="{{ $data->research_status }}/{{ $data->slug }}" style="text-decoration: none; color: inherit;">
-                                <h5 class="card-title">{{ $data->title }}</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
+
+<div class="container my-5">
+    <h2 class="mb-4">{{ $data->title }}</h2>
+
+    <div class="row">
+        <div class="col-md-12"> <!-- Increased width to 9 columns -->
+            <p class="lead">{!! $data->content !!}</p>
         </div>
     </div>
 </div>
 @include('layouts.footer')
+

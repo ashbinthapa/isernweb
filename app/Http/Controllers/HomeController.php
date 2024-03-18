@@ -18,7 +18,7 @@ class HomeController extends Controller
 
         $posts_latest_news = Post::latest()->take(3)->get(); // Retrieve latest 3 posts from the database
 
-        $page_about_us = Page::where('slug', 'about-us')->first(); // Retrieve all pages from the database
+        $page_about_us = Page::where('slug', 'about-us')->first(); // Retrieve about-us pages from the database
 
         $timeline_slider = Timeline::all();
 

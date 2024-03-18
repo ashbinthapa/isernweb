@@ -39,22 +39,22 @@
             <div class="container-fluid">
                 <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                        @foreach($data['ongoing_research'] as $ongoing_research)
+                        @foreach($research_data['ongoing_research'] as $ongoing_research)
                             <div class="col p-2">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <a href="{{ $ongoing_research->slug }}" style="text-decoration: none; color: inherit;">
+                                        <a href="/projects/{{ $ongoing_research->research_status }}/{{ $ongoing_research->slug }}" style="text-decoration: none; color: inherit;">
                                             <h5 class="card-title">{{ $ongoing_research->title }}</h5>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         @endforeach
-                        @foreach($data['completed_research'] as $completed_research)
-                            <dv class="col p-2">
+                        @foreach($research_data['completed_research'] as $completed_research)
+                            <div class="col p-2">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <a href="{{ $completed_research->slug }}" style="text-decoration: none; color: inherit;">
+                                        <a href="/projects/{{ $completed_research->research_status }}/{{ $completed_research->slug }}" style="text-decoration: none; color: inherit;">
                                             <h5 class="card-title">{{ $completed_research->title }}</h5>
                                         </a>
                                     </div>
@@ -69,11 +69,11 @@
             <div class="container-fluid">
                 <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                        @foreach($data['ongoing_research'] as $ongoing_research)
+                        @foreach($research_data['ongoing_research'] as $ongoing_research)
                             <div class="col p-2">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <a href="{{ $ongoing_research->slug }}" style="text-decoration: none; color: inherit;">
+                                        <a href="/projects/{{ $ongoing_research->research_status }}/{{ $ongoing_research->slug }}" style="text-decoration: none; color: inherit;">
                                             <h5 class="card-title">{{ $ongoing_research->title }}</h5>
                                         </a>
                                     </div>
@@ -88,11 +88,11 @@
             <div class="container-fluid">
                 <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                        @foreach($data['completed_research'] as $completed_research)
+                        @foreach($research_data['completed_research'] as $completed_research)
                             <div class="col p-2">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <a href="{{ $completed_research->slug }}" style="text-decoration: none; color: inherit;">
+                                        <a href="/projects/{{ $completed_research->research_status }}/{{ $completed_research->slug }}" style="text-decoration: none; color: inherit;">
                                             <h5 class="card-title">{{ $completed_research->title }}</h5>
                                         </a>
                                     </div>
