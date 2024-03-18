@@ -7,17 +7,10 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\TimelineController;
 use App\Http\Controllers\ResearchController;
 
-
-
 use App\Models\Post;
 use App\Models\Page;
 use App\Models\Timeline;
 use App\Models\Research;
-
-
-
-
-
 
 /*
 |--------------------------------------------------------------------------
@@ -54,8 +47,8 @@ Route::get('/timeline/{slug}', [TimelineController::class, 'single'])->name('tim
 
 /*ResearchController*/
 Route::get('/projects', [ResearchController::class, 'archive']);
-Route::get('/projects/{research_status}/{slug}', [ResearchController::class, 'single'])->name('research.single');
-Route::get('/projects/{research_status}', [ResearchController::class, 'status'])->name('research.status');
+Route::get('/projects/{research_status}/{slug}', [ResearchController::class, 'single'])->name('research.single'); /*This single should be load fisrt*/
+Route::get('/projects/{research_status}', [ResearchController::class, 'status'])->name('research.status'); /*This should be load after*/
 
 
 /*PageController

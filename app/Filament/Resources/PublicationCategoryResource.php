@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\CategoryResource\Pages;
-use App\Filament\Resources\CategoryResource\RelationManagers;
-use App\Models\Category;
+use App\Filament\Resources\PublicationCategoryResource\Pages;
+use App\Filament\Resources\PublicationCategoryResource\RelationManagers;
+use App\Models\PublicationCategory;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -13,32 +13,28 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class CategoryResource extends Resource
+class PublicationCategoryResource extends Resource
 {
-    protected static ?string $model = Category::class;
+    protected static ?string $model = PublicationCategory::class;
 
-    protected static ?string $slug = 'category';
+    protected static ?string $recordTitleAttribute = 'title';
 
-    protected static ?string $recordTitleAttribute = 'name';
-
-    protected static ?string $navigationGroup = 'Controls';
+    protected static ?string $navigationGroup = 'Publications';
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-
-    protected static ?int $navigationSort = 1;
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                Filament\Forms\Components\TextInput::make('name'),
+                Forms\Components\TextInput::make('name'),
 
-                Filament\Forms\Components\TextInput::make('slug'),
+                Forms\Components\TextInput::make('slug'),
 
-                Filament\Forms\Components\MarkdownEditor::make('description')
+                Forms\Components\MarkdownEditor::make('description')
                     ->columnSpan('full'),
 
-                Filament\Forms\Components\Toggle::make('is_visible')
+                Forms\Components\Toggle::make('is_visible')
                     ->label('Visible to customers.')
                     ->default(true),
             ]);
@@ -83,9 +79,9 @@ class CategoryResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListCategories::route('/'),
-            'create' => Pages\CreateCategory::route('/create'),
-            'edit' => Pages\EditCategory::route('/{record}/edit'),
+            'index' => Pages\ListPublicationCategories::route('/'),
+            'create' => Pages\CreatePublicationCategory::route('/create'),
+            'edit' => Pages\EditPublicationCategory::route('/{record}/edit'),
         ];
     }
 }

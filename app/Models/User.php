@@ -54,4 +54,10 @@ class User extends Authenticatable
     {
         return $this->hasMany(Page::class);
     }
+
+    //user has many pagess
+    public function publication(): HasMany
+    {
+        return $this->hasMany(Publication::class);
+    }
 }
