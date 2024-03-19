@@ -6,16 +6,9 @@ use App\Filament\Resources\PostResource\Pages;
 use App\Filament\Resources\PostResource\RelationManagers;
 use App\Models\Post;
 use Filament\Forms;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\MarkdownEditor;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\FileUpload;
-use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -39,23 +32,23 @@ class PostResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('title'),
+                Forms\Components\TextInput::make('title'),
 
-                TextInput::make('slug'),
+                Forms\Components\TextInput::make('slug'),
 
-                MarkdownEditor::make('content')
+                Forms\Components\MarkdownEditor::make('content')
                 ->columnSpan('full'),
                 Forms\Components\Checkbox::make('is_published'),
                 Forms\Components\Checkbox::make('is_featured'),
                 
-                Select::make('category_id')
+                Forms\Components\Select::make('category_id')
                 ->relationship('category', 'name')
                 ->required(),
 
                 Forms\Components\Hidden::make('user_id')
                 ->dehydrateStateUsing(fn ($state) => Auth::id()),
 
-                SpatieMediaLibraryFileUpload::make('image')
+                Forms\Components\SpatieMediaLibraryFileUpload::make('image')
                 ->imageEditor(),
                 
             ]);
@@ -65,18 +58,18 @@ class PostResource extends Resource
     {
         return $table
             ->columns([
-                SpatieMediaLibraryImageColumn::make('thumbnail')
+                Tables\Columns\SpatieMediaLibraryImageColumn::make('thumbnail')
                     ->label('Image'),
-                TextColumn::make('title')
+                Tables\Columns\TextColumn::make('title')
                     ->searchable()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('category.name')->searchable()->badge(),
-                TextColumn::make('slug')
+                Tables\Columns\TextColumn::make('slug')
                     ->searchable()
                     ->sortable(),
                 Tables\Columns\CheckboxColumn::make('is_featured'),
                 Tables\Columns\CheckboxColumn::make('is_published'),
-                TextColumn::make('updated_at')
+                Tables\Columns\TextColumn::make('updated_at')
                     ->label('Last Updated')
                     ->date()
                     ->sortable(),

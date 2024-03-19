@@ -6,11 +6,16 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\TimelineController;
 use App\Http\Controllers\ResearchController;
+use App\Http\Controllers\PublicationController;
+
 
 use App\Models\Post;
 use App\Models\Page;
 use App\Models\Timeline;
 use App\Models\Research;
+use App\Models\Publication;
+use App\Models\PublicationCategory;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -50,6 +55,8 @@ Route::get('/projects', [ResearchController::class, 'archive']);
 Route::get('/projects/{research_status}/{slug}', [ResearchController::class, 'single'])->name('research.single'); /*This single should be load fisrt*/
 Route::get('/projects/{research_status}', [ResearchController::class, 'status'])->name('research.status'); /*This should be load after*/
 
+/*PublicationController*/
+Route::get('/publications', [PublicationController::class, 'archive']);
 
 /*PageController
 NOTE: LOAD THIS ROUTING AT LAST SO THAT IT DOESN'T CHANGES OTHER SINGLE NAME ROUTING

@@ -12,6 +12,8 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Auth;
+
 
 class PublicationResource extends Resource
 {
@@ -27,7 +29,26 @@ class PublicationResource extends Resource
     {
         return $form
             ->schema([
-                //
+                Forms\Components\TextInput::make('title'),
+
+                Forms\Components\TextInput::make('slug'),
+                Forms\Components\TextInput::make('link'),
+                Forms\Components\TextInput::make('year'),
+
+                Forms\Components\MarkdownEditor::make('content')
+                ->columnSpan('full'),
+                Forms\Components\Checkbox::make('is_published'),
+                Forms\Components\Checkbox::make('is_featured'),
+                
+                Forms\Components\Select::make('publicationcategory_id')
+                ->relationship('publicationcategory', 'name')
+                ->required(),
+
+                Forms\Components\Hidden::make('user_id')
+                ->dehydrateStateUsing(fn ($state) => Auth::id()),
+
+                Forms\Components\SpatieMediaLibraryFileUpload::make('image')
+                ->imageEditor(),
             ]);
     }
 
@@ -35,7 +56,27 @@ class PublicationResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\SpatieMediaLibraryImageColumn::make('thumbnail')
+                    ->label('Image'),
+                Tables\Columns\TextColumn::make('title')
+                    ->searchable()
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('link')
+                    ->searchable()
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('year')
+                    ->searchable()
+                    ->sortable(),    
+                Tables\Columns\TextColumn::make('publicationcategory.name')->searchable()->badge(),
+                Tables\Columns\TextColumn::make('slug')
+                    ->searchable()
+                    ->sortable(),
+                Tables\Columns\CheckboxColumn::make('is_featured'),
+                Tables\Columns\CheckboxColumn::make('is_published'),
+                Tables\Columns\TextColumn::make('updated_at')
+                    ->label('Last Updated')
+                    ->date()
+                    ->sortable(),
             ])
             ->filters([
                 //
