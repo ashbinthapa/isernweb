@@ -224,6 +224,16 @@
         <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!-- timeline section ends -->  
+  <!-- timeline section ends -->
+
+  <!-- Publications section starts -->
+
+  <div>
+    <h1>Publication</h1>
+    <!-- Display the publication section -->
+    
+  </div>
+  <!-- Publications section starts -->
+
 </body>
 @include('layouts.footer')

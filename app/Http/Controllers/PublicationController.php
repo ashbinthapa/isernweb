@@ -11,6 +11,6 @@ class PublicationController extends Controller
     public function archive()
     {
         $publications = Publication::all(); // Retrieve all posts from the database
-        return view('publication', ['publications' => $publications]);
+        return view('publication', ['publications_data' => $publications]);
     }
 }

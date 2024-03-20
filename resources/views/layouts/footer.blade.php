@@ -1,4 +1,4 @@
-    <footer>
+    
         <div class="container-fluid p-5 custom-footer-style footer-details footer-design">
             <div class="row m-5">
                 <div class="col-lg-3 col-md-6 col-sm-12">
@@ -94,9 +94,10 @@
                 </div>
             </div>    
         </div>
-    </footer>
+<footer>
     <script src="{{ asset('resources/js/app.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/popper.min.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.bundle.js') }}"></script>
+</footer>
 </html>

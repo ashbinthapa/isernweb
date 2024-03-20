@@ -5,9 +5,8 @@
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/font-awesome-4.7.0/css/font-awesome.min.css') }}">
-
     <title>Institute for Social and Environmental Research Nepal</title>
-
+  </head>
     {{-- div for the main header logo section --}}
 
     <div class="grid text-center" style="background-color: #05264b;">
@@ -165,4 +164,4 @@
         </div>
       </div>
     </nav>
-  </head>
+  
