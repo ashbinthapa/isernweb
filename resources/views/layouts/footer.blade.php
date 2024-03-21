@@ -98,23 +98,70 @@
         </footer>    
         <script>
             document.addEventListener("DOMContentLoaded", function() {
-                // Get the dropdown element
-                const filterSelect = document.getElementById("filterPublicationType");
+                // Get the dropdown elements
+                const filterPublicationType = document.getElementById("filterPublicationType");
+                const filterPublicationDate = document.getElementById("filterPublicationDate");
 
-                // Add event listener to filter select
-                filterSelect.addEventListener("change", function() {
-                    const selectedValue = filterSelect.value;
+                // Initialize pagination variables
+                const table = document.getElementById("example");
+                const tableBody = table.querySelector("tbody");
+                const rows = tableBody.getElementsByTagName("tr");
+                const rowsPerPage = 10; // Number of rows per page
+                let currentPage = 1;
+
+                // Function to display rows for the current page
+                function displayRows() {
+                    const start = (currentPage - 1) * rowsPerPage;
+                    const end = start + rowsPerPage;
+
+                    for (let i = 0; i < rows.length; i++) {
+                        if (i >= start && i < end) {
+                            rows[i].style.display = "";
+                        } else {
+                            rows[i].style.display = "none";
+                        }
+                    }
+                }
+
+                // Initial display of rows
+                displayRows();
+
+                // Add event listener to pagination links
+                document.querySelectorAll(".pagination .page-link").forEach(function(link) {
+                    link.addEventListener("click", function(event) {
+                        event.preventDefault();
+                        currentPage = parseInt(this.dataset.page);
+                        displayRows();
+                    });
+                });
+
+                // Add event listener to filter by publication type
+                filterPublicationType.addEventListener("change", function() {
+                    filterTable();
+                });
+
+                // Add event listener to filter by publication date
+                filterPublicationDate.addEventListener("change", function() {
+                    filterTable();
+                });
+
+                function filterTable() {
+                    const selectedType = filterPublicationType.value;
+                    const selectedDate = filterPublicationDate.value;
                     const rows = document.querySelectorAll("tbody tr");
 
                     rows.forEach(function(row) {
                         const type = row.getAttribute("data-type");
-                        if (selectedValue === "all" || selectedValue === type) {
+                        const date = row.getAttribute("data-date");
+
+                        if ((selectedType === "all" || selectedType === type) &&
+                            (selectedDate === "all" || selectedDate === date)) {
                             row.style.display = "";
                         } else {
                             row.style.display = "none";
                         }
                     });
-                });
+                }
             });
         </script>
         <script src="{{ asset('resources/js/app.js') }}"></script>
