@@ -21,7 +21,7 @@ class CategoryResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name';
 
-    protected static ?string $navigationGroup = 'Controls';
+    protected static ?string $navigationGroup = 'Post';
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 

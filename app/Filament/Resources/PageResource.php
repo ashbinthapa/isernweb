@@ -37,7 +37,9 @@ class PageResource extends Resource
 
                 Forms\Components\RichEditor::make('content')
                 ->columnSpan('full')
+                ->fileAttachmentsDisk('s3')
                 ->fileAttachmentsDirectory('attachments')
+                ->fileAttachmentsVisibility('private')
                 ->toolbarButtons([
                     'attachFiles',
                     'blockquote',

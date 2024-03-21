@@ -22,7 +22,7 @@ class PostResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'title';
 
-    protected static ?string $navigationGroup = 'Controls';
+    protected static ?string $navigationGroup = 'Post';
 
     protected static ?string $navigationIcon = 'heroicon-o-document-text';
 
