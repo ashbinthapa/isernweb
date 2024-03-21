@@ -10,6 +10,9 @@ use App\Models\Post; // Import the Post model
 
 use App\Models\Timeline; // Import the Timeline model
 
+use App\Models\Publication; // Import the Timeline model
+
+
 class HomeController extends Controller
 {
     public function index()
@@ -22,11 +25,15 @@ class HomeController extends Controller
 
         $timeline_slider = Timeline::all();
 
+        $publications = Publication::all(); // Retrieve all publication from the database
+
+
         $data = [
             'posts_all' => $posts_all,
             'posts_latest_news' => $posts_latest_news,
             'page_about_us' => $page_about_us,
             'timeline_slider' => $timeline_slider,
+            'publications_data' => $publications, 
         ];
         
         return view('index', ['data' => $data]);

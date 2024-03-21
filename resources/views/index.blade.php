@@ -226,14 +226,64 @@
   </div>
   <!-- timeline section ends -->
 
-  <!-- Publications section starts -->
+  <!-- Publications section starts -->    
+  <div class="container text-center">
+    <h2 class="pb-3" style="color: #01274c; margin-top: 20px; margin-bottom: 20px;">Publications</h2>
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <label for="filterPublicationType" class="form-label">Filter by Publication Type:</label>
+            <select id="filterPublicationType" class="form-select">
+                <option value="all">All</option>
+                <!-- Populate options dynamically based on available publication types -->
+                @foreach($data['publications_data'] as $type)
+                <option value="{{ $type->publicationcategory->id }}">{{ $type->publicationcategory->name }}</option>
+                @endforeach
+            </select>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="filterPublicationDate" class="form-label">Filter by Publication Date:</label>
+            <select id="filterPublicationDate" class="form-select">
+                <option value="all">All</option>
+                <!-- Populate options dynamically based on available publication dates -->
+                @foreach($data['publications_data'] as $date)
+                <option value="{{ $date->year }}">{{ $date->year }}</option>
+                @endforeach
+            </select>
+        </div>
+    </div>
 
-  <div>
-    <h1>Publication</h1>
-    <!-- Display the publication section -->
-    
+    <div class="table-responsive">
+      <table id="example" class="table table-striped table-borderless">
+          <thead class="custom-table-header">
+              <tr>
+                  <th scope="col">Publication Type</th>
+                  <th scope="col">Publication</th>
+                  <th scope="col">Link</th>
+                  <th scope="col">Year</th>
+              </tr>
+          </thead>
+          <tbody>
+              @foreach($data['publications_data'] as $publication)
+              <tr data-type="{{ $publication->publicationcategory->id }}" data-date="{{ $publication->year }}">
+                  <td>{{ $publication->publicationcategory->name }}</td>
+                  <td>{{ $publication->title }}</td>
+                  <td><a href="{{ $publication->link }}" target="_blank">{{ $publication->link }}</a></td>
+                  <td>{{ $publication->year }}</td>
+              </tr>
+              @endforeach
+          </tbody>
+      </table>
+    </div>
+      <!-- Pagination -->
+    <div class="d-flex justify-content-center">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <!-- Pagination links will be dynamically populated here -->
+            </ul>
+        </nav>
+    </div>
   </div>
-  <!-- Publications section starts -->
+  <!-- Publications section ends -->
 
 </body>
 @include('layouts.footer')
