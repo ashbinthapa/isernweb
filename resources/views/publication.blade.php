@@ -54,29 +54,5 @@
                 </table>
             </div>
         </div>
-
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                // Get the dropdown element
-                const filterSelect = document.getElementById("filterPublicationType");
-
-                // Add event listener to filter select
-                filterSelect.addEventListener("change", function() {
-                    const selectedValue = filterSelect.value;
-                    const rows = document.querySelectorAll("tbody tr");
-
-                    rows.forEach(function(row) {
-                        const type = row.getAttribute("data-type");
-                        if (selectedValue === "all" || selectedValue === type) {
-                            row.style.display = "";
-                        } else {
-                            row.style.display = "none";
-                        }
-                    });
-                });
-            });
-        </script>
-        @show
-
-
+        @endsection
 @include('layouts.footer')

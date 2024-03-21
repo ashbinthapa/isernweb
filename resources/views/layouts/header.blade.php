@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     <title>Institute for Social and Environmental Research Nepal</title>
   </head>
+  <body>
+  <header class="sticky-top">
     {{-- div for the main header logo section --}}
 
     <div class="grid text-center" style="background-color: #05264b;">
@@ -18,7 +20,7 @@
     </div>
 
     {{-- section for the main header menu nav bar section --}}
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top p-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
       <div class="container-fluid">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -164,4 +166,4 @@
         </div>
       </div>
     </nav>
-  
+  </header>
