@@ -56,13 +56,20 @@ class PageResource extends Resource
                     'underline',
                     'undo',
                 ]),
+                Forms\Components\Select::make('parent_id')
+                ->label('Parent Page')
+                ->options(Page::all()->pluck('title', 'id'))
+                ->searchable(),
 
-                Forms\Components\Checkbox::make('is_published'),
+                Forms\Components\Checkbox::make('is_published')
+                ->columnSpan('full'),
 
                 Forms\Components\Checkbox::make('is_featured'),
                 
                 Forms\Components\SpatieMediaLibraryFileUpload::make('image')
-                ->imageEditor(),
+                ->imageEditor()
+                ->columnSpan('full'),
+
             ]);
     }
 

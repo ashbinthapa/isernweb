@@ -9,8 +9,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                @if (isset($parentPage)) <!-- Check if parent page exists -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/{{ $parentPage->slug }}">{{ $parentPage->title }}</a>
+                    </li>
+                @endif
                 <li class="nav-item">
-                    <a class="nav-link" href="/{{ $page->slug }}">{{ $page->title }}</a>
+                    <a class="nav-link">{{ $page->title }}</a>
                 </li>
                 <!-- Add more navigation items as needed -->
             </ul>

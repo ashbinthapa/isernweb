@@ -22,6 +22,7 @@ class page extends Model implements HasMedia
 
     protected $fillable = [
         'user_id',
+        'parent_id',
         'title',
         'slug',
         'content',
@@ -43,5 +44,15 @@ class page extends Model implements HasMedia
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class, 'user_id');
+    }
+
+    public function parent()
+    {
+        return $this->belongsTo(Page::class, 'parent_id');
+    }
+
+    public function children()
+    {
+        return $this->hasMany(Page::class, 'parent_id');
     }
 }

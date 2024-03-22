@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('pages', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->nullable()->nullOnDelete();
+            $table->string('parent_id')->nullable(); // self referencing foreign key
             $table->string('title');
             $table->string('slug')->unique();
             $table->longText('content')->nullable();

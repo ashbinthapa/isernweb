@@ -62,6 +62,8 @@ Route::get('/publications', [PublicationController::class, 'archive']);
 NOTE: LOAD THIS ROUTING AT LAST SO THAT IT DOESN'T CHANGES OTHER SINGLE NAME ROUTING
 */
 Route::get('/{slug}', [PageController::class, 'single']);
+Route::get('/{parent_slug}/{child_slug}', [PageController::class, 'singleChild']);
+
 
 
 
