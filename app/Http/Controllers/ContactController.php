@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\ContactForm; // Import the ContactForm model
 
 use Illuminate\Http\Request;
 use App\Mail\ContactFormMail;
@@ -21,13 +22,11 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'message' => $request->message,
-        ];
-
-        Mail::to('your-email@example.com')->send(new ContactFormMail($data));
+        $contact = new ContactForm();
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->message = $request->message;
+        $contact->save();
 
         return redirect()->back()->with('success', 'Thank you for your message. We will get back to you soon!');
     }
