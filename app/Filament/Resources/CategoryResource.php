@@ -31,14 +31,14 @@ class CategoryResource extends Resource
     {
         return $form
             ->schema([
-                Filament\Forms\Components\TextInput::make('name'),
+                Forms\Components\TextInput::make('name'),
 
-                Filament\Forms\Components\TextInput::make('slug'),
+                Forms\Components\TextInput::make('slug'),
 
-                Filament\Forms\Components\MarkdownEditor::make('description')
+                Forms\Components\MarkdownEditor::make('description')
                     ->columnSpan('full'),
 
-                Filament\Forms\Components\Toggle::make('is_visible')
+                Forms\Components\Toggle::make('is_visible')
                     ->label('Visible to customers.')
                     ->default(true),
             ]);
