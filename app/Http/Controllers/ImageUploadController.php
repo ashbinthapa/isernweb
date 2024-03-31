@@ -8,7 +8,7 @@ use App\Models\ImageUpload;
 
 class ImageUploadController extends Controller
 {
-    public function store(Request $request)
+    /*public function store(Request $request)
     {
         $request->validate([
             'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2480',
@@ -22,5 +22,5 @@ class ImageUploadController extends Controller
         $image->save();
 
         return back()->with('success', 'Image uploaded successfully');
-    }
+    }*/
 }
