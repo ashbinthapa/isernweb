@@ -33,7 +33,7 @@ class ImageUploadResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\ImageColumn::make('path')
             ])
             ->filters([
                 //
