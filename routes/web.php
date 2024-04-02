@@ -45,6 +45,7 @@ Route::get('/', [HomeController::class, 'index']);
 
 /*PostController*/
 Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
+Route::get('/posts/{category}', [PostController::class, 'categoryArchive'])->name('posts.category');
 Route::get('/posts', [PostController::class, 'archive']);
 
 

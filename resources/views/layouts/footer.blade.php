@@ -101,6 +101,18 @@
         </div>
     </footer>
     <script>
+        // Add an event listener to the form submission
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+
+            // Get the value of the search input
+            var searchTerm = document.getElementById('searchInput').value;
+
+            // Perform your search functionality here, for example, redirecting to a search page
+            window.location.href = '/search?query=' + encodeURIComponent(searchTerm);
+        });
+    </script>
+    <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Get the dropdown elements
             const filterPublicationType = document.getElementById("filterPublicationType");

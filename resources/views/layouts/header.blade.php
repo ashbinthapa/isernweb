@@ -15,7 +15,7 @@
 
         <div class="grid text-center" style="background-color: #05264b;">
             <div class="container p-4">
-                <a href="https://isernepal.org.np/">
+                <a href="{{ url('/') }}">
                     <img src="{{ asset('images/isernepal website logo.png') }}" class="img-fluid" alt="ISER-N">
                 </a>
             </div>
@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
