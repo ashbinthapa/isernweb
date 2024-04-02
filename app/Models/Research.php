@@ -19,4 +19,9 @@ class Research extends Model
         'seo_description',
         'image'
     ];
+
+    public function searchable()
+    {
+        return $this->morphOne(Searchable::class, 'searchable');
+    }
 }

@@ -54,6 +54,11 @@ class Post extends Model implements HasMedia
         return $this->belongsTo(Category::class, 'category_id');
     }
 
+    public function searchable()
+    {
+        return $this->morphOne(Searchable::class, 'searchable');
+    }
+
     /** @return MorphMany<Comment> */
     public function comments(): MorphMany
     {

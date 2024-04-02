@@ -43,6 +43,10 @@ Route::view('profile', 'profile')
 Route::get('/', [HomeController::class, 'index']);
 //Route::get('/', [HomeController::class, 'sliderPost'])->name('posts.sliderPost');
 
+/*serarch controller*/
+Route::get('/search', 'App\Http\Controllers\SearchController@index')->name('search');
+
+
 /*PostController*/
 Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
 Route::get('/posts/{category}', [PostController::class, 'categoryArchive'])->name('posts.category');

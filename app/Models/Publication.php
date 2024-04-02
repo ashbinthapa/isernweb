@@ -54,4 +54,9 @@ class Publication extends Model implements HasMedia
                 ->orWhere('name', 'like', '%'.$search.'%')
                 ->orWhere('email', 'like', '%'.$search.'%');
     }
+
+    public function searchable()
+    {
+        return $this->morphOne(Searchable::class, 'searchable');
+    }
 }

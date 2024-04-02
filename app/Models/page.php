@@ -55,4 +55,9 @@ class page extends Model implements HasMedia
     {
         return $this->hasMany(Page::class, 'parent_id');
     }
+
+    public function searchable()
+    {
+        return $this->morphOne(Searchable::class, 'searchable');
+    }
 }
