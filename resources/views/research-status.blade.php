@@ -12,7 +12,8 @@
                     <a class="nav-link" href="/projects">Research</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/projects/{{ $data->first()->research_status }}">{{ $data->first()->research_status }}</a>
+                    <a class="nav-link"
+                        href="/projects/{{ $data->first()->research_status }}">{{ $data->first()->research_status }}</a>
                 </li>
                 <!-- Add more navigation items as needed -->
             </ul>
@@ -22,11 +23,12 @@
 <div class="container-fluid">
     <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-            @foreach($data as $data)
+            @foreach ($data as $data)
                 <div class="col p-2">
                     <div class="card h-100">
                         <div class="card-body">
-                            <a href="{{ $data->research_status }}/{{ $data->slug }}" style="text-decoration: none; color: inherit;">
+                            <a href="{{ route('single', ['research_status' => $data->research_status, 'slug' => $data->slug]) }}"
+                                style="text-decoration: none; color: inherit;">
                                 <h5 class="card-title">{{ $data->title }}</h5>
                             </a>
                         </div>
