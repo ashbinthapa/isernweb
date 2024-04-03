@@ -48,17 +48,17 @@ Route::get('/search', 'App\Http\Controllers\SearchController@index')->name('sear
 
 
 /*PostController*/
-Route::get('/posts/{slug}', [PostController::class, 'show'])->name('single');
+Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
 Route::get('/posts/{category}', [PostController::class, 'categoryArchive'])->name('posts.category');
 Route::get('/posts', [PostController::class, 'archive']);
 
 
 /*TimelineController*/
-Route::get('/timeline/{slug}', [TimelineController::class, 'single'])->name('single');
+Route::get('/timeline/{slug}', [TimelineController::class, 'single'])->name('timeline.single');
 
 /*ResearchController*/
 Route::get('/projects', [ResearchController::class, 'archive']);
-Route::get('/projects/{research_status}/{slug}', [ResearchController::class, 'single'])->name('single'); /*This single should be load fisrt*/
+Route::get('/projects/{research_status}/{slug}', [ResearchController::class, 'single'])->name('research.single'); /*This single should be load fisrt*/
 Route::get('/projects/{research_status}', [ResearchController::class, 'status'])->name('research.status'); /*This should be load after*/
 
 /*PublicationController*/

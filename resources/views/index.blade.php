@@ -18,7 +18,7 @@
             <div class="breaking-box pt-2 pb-1">
                 <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseleave="this.start();">
                     @foreach ($data['posts_all'] as $post)
-                        <a class="h6 fw-normal" href="{{ route('single', ['slug' => $post->slug]) }}"
+                        <a class="h6 fw-normal" href="{{ route('posts.show', ['slug' => $post->slug]) }}"
                             style="text-decoration: none; color: inherit;">
                             <span
                                 class="position-relative mx-2 badge bg-primary rounded-0">{{ $post->category->name }}</span>
@@ -193,13 +193,13 @@
                                     class="card-img-top .img-fluid img-thumbnail" alt="ISER-N">
                             @endif
                             <div class="card-body">
-                                <a href="{{ route('single', ['slug' => $post->slug]) }}"
+                                <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
                                     style="text-decoration: none; color: inherit;">
                                     <h5 class="card-title">{{ $post->title }}</h5>
                                 </a>
                                 <p class="card-text">{{ $post->excerpt() }}</p>
-                                <a href="{{ route('single', ['slug' => $post->slug]) }}" class="btn btn-primary">Read
-                                    More</a>
+                                <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
+                                    class="btn btn-primary">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                                                 </div>
                                                 <p class="text-muted">{{ $timeline->title }}</p>
                                                 <div>
-                                                    <a href="{{ route('single', ['slug' => $timeline->slug]) }}"
+                                                    <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}"
                                                         class="btn btn-primary btn-sm">Read more</a>
                                                 </div>
 

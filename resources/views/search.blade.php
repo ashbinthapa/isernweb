@@ -31,12 +31,12 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 @if ($result->research_status != null)
-                                    <a href="{{ route('single', ['research_status' => $result->research_status, 'slug' => $result->slug]) }}"
+                                    <a href="{{ route('research.single', ['research_status' => $result->research_status, 'slug' => $result->slug]) }}"
                                         style="text-decoration: none; color: inherit;">
                                         <h5 class="card-title">{{ $result->title }}</h5>
                                     </a>
                                 @else
-                                    <a href="{{ route('single', ['slug' => $result->slug]) }}"
+                                    <a href="{{ route('posts.show', ['slug' => $result->slug]) }}"
                                         style="text-decoration: none; color: inherit;">
                                         <h5 class="card-title">{{ $result->title }}</h5>
                                     </a>

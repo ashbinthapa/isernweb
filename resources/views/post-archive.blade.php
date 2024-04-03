@@ -29,12 +29,12 @@
                                 alt="ISER-N">
                         @endif
                         <div class="card-body">
-                            <a href="{{ route('single', ['slug' => $post->slug]) }}"
+                            <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
                                 style="text-decoration: none; color: inherit;">
                                 <h5 class="card-title">{{ $post->title }}</h5>
                             </a>
                             <p class="card-text">{{ $post->excerpt() }}</p>
-                            <a href="{{ route('single', ['slug' => $post->slug]) }}" class="btn btn-primary">Read
+                            <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn btn-primary">Read
                                 More</a>
                         </div>
                     </div>
