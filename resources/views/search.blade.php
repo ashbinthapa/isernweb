@@ -30,7 +30,12 @@
                     <div class="col">
                         <div class="card h-100">
                             <div class="card-body">
-                                @if ($result->research_status != null)
+                                @if ($result->parent_slug != null && $result->child_slug != null)
+                                    <a href="{{ route('page.single', ['parent_slug' => $result->parent_slug, 'child_slug' => $child_slug]) }}"
+                                        style="text-decoration: none; color: inherit;">
+                                        <h5 class="card-title">{{ $result->title }}</h5>
+                                    </a>
+                                @elseif($result->research_status != null)
                                     <a href="{{ route('research.single', ['research_status' => $result->research_status, 'slug' => $result->slug]) }}"
                                         style="text-decoration: none; color: inherit;">
                                         <h5 class="card-title">{{ $result->title }}</h5>

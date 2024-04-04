@@ -27,7 +27,7 @@
                 <div class="col p-2">
                     <div class="card h-100">
                         <div class="card-body">
-                            <a href="{{ route('single', ['research_status' => $data->research_status, 'slug' => $data->slug]) }}"
+                            <a href="{{ route('research.single', ['research_status' => $data->research_status, 'slug' => $data->slug]) }}"
                                 style="text-decoration: none; color: inherit;">
                                 <h5 class="card-title">{{ $data->title }}</h5>
                             </a>

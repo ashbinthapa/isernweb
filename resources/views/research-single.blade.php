@@ -13,10 +13,11 @@
                     <a class="nav-link" href="/projects">Research</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/projects/{{ $data->first()->research_status }}">{{ $data->first()->research_status }}</a>
+                    <a class="nav-link"
+                        href="/projects/{{ $data->first()->research_status }}">{{ $data->first()->research_status }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/projects/{{ $data->slug }}">{{ $data->title }}</a>
+                    <a class="nav-link" href="#">{{ $data->title }}</a>
                 </li>
                 <!-- Add more navigation items as needed -->
             </ul>
@@ -34,4 +35,3 @@
     </div>
 </div>
 @include('layouts.footer')
-
