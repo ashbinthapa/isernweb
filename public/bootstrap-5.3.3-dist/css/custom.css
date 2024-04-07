@@ -82,3 +82,9 @@ a.social-icons-size {
   /* Light Blue */
 }
 /*publications section css ends*/
+
+/*raleway font starts*/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+/*raleway font ends*/
