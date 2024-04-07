@@ -6,25 +6,27 @@
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="path/to/font/raleway.css">
     <title>Institute for Social and Environmental Research Nepal</title>
 </head>
 
 <body>
-    <header class="sticky-top">
-        {{-- div for the main header logo section --}}
 
-        <div class="grid text-center" style="background-color: #05264b;">
-            <div class="container p-4">
-                <a href="{{ url('/') }}">
-                    <img src="{{ asset('images/isernepal website logo.png') }}" class="img-fluid" alt="ISER-N">
-                </a>
-            </div>
+    {{-- div for the main header logo section --}}
+
+    <div class="grid text-center" style="background-color: #05264b;">
+        <div class="container p-4">
+            <a href="{{ url('/') }}">
+                <img src="{{ asset('images/isernepal website logo.png') }}" class="img-fluid" alt="ISER-N">
+            </a>
         </div>
-
+    </div>
+    <header class="sticky-md-top">
         {{-- section for the main header menu nav bar section --}}
         <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
             <div class="container-fluid">
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <!-- <a class="navbar-brand" href="#">
+                Navbar</a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -95,8 +97,8 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Policy & Intervations
                             </a>
                             <ul class="dropdown-menu">

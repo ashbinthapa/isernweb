@@ -84,6 +84,11 @@ a.social-icons-size {
 /*publications section css ends*/
 
 /*raleway font starts*/
+@font-face {
+  font-family: 'Raleway';
+  src: url('path/to/raleway-regular.ttf') format('truetype');
+  /* Add more src lines for additional styles (e.g., bold, italic) if available */
+}
 body {
   font-family: 'Raleway', sans-serif;
 }
