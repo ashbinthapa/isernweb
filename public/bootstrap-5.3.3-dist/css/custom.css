@@ -88,16 +88,72 @@ body {
   font-family: 'Raleway', sans-serif !important;
 }
 /*raleway font ends*/
-/* CSS to make submenu drop to the right */
-.dropdown-submenu .dropdown-menu {
-  right: auto;
-  left: 100%;
-}
-/* CSS for hover dropdown */
-.hover-dropdown:hover>.dropdown-menu {
-  display: block;
+
+
+ /* Set text color for navbar links */
+ .navbar-header-ul .nav-link {
+   color: white !important;
+   /* Default text color */
+ }
+
+ /* Change text color when hovering */
+ .navbar-header-ul .nav-link:hover,
+ .navbar-header-ul .nav-link:focus {
+  color: #f2c100 !important;
+   /* Change to your desired hover color */
+ }
+
+ /* Change text color when active */
+ .navbar-header-ul .nav-link.active {
+  color: #f2c100 !important;
+   /* Change to your desired active color */
+ }
+
+/* Set text color for dropdown items */
+.navbar-header-ul .dropdown-menu .dropdown-item {
+  color: white !important;
 }
 
+.dropdown-submenu .dropdown-menu {
+  left: 100%;
+  /* Position second-level submenu to the right of the first-level submenu */
+  top: 0;
+  /* Align second-level submenu with first-level submenu */
+  margin-top: 0;
+  /* Remove any margin-top */
+}
+
+.navbar-header-ul .dropdown-menu .dropdown-item:hover {
+  background-color: transparent !important;
+  color: #f2c100 !important;
+  /* Change to your desired hover background color */
+}
+
+/* Hover effect for dropdown */
+.hover-dropdown:hover>.dropdown-menu,
 .hover-dropdown .dropdown-submenu:hover>.dropdown-menu {
   display: block;
+  background-color: #05264b;
+}
+
+
+/*search button color*/
+.custom-button {
+  background-color: #05264b;
+  color: white;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  /* This will change the text color to white for better visibility */
+}
+
+/* Optional: You can adjust other button properties as needed */
+.custom-button:hover {
+  background-color: #031c37;
+  /* Darken the color a bit on hover */
 }
