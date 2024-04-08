@@ -15,16 +15,17 @@
     {{-- div for the main header logo section --}}
 
     <div class="grid text-center" style="background-color: #05264b;">
-        <div class="container p-4">
+        <div class="container py-4">
             <a href="{{ url('/') }}">
                 <img src="{{ asset('images/isernepal website logo.png') }}" class="img-fluid" alt="ISER-N">
             </a>
         </div>
     </div>
-    <header class="sticky-md-top">
+    <header class="sticky-md-top text-center">
         {{-- section for the main header menu nav bar section --}}
-        <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
-            <div class="container-fluid">
+        <nav class="navbar navbar-light navbar-expand-lg px-5 justify-content-center"
+            style="background-color: #5b79b9; color: white;">
+            <div class="container-fluid px-5">
                 <!-- <a class="navbar-brand" href="#">
                 Navbar</a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,7 +33,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse px-5" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
@@ -79,17 +80,22 @@
                                 Publications
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Journal Articles</a>
+                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Journal
+                                        Articles</a>
                                 </li>
                                 <li><a class="dropdown-item" href="{{ asset('/publications') }}">Book & Book
                                         Chapter</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Dissertation</a></li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Presentations</a></li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Policy Brief</a></li>
+                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Dissertation</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Presentations</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Policy Brief</a>
+                                </li>
                                 <li><a class="dropdown-item" href="{{ asset('/publications') }}">Report to
                                         Respondent</a></li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Annual Report</a></li>
+                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Annual Report</a>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -105,7 +111,8 @@
                                 <li><a class="dropdown-item" href="#">Intervation</a></li>
                                 <li><a class="dropdown-item" href="#">Policy Feedback</a></li>
                                 <li><a class="dropdown-item" href="#">Dissemination</a></li>
-                                <li><a class="dropdown-item" href="#">Interaction Program with Respondent</a>
+                                <li><a class="dropdown-item" href="#">Interaction Program with
+                                        Respondent</a>
                                 </li>
                             </ul>
                         </li>
@@ -137,7 +144,8 @@
                                         <li><a class="dropdown-item" href="#">Board Members</a></li>
                                         <li><a class="dropdown-item" href="#">General Members</a></li>
                                         <li><a class="dropdown-item" href="#">National Researchers</a></li>
-                                        <li><a class="dropdown-item" href="#">International Researchers</a></li>
+                                        <li><a class="dropdown-item" href="#">International Researchers</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="#">Scholars</a></li>
                                         <li><a class="dropdown-item" href="#">Staff</a></li>
                                     </ul>
