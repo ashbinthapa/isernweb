@@ -88,7 +88,16 @@ body {
   font-family: 'Raleway', sans-serif !important;
 }
 /*raleway font ends*/
+/* CSS to make submenu drop to the right */
+.dropdown-submenu .dropdown-menu {
+  right: auto;
+  left: 100%;
+}
+/* CSS for hover dropdown */
+.hover-dropdown:hover>.dropdown-menu {
+  display: block;
+}
 
-header {
-  color: white !important;
+.hover-dropdown .dropdown-submenu:hover>.dropdown-menu {
+  display: block;
 }
