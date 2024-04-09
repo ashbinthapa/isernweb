@@ -136,6 +136,23 @@ body {
   background-color: #05264b;
 }
 
+/* Delayed display for dropdown */
+.dropdown-menu.delayed {
+  animation: showDelay 2s forwards;
+  display: none;
+}
+
+@keyframes showDelay {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    display: block;
+  }
+}
+
 
 /*search button color*/
 .custom-button {

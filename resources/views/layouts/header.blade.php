@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
     <title>Institute for Social and Environmental Research Nepal</title>
 </head>
 
@@ -21,7 +22,7 @@
     </div>
     <header class="sticky-md-top text-center">
         {{-- section for the main header menu nav bar section --}}
-        <nav class="navbar navbar-expand-lg px-5 justify-content-center" style="background-color: #5b79b9;">
+        <nav class="navbar navbar-expand-lg px-5 justify-content-center fw-bold" style="background-color: #5b79b9;">
             <div class="container-fluid px-5">
                 {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
