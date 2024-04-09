@@ -205,15 +205,24 @@
                                 <div class="col-lg-3">
                                     <div class="horizontal-timeline">
                                         <ul class="list-inline items">
-                                            <li class="list-inline-item items-list">
+                                            <li class="list-inline-item items-list px-3">
 
-                                                <div class="event-date badge bg-info">
+                                                <div class="event-date badge" style="background-color: #01274c;">
                                                     {{ $timeline->start_date }}
                                                 </div>
-                                                <p class="text-muted">{{ $timeline->title }}</p>
-                                                <div>
-                                                    <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}"
-                                                        class="btn btn-primary btn-sm">Read more</a>
+
+                                                <div class="row card pb-2 pt-2">
+                                                    <div>
+                                                        <p class="fs-6">{{ $timeline->title }}</p>
+                                                    </div>
+                                                    <div>
+
+                                                        <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}"
+                                                            class="btn btn-sm"
+                                                            style="background-color: #01274c; color:white;">Read
+                                                            more</a>
+
+                                                    </div>
                                                 </div>
 
                                             </li>
@@ -240,10 +249,11 @@
     <!-- timeline section ends -->
 
     <!-- latest news and announcement section started -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-light py-4">
         <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
-            <h2 class="p-3" style="color: #01274c; margin-top: 20px; margin-bottom: 20px;">Latest News and
-                Announcements</h2>
+            <p class="fw-bold fs-1" style="color: #01274c;">Latest News and
+                Announcements</p>
+
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 @foreach ($data['posts_latest_news'] as $post)
                     <div class="col">
@@ -253,13 +263,16 @@
                                     class="card-img-top .img-fluid img-thumbnail" alt="ISER-N">
                             @endif
                             <div class="card-body">
+                                <p class="fs-6">{{ date('F j, Y', strtotime($post->updated_at)) }}
+                                </p>
+
                                 <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
                                     style="text-decoration: none; color: inherit;">
-                                    <h5 class="card-title">{{ $post->title }}</h5>
+                                    <p class="card-title fw-bold fs-5">{{ $post->title }}</p>
                                 </a>
                                 <p class="card-text">{{ $post->excerpt() }}</p>
-                                <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
-                                    class="btn btn-primary">Read More</a>
+                                <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"
+                                    style="background-color: #01274c; color:white;">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -272,8 +285,9 @@
 
 
     <!-- Publications section starts -->
-    <div class="container text-center">
-        <h2 class="pb-3" style="color: #01274c; margin-top: 20px; margin-bottom: 20px;">Publications</h2>
+    <div class="container text-center py-4">
+        <p class="fw-bold fs-1" style="color: #01274c;">Publications</p>
+
         <div class="row">
             <div class="col-md-4 mb-3">
                 <label for="filterPublicationType" class="form-label">Filter by Publication Type:</label>

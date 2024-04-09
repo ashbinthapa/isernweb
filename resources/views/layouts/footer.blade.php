@@ -118,6 +118,7 @@
     <script src="{{ asset('bootstrap-5.3.3-dist/js/popper.min.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.bundle.js') }}"></script>
+    {{-- script for hover down delay not working --}}
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var dropdowns = document.querySelectorAll(".hover-dropdown");
@@ -153,6 +154,7 @@
             });
         });
     </script>
+    {{-- script for header search --}}
     <script>
         // Add an event listener to the form submission
         document.getElementById('searchForm').addEventListener('submit', function(event) {
@@ -165,6 +167,8 @@
             window.location.href = '/search?query=' + encodeURIComponent(searchTerm);
         });
     </script>
+
+    {{-- script for filter o fpublication by its tye and date --}}
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Get the dropdown elements

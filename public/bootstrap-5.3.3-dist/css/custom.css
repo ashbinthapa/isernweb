@@ -2,6 +2,26 @@
  --bs-gutter-x: 0rem !important;
 }
 
+/* CSS to control the size of carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 100px !important;
+  /* Set desired width */
+  height: auto;
+  /* Set desired height */
+  /* Add any other styling properties as needed */
+}
+
+/* Adjust icon size if needed */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 300px;
+  /* Set desired icon width */
+  height: 300px;
+  /* Set desired icon height */
+  /* Add any other styling properties as needed */
+  background-color: #01274c;
+}
 
 .footer-details a {
     text-decoration: none !important; /* Remove underlines from anchor tags */
