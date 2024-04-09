@@ -20,9 +20,9 @@
             </a>
         </div>
     </div>
-    <header class="sticky-md-top text-center">
+    <header class="sticky-md-top justify-content-center">
         {{-- section for the main header menu nav bar section --}}
-        <nav class="navbar navbar-expand-lg px-5 justify-content-center fw-bold" style="background-color: #5b79b9;">
+        <nav class="navbar navbar-expand-xl px-5 justify-content-center fw-bold" style="background-color: #5b79b9;">
             <div class="container-fluid px-5">
                 {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,7 +30,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav navbar-header-ul me-auto mb-2 mb-lg-0 ">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>

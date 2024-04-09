@@ -159,20 +159,85 @@
     <!-- about us section start -->
     @if ($data['page_about_us'])
         <div class="container-fluid text-center bg-light">
-            <h4 class="p-3" style="color: #01274c; margin-top: 20px; margin-bottom: 20px;">Improving Human Lives
-                and Environmental Conditions</h2>
-                <h2 class="p-3" style="color: #01274c; margin-top: 20px; margin-bottom: 20px;">Institute for Social
-                    and Environmental Research – Nepal (ISER-N)</h2>
-                <div class="row px-5 mx-5">
-                    <div class="col-md-12">
-                        <p class="lead">{!! $data['page_about_us']->excerpt() !!}</p>
-                    </div>
+            <h4 class="pt-5 pb-2 fs-4  fw-bold" style="color: #01274c;">Improving Human Lives
+                and Environmental Conditions</h4>
+            <h2 class="fw-bold fs-2" style="color: #01274c;">Institute for
+                Social
+                and Environmental Research – Nepal (ISER-N)</h2>
+            <div class="row px-5 mx-5">
+                <div class="col-md-12 p-3">
+                    <p class="fs-6" style="padding: 0px 200px 0px 200px">ISER-N is a premier research and
+                        development
+                        institute.
+                        ISER-N’s work focuses
+                        on
+                        evidence-based decision-making processes that build on high quality scientific research carried
+                        out by employing state-of-the-art, cutting-edge research methods for promoting informed policy
+                        decisions, identifying effective sustainable development initiatives, and strengthening
+                        democratic values. The institute adopts a three-pronged working approach that interlinks
+                        research, capacity building, and policy and program interventions as part of its effort to turn
+                        knowledge into practice.</p>
                 </div>
+                <div class="col-md-12 p-4">
+                    <a href="/about-us" class="btn btn-lg" style="background-color: #01274c; color: white ">Find
+                        More</a>
+                </div>
+            </div>
         </div>
     @else
         <p>No page found with the slug 'about-us'.</p>
     @endif
     <!-- about us section end -->
+
+    <!-- timeline section starts -->
+    <div id="carouselExampleControls" class="carousel slide text-center" data-bs-ride="carousel">
+        <div class="row">
+            <div class="col-md-12 py-5">
+                <p class="fw-bold fs-1" style="color: #01274c;">History</p>
+            </div>
+        </div>
+        <div class="carousel-inner">
+            @foreach ($data['timeline_slider']->chunk(4) as $index => $chunk)
+                <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+                    <div class="container-fluid py-5">
+                        <div class="row">
+                            @foreach ($chunk as $timeline)
+                                <div class="col-lg-3">
+                                    <div class="horizontal-timeline">
+                                        <ul class="list-inline items">
+                                            <li class="list-inline-item items-list">
+
+                                                <div class="event-date badge bg-info">
+                                                    {{ $timeline->start_date }}
+                                                </div>
+                                                <p class="text-muted">{{ $timeline->title }}</p>
+                                                <div>
+                                                    <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}"
+                                                        class="btn btn-primary btn-sm">Read more</a>
+                                                </div>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- timeline section ends -->
 
     <!-- latest news and announcement section started -->
     <div class="container-fluid">
@@ -204,49 +269,7 @@
     </div>
     <!-- latest news and announcement section ended -->
 
-    <!-- timeline section starts -->
-    <div id="carouselExampleControls" class="carousel slide text-center" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            @foreach ($data['timeline_slider']->chunk(4) as $index => $chunk)
-                <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
-                    <div class="container-fluid py-5">
-                        <div class="row">
-                            @foreach ($chunk as $timeline)
-                                <div class="col-lg-3">
-                                    <div class="horizontal-timeline">
-                                        <ul class="list-inline items">
-                                            <li class="list-inline-item items-list">
 
-                                                <div class="event-date badge bg-info">{{ $timeline->start_date }}
-                                                </div>
-                                                <p class="text-muted">{{ $timeline->title }}</p>
-                                                <div>
-                                                    <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}"
-                                                        class="btn btn-primary btn-sm">Read more</a>
-                                                </div>
-
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <!-- timeline section ends -->
 
     <!-- Publications section starts -->
     <div class="container text-center">
@@ -258,7 +281,8 @@
                     <option value="all">All</option>
                     <!-- Populate options dynamically based on available publication types -->
                     @foreach ($data['publications_data'] as $type)
-                        <option value="{{ $type->publicationcategory->id }}">{{ $type->publicationcategory->name }}
+                        <option value="{{ $type->publicationcategory->id }}">
+                            {{ $type->publicationcategory->name }}
                         </option>
                     @endforeach
                 </select>
@@ -291,7 +315,8 @@
                             data-date="{{ $publication->year }}">
                             <td>{{ $publication->publicationcategory->name }}</td>
                             <td>{{ $publication->title }}</td>
-                            <td><a href="{{ $publication->link }}" target="_blank">{{ $publication->link }}</a></td>
+                            <td><a href="{{ $publication->link }}" target="_blank">{{ $publication->link }}</a>
+                            </td>
                             <td>{{ $publication->year }}</td>
                         </tr>
                     @endforeach
