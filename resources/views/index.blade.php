@@ -341,6 +341,10 @@
                 </ul>
             </nav>
         </div>
+        <div class="p-4">
+            <a href="/publications" class="btn p-3" style="background-color: #01274c; color:white;">All
+                Publications</a>
+        </div>
     </div>
 
 
