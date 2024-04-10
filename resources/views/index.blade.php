@@ -282,45 +282,41 @@
     </div>
     <!-- latest news and announcement section ended -->
 
+    <!-- publication section started -->
 
-
-    <!-- Publications section starts -->
     <div class="container text-center py-4">
         <p class="fw-bold fs-1" style="color: #01274c;">Publications</p>
 
         <div class="row">
-            <div class="col-md-4 mb-3">
-                <label for="filterPublicationType" class="form-label">Filter by Publication Type:</label>
-                <select id="filterPublicationType" class="form-select">
-                    <option value="all">All</option>
-                    <!-- Populate options dynamically based on available publication types -->
-                    @foreach ($data['publications_data'] as $type)
-                        <option value="{{ $type->publicationcategory->id }}">
+
+            <!-- Replace dropdown with checkboxes -->
+            @foreach ($data['publications_data'] as $type)
+                <div class="col-md-4 mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="{{ $type->publicationcategory->id }}"
+                            id="checkboxPublicationType{{ $type->publicationcategory->id }}">
+                        <label class="form-check-label fw-bold fs-6" style="color: #01274c;"
+                            for="checkboxPublicationType{{ $type->publicationcategory->id }}">
                             {{ $type->publicationcategory->name }}
-                        </option>
-                    @endforeach
-                </select>
-            </div>
-            <div class="col-md-4 mb-3">
-                <label for="filterPublicationDate" class="form-label">Filter by Publication Date:</label>
-                <select id="filterPublicationDate" class="form-select">
-                    <option value="all">All</option>
-                    <!-- Populate options dynamically based on available publication dates -->
-                    @foreach ($data['publications_data'] as $date)
-                        <option value="{{ $date->year }}">{{ $date->year }}</option>
-                    @endforeach
-                </select>
-            </div>
+                        </label>
+                    </div>
+                </div>
+            @endforeach
         </div>
 
-        <div class="table-responsive">
+        <div class="card table-responsive">
             <table id="example" class="table table-striped table-borderless">
-                <thead class="custom-table-header">
+                <thead class="fw-bold custom-table-header">
                     <tr>
-                        <th scope="col">Publication Type</th>
-                        <th scope="col">Publication</th>
-                        <th scope="col">Link</th>
-                        <th scope="col">Year</th>
+                        <th scope="col" data-column="0" class="col-3 sortable">Publication Type <i
+                                class="fa fa-sort"></i></th>
+                        <th scope="col" data-column="1" class="col-6 sortable">Publication <i
+                                class="fa fa-sort"></i>
+                        </th>
+                        <th scope="col" data-column="2" class="col-1 sortable">Link <i class="fa fa-sort"></i>
+                        </th>
+                        <th scope="col" data-column="3" class="col-2 sortable">Year <i class="fa fa-sort"></i>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -329,8 +325,8 @@
                             data-date="{{ $publication->year }}">
                             <td>{{ $publication->publicationcategory->name }}</td>
                             <td>{{ $publication->title }}</td>
-                            <td><a href="{{ $publication->link }}" target="_blank">{{ $publication->link }}</a>
-                            </td>
+                            <td><a href="{{ $publication->link }}" target="_blank" class="fw-bold"
+                                    style="text-decoration: none; color: #01274c;">DOI</a></td>
                             <td>{{ $publication->year }}</td>
                         </tr>
                     @endforeach
@@ -346,7 +342,9 @@
             </nav>
         </div>
     </div>
-    <!-- Publications section ends -->
+
+
+
 
     <!-- contact us starts here -->
     <div class="container my-5">

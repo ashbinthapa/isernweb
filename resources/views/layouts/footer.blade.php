@@ -112,7 +112,9 @@
             });
         </script>
     @endif
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="{{ asset('resources/js/app.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/popper.min.js') }}"></script>
@@ -234,6 +236,86 @@
                         row.style.display = "none";
                     }
                 });
+            }
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Function to filter table rows based on selected publication types
+            function filterTableRows() {
+                var selectedPublicationTypes = [];
+
+                // Get selected publication types
+                $('input[id^="checkboxPublicationType"]:checked').each(function() {
+                    selectedPublicationTypes.push($(this).val());
+                });
+
+                // Show or hide table rows based on selected filters
+                $('tr[data-type]').each(function() {
+                    var publicationType = $(this).data('type').toString();
+
+                    if (selectedPublicationTypes.length === 0 || selectedPublicationTypes.includes(
+                            publicationType)) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            }
+
+            // Initial filtering on page load
+            filterTableRows();
+
+            // Event listener for checkbox change
+            $('input[type=checkbox]').change(function() {
+                filterTableRows();
+            });
+
+            $('.sortable').click(function() {
+                var column = $(this).data('column');
+                var order = $(this).data('order');
+                var text = $(this).html();
+                text = text.substring(0, text.length - 1);
+
+                if (order == 'desc') {
+                    $(this).data('order', "asc");
+                    $(this).find('i').removeClass('fa-sort-desc').addClass('fa-sort-asc');
+                    sortTable(column, 'asc');
+                } else {
+                    $(this).data('order', "desc");
+                    $(this).find('i').removeClass('fa-sort-asc').addClass('fa-sort-desc');
+                    sortTable(column, 'desc');
+                }
+            });
+
+            function sortTable(column, order) {
+                var table, rows, switching, i, x, y, shouldSwitch;
+                table = document.getElementById("example");
+                switching = true;
+                while (switching) {
+                    switching = false;
+                    rows = table.rows;
+                    for (i = 1; i < (rows.length - 1); i++) {
+                        shouldSwitch = false;
+                        x = rows[i].getElementsByTagName("TD")[column];
+                        y = rows[i + 1].getElementsByTagName("TD")[column];
+                        if (order == "asc") {
+                            if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                                shouldSwitch = true;
+                                break;
+                            }
+                        } else if (order == "desc") {
+                            if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                                shouldSwitch = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (shouldSwitch) {
+                        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                        switching = true;
+                    }
+                }
             }
         });
     </script>
