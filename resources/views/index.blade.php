@@ -347,6 +347,69 @@
         </div>
     </div>
 
+    <!-- work with us section start -->
+
+    <div class="container-fluid text-center bg-light">
+        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Work With Us</p>
+        <div class="row px-5 mx-5">
+            <div class="col-md-12 p-3">
+                <p class="fs-6" style="padding: 0px 200px 0px 200px">ISER-N is a premier research and
+                    In decades, ISER-N has successfully maintained partnerships with various universities, research
+                    organizations, and researchers, both in Nepal and abroad. ISER-N is also connected to the
+                    respondents who share their thoughts and experiences in response to the questionnaire. It has
+                    collected a wide range of data on population health (psychological and physical health),
+                    environment, population dynamics, family change, migration, education, and social change for
+                    decades. ISER-N has always been open to various levels of collaboration and has been able to
+                    maintain a data repository helpful for many researchers. One may get involved in ISER-N in many
+                    ways. We also provide valuable training and support to researchers and scholars willing to
+                    conduct research in Chitwan Valley or Nepal.</p>
+            </div>
+            <div class="row fw-bold fs-5" style="color: #01274c; padding: 60px">
+                <div class="col-md-4 p-4">
+                    <a href="/collaboration/collaborate-with-us" style="text-decoration: none"><i
+                            class="fa fa-handshake-o pb-4" style="font-size: 50px; color: #01274c;"
+                            aria-hidden="true"></i><br>
+                        Collaborate with us</a>
+                </div>
+                <div class="col-md-4 p-4">
+                    <a href="/work-with-us/career-at-isern" style="text-decoration: none;"><i
+                            class="fa fa-briefcase pb-4" style="font-size: 50px; color: #01274c;"
+                            aria-hidden="true"></i><br>
+                        Career</a>
+                </div>
+                <div class="col-md-4 p-4">
+                    <a href="/#" style="text-decoration: none;"><i class="fa fa-graduation-cap pb-4"
+                            style="font-size: 50px; color: #01274c;" aria-hidden="true"></i><br>
+                        Internship</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- data section start -->
+
+    <div class="container-fluid text-center">
+        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Data</p>
+        <div class="row px-5 mx-5">
+            <div class="col-md-12 p-3">
+                <p class="fs-6" style="padding: 0px 200px 0px 200px">ISER-N in collaboration with universities and
+                    research organizations in Nepal and abroad has collected a large number of longitudinal panel and
+                    cross-sectional data on various topics. ISER-N has collected a wide range of data on population
+                    health (psychological and physical health), environment, population dynamics, family change,
+                    migration, education and social change. Moreover, most of the data are available for students,
+                    teachers, professors, and scholars in Nepal and throughout the world. The measurements themselves
+                    included survey data, ethnographic data, anthropometric, biomarkers, botanical counts, land use
+                    measures, and geographic information system data collection. The data are available in ISER-N office
+                    at Fulbari, Chitwan while one can also electronically access them from Inter-university Consortium
+                    for Political and Social Research (ICPSR) at the University for Michigan and UK Data Bank through
+                    the following link listed below.</p>
+            </div>
+            <div class="p-4">
+                <a href="/data" class="btn p-3" style="background-color: #01274c; color:white;">Find More</a>
+            </div>
+        </div>
+    </div>
+
+
 
 
 
