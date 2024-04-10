@@ -256,7 +256,7 @@
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 @foreach ($data['posts_latest_news'] as $post)
-                    <div class="col">
+                    <div class="col p-2">
                         <div class="card h-100">
                             @if ($post->getFirstMediaUrl())
                                 <img src="{{ $posts_latest_news->getFirstMediaUrl() }}"
