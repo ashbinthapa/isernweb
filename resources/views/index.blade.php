@@ -285,7 +285,7 @@
     <!-- publication section started -->
 
     <div class="container text-center py-4">
-        <p class="fw-bold fs-1" style="color: #01274c;">Publications</p>
+        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Publications</p>
 
         <div class="row">
 
