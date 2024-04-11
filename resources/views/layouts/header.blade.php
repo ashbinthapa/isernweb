@@ -64,8 +64,8 @@
                                 Data
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Data</a></li>
-                                <li><a class="dropdown-item" href="#">Instruments</a></li>
+                                <li><a class="dropdown-item" href="/data">Data</a></li>
+                                <li><a class="dropdown-item" href="/data/instruments">Instruments</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
@@ -126,9 +126,10 @@
                                 About Us
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Introduction</a></li>
-                                <li><a class="dropdown-item" href="#">Working Approach</a></li>
-                                <li><a class="dropdown-item" href="#">Governance</a></li>
+                                <li><a class="dropdown-item" href="/about-us">Introduction</a></li>
+                                <li><a class="dropdown-item" href="/about-us/working-approach">Working Approach</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/about-us/governance">Governance</a></li>
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle" href="#" role="button"
                                         aria-expanded="false">Human Resources</a>
@@ -142,33 +143,39 @@
                                         <li><a class="dropdown-item" href="#">Staff</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Research Infrastructures</a></li>
+                                <li><a class="dropdown-item" href="/research-infrastructure">Research
+                                        Infrastructures</a></li>
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle" href="#" role="button"
                                         aria-expanded="false">Finance Management</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Funding Agencies</a></li>
+                                        <li><a class="dropdown-item" href="/funding-agencies">Funding Agencies</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#" role="button"
+                                    <a class="dropdown-item dropdown-toggle" href="/collaboration" role="button"
                                         aria-expanded="false"> Collaboration</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">National</a></li>
-                                        <li><a class="dropdown-item" href="#">International</a></li>
                                         <li><a class="dropdown-item"
-                                                href="{{ asset('/collaboration/national-collaboration') }}">Collaborate
+                                                href="/collaboration/national-collaboration">National</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="/collaboration/international-collaboration">International</a>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="/collaboration/collaborate-with-us">Collaborate
                                                 With Us</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle"
-                                        href="{{ asset('/collaboration/national-collaboration') }}" role="button"
-                                        aria-expanded="false">Work With Us</a>
+                                    <a class="dropdown-item dropdown-toggle" href="/about-us/work-with-us"
+                                        role="button" aria-expanded="false">Work With Us</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Career @ Iser-N</a></li>
-                                        <li><a class="dropdown-item" href="#">Training @ ISER-N</a></li>
-                                        <li><a class="dropdown-item" href="{{ asset('/contact') }}">As a
+                                        <li><a class="dropdown-item" href="/work-with-us/career-at-isern">Career @
+                                                Iser-N</a></li>
+                                        <li><a class="dropdown-item" href="/work-with-us/training-at-isern">Training @
+                                                ISER-N</a></li>
+                                        <li><a class="dropdown-item" href="/work-with-us/as-a-respondent">As a
                                                 Respondent</a></li>
                                     </ul>
                                 </li>
