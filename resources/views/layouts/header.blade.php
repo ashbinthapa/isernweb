@@ -41,9 +41,9 @@
                                 News & Announcements
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">News</a></li>
-                                <li><a class="dropdown-item" href="#">Announcements</a></li>
-                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="/posts/category/news">News</a></li>
+                                <li><a class="dropdown-item" href="/posts/category/announcement">Announcements</a></li>
+                                <li><a class="dropdown-item" href="/posts/category/events">Events</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
