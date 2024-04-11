@@ -48,9 +48,10 @@ Route::get('/search', 'App\Http\Controllers\SearchController@index')->name('sear
 
 
 /*PostController*/
+Route::get('/posts/category/{categorySlug}', [PostController::class, 'categoryArchive']);
 Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
-Route::get('/posts/{category}', [PostController::class, 'categoryArchive'])->name('posts.category');
 Route::get('/posts', [PostController::class, 'archive']);
+
 
 
 /*TimelineController*/

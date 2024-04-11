@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post; // Import the Post model
+use App\Models\Category; // Import the Post model
+
 
 use Illuminate\Http\Request;
 
@@ -27,5 +29,18 @@ class PostController extends Controller
         }
 
         return view('post-single', ['post' => $post]);
+    }
+
+    public function categoryArchive($categorySlug)
+    {
+        // Retrieve the category based on the slug
+        $category = Category::where('slug', $categorySlug)->firstOrFail();
+
+        // Retrieve posts belonging to the category
+        $posts = Post::where('category_id', $category->id)
+                    ->where('is_published', true) // Filter only published posts
+                    ->get();
+
+        return view('post-archive', ['posts' => $posts]);
     }
 }
