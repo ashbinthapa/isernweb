@@ -284,14 +284,14 @@
 
     <!-- publication section started -->
 
-    <div class="container text-center py-4">
-        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Publications</p>
+    <div class="container py-4">
+        <p class="fw-bold fs-1 py-4 text-center" style="color: #01274c;">Publications</p>
 
         <div class="row">
 
             <!-- Replace dropdown with checkboxes -->
             @foreach ($data['publications_data'] as $type)
-                <div class="col-md-4 mb-3">
+                <div class="col-md-3 mb-3">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="{{ $type->publicationcategory->id }}"
                             id="checkboxPublicationType{{ $type->publicationcategory->id }}">
@@ -304,7 +304,7 @@
             @endforeach
         </div>
 
-        <div class="card table-responsive">
+        <div class="card table-responsive mt-4 text-center">
             <table id="example" class="table table-striped table-borderless">
                 <thead class="fw-bold custom-table-header">
                     <tr>
@@ -323,11 +323,11 @@
                     @foreach ($data['publications_data'] as $publication)
                         <tr data-type="{{ $publication->publicationcategory->id }}"
                             data-date="{{ $publication->year }}">
-                            <td>{{ $publication->publicationcategory->name }}</td>
-                            <td>{{ $publication->title }}</td>
-                            <td><a href="{{ $publication->link }}" target="_blank" class="fw-bold"
-                                    style="text-decoration: none; color: #01274c;">DOI</a></td>
-                            <td>{{ $publication->year }}</td>
+                            <td class="align-middle">{{ $publication->publicationcategory->name }}</td>
+                            <td class="align-middle">{{ $publication->title }}</td>
+                            <td class="align-middle"><a href="{{ $publication->link }}" target="_blank"
+                                    class="fw-bold" style="text-decoration: none; color: #01274c;">DOI</a></td>
+                            <td class="align-middle">{{ $publication->year }}</td>
                         </tr>
                     @endforeach
                 </tbody>
@@ -341,7 +341,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="p-4">
+        <div class="p-4 text-center">
             <a href="/publications" class="btn p-3" style="background-color: #01274c; color:white;">All
                 Publications</a>
         </div>
