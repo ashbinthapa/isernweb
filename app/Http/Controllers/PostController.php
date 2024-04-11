@@ -37,9 +37,7 @@ class PostController extends Controller
         $category = Category::where('slug', $categorySlug)->firstOrFail();
 
         // Retrieve posts belonging to the category
-        $posts = Post::where('category_id', $category->id)
-                    ->where('is_published', true) // Filter only published posts
-                    ->get();
+        $posts = Post::where('category_id', $category->id)->get();
 
         return view('post-archive', ['posts' => $posts]);
     }
