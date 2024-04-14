@@ -447,41 +447,6 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
-            <div class="col-md-4 mx-5">
-                <div class="row mb-4">
-                    <div class="col">
-                        <h2>Our Contacts</h2>
-                    </div>
-                </div>
-                <div class="row mb-4">
-                    <div class="col-2">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-10">
-                        Address<br>
-                        Bharatpur-15, Fulbari, Chitwan, Nepal
-                    </div>
-                </div>
-                <div class="row mb-4">
-                    <div class="col-2">
-                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-10">
-                        Telephone<br>
-                        +977-56-591054 , +977-56-592406
-                    </div>
-                </div>
-                <div class="row mb-4">
-                    <div class="col-2">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-10">
-                        Email<br>
-                        iser.nepal@outlook.com
-                    </div>
-                </div>
-
-            </div>
         </div>
         <div class="row my-5">
             <iframe
