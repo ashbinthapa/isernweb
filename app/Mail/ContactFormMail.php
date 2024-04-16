@@ -17,11 +17,16 @@ class ContactFormMail extends Mailable
 
     public function build()
     {
-        return $this->markdown('emails.contact-form')->with([
+        $data = [
             'name' => $this->data['name'],
             'email' => $this->data['email'],
-            'message' => $this->data['message'],
-        ]);
+        ];
+
+        if (isset($this->data['message'])) {
+            $data['message'] = $this->data['message'];
+        }
+
+        return $this->markdown('emails.contact-form')->with($data);
     }
 
     /**
@@ -37,9 +42,7 @@ class ContactFormMail extends Mailable
      */
     public function envelope(): Envelope
     {
-        return new Envelope(
-            subject: 'Contact Form Mail',
-        );
+        return new Envelope(subject: 'Contact Form Mail');
     }
 
     /**
@@ -47,9 +50,7 @@ class ContactFormMail extends Mailable
      */
     public function content(): Content
     {
-        return new Content(
-            view: 'view.name',
-        );
+        return new Content(view: 'view.name');
     }
 
     /**

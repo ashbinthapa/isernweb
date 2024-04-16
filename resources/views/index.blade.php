@@ -436,14 +436,20 @@
                     @csrf
                     <div class="mb-3">
                         <label for="name" class="form-label"> Your Name</label>
-                        <div class="col-sm-8 mx-auto"> <!-- Centering the input field -->
+                        <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
                             <input type="text" name="name" class="form-control" required>
                         </div>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Your Email</label>
-                        <div class="col-sm-8 mx-auto"> <!-- Centering the input field -->
+                        <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
                             <input type="email" name="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="mb-3" hidden>
+                        <label for="message" class="form-label">Message</label>
+                        <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
+                            <textarea name="message" class="form-control" rows="5"></textarea>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Subscribe</button>
