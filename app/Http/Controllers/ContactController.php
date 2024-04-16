@@ -20,7 +20,6 @@ class ContactController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',
-            'message' => 'required',
         ]);
 
         /*this block of code can be replaced by */
@@ -39,6 +38,4 @@ class ContactController extends Controller
 
         return redirect()->back()->with('success', 'Thank you for your message. We will get back to you soon!');
     }
-
-
 }

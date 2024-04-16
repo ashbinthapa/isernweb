@@ -414,13 +414,14 @@
 
 
     <!-- contact us starts here -->
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="mb-3">
-                    <h2>Send Us A Message</h2>
+    <div class="container-fluid py-5 bg-light">
+        <div class="row justify-content-center"> <!-- Centering the row -->
+            <div class="col-md-8"> <!-- Adjust the column width as needed -->
+                <div class="mb-3 text-center"> <!-- Centering the content -->
+                    <p class="fw-bold fs-1 py-4" style="color: #01274c;">Get the latest ISER-N Research &
+                        Publications</p>
                 </div>
-                <div class="col-mb-3">
+                <div class="col-mb-3 text-center"> <!-- Centering the content -->
                     @if (session('success'))
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary d-none" id="successModalButton"
@@ -430,19 +431,20 @@
                     @endif
                 </div>
 
-                <form action="{{ route('contact') }}" method="POST">
+                <form action="{{ route('contact') }}" method="POST" class="text-center">
+                    <!-- Centering the form -->
                     @csrf
                     <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" name="name" class="form-control" required>
+                        <label for="name" class="form-label"> Your Name</label>
+                        <div class="col-sm-8 mx-auto"> <!-- Centering the input field -->
+                            <input type="text" name="name" class="form-control" required>
+                        </div>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea name="message" class="form-control" required rows="5"></textarea>
+                        <label for="email" class="form-label">Your Email</label>
+                        <div class="col-sm-8 mx-auto"> <!-- Centering the input field -->
+                            <input type="email" name="email" class="form-control" required>
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
@@ -453,7 +455,7 @@
     <!-- Modal -->
     <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered"> <!-- Centering the modal -->
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="successModalLabel">Success</h5>
@@ -464,13 +466,14 @@
                         {{ session('success') }}
                     @endif
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer justify-content-center"> <!-- Centering the modal footer buttons -->
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- contact us ends here -->
+
 
 </body>
 @include('layouts.footer')
