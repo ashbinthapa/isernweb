@@ -446,7 +446,7 @@
                             <input type="email" name="email" class="form-control" required>
                         </div>
                     </div>
-                    <div class="mb-3" hidden>
+                    <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
                         <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
                             <textarea name="message" class="form-control" rows="5"></textarea>

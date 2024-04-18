@@ -16,7 +16,9 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid bg-light py-4">
+
+
+<div class="container-fluid py-4">
     <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
         <p class="fw-bold fs-1" style="color: #01274c;">Latest News and
             Announcements</p>
