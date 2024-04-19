@@ -137,9 +137,6 @@ body {
 .dropdown-submenu .dropdown-menu {
   left: 100%;
   /* Position second-level submenu to the right of the first-level submenu */
-  top: 0;
-  /* Align second-level submenu with first-level submenu */
-  margin-top: 0;
   /* Remove any margin-top */
 }
 
