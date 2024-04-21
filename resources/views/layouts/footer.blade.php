@@ -170,13 +170,45 @@
         });
     </script>
 
-    {{-- script for filter of publication by its type and date for publication.blade.php --}}
+    {{-- script for filter o fpublication by its tye and date --}}
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Get the dropdown elements
             const filterPublicationType = document.getElementById("filterPublicationType");
             const filterPublicationDate = document.getElementById("filterPublicationDate");
 
+            // Initialize pagination variables
+            const table = document.getElementById("example");
+            const tableBody = table.querySelector("tbody");
+            const rows = tableBody.getElementsByTagName("tr");
+            const rowsPerPage = 5; // Number of rows per page
+            let currentPage = 1;
+
+            /// Function to display rows for the current page
+            function displayRows() {
+                const start = (currentPage - 1) * rowsPerPage;
+                const end = start + rowsPerPage;
+
+                for (let i = 0; i < rows.length; i++) {
+                    if (i >= start && i < end) {
+                        rows[i].style.display = "";
+                    } else {
+                        rows[i].style.display = "none";
+                    }
+                }
+            }
+
+            // Initial display of rows
+            displayRows();
+
+            // Add event listener to pagination links
+            document.querySelectorAll(".pagination .page-link").forEach(function(link) {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    currentPage = parseInt(this.dataset.page);
+                    displayRows();
+                });
+            });
 
             // Add event listener to filter by publication type
             filterPublicationType.addEventListener("change", function() {
@@ -205,10 +237,35 @@
                     }
                 });
             }
+            // Function to handle pagination click
+            function handlePaginationClick(event) {
+                event.preventDefault();
+                currentPage = parseInt(this.dataset.page);
+                displayRows();
+            }
+
+            // Dynamically generate pagination links
+            const totalPages = Math.ceil(rows.length / rowsPerPage);
+            const paginationContainer = document.querySelector(".pagination");
+            paginationContainer.innerHTML = "";
+
+            for (let i = 1; i <= totalPages; i++) {
+                const li = document.createElement("li");
+                li.classList.add("page-item");
+
+                const link = document.createElement("a");
+                link.classList.add("page-link");
+                link.href = "#";
+                link.textContent = i;
+                link.dataset.page = i;
+
+                link.addEventListener("click", handlePaginationClick);
+
+                li.appendChild(link);
+                paginationContainer.appendChild(li);
+            }
         });
     </script>
-
-    {{-- script to filter table based on selected publication types for index.blade.php --}}
     <script>
         $(document).ready(function() {
             // Function to filter table rows based on selected publication types
