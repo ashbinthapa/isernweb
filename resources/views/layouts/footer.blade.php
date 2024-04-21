@@ -170,45 +170,13 @@
         });
     </script>
 
-    {{-- script for filter o fpublication by its tye and date --}}
+    {{-- script for filter of publication by its type and date for publication.blade.php --}}
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Get the dropdown elements
             const filterPublicationType = document.getElementById("filterPublicationType");
             const filterPublicationDate = document.getElementById("filterPublicationDate");
 
-            // Initialize pagination variables
-            const table = document.getElementById("example");
-            const tableBody = table.querySelector("tbody");
-            const rows = tableBody.getElementsByTagName("tr");
-            const rowsPerPage = 5; // Number of rows per page
-            let currentPage = 1;
-
-            // Function to display rows for the current page
-            function displayRows() {
-                const start = (currentPage - 1) * rowsPerPage;
-                const end = start + rowsPerPage;
-
-                for (let i = 0; i < rows.length; i++) {
-                    if (i >= start && i < end) {
-                        rows[i].style.display = "";
-                    } else {
-                        rows[i].style.display = "none";
-                    }
-                }
-            }
-
-            // Initial display of rows
-            displayRows();
-
-            // Add event listener to pagination links
-            document.querySelectorAll(".pagination .page-link").forEach(function(link) {
-                link.addEventListener("click", function(event) {
-                    event.preventDefault();
-                    currentPage = parseInt(this.dataset.page);
-                    displayRows();
-                });
-            });
 
             // Add event listener to filter by publication type
             filterPublicationType.addEventListener("change", function() {
@@ -239,6 +207,8 @@
             }
         });
     </script>
+
+    {{-- script to filter table based on selected publication types for index.blade.php --}}
     <script>
         $(document).ready(function() {
             // Function to filter table rows based on selected publication types
@@ -319,9 +289,6 @@
             }
         });
     </script>
-
-
-
     </body>
 
     </html>

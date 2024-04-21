@@ -71,7 +71,7 @@
     <!-- Pagination -->
     <div class="d-flex justify-content-center">
         <nav aria-label="Page navigation example">
-            <ul class="pagination">
+            <ul id="pagination">
                 <!-- Pagination links will be dynamically populated here -->
             </ul>
         </nav>
