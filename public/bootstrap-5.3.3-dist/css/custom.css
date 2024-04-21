@@ -73,13 +73,13 @@ a.social-icons-size {
   
   .horizontal-timeline .items .items-list .event-date {
     position: absolute;
-    top: 36px;
     left: 0;
     right: 0;
-    width: 88px;
-    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    margin: 10px auto;
     font-size: 0.9rem;
-    padding-top: 0px;
+    padding: 10px;
   }
   
   @media (min-width: 1140px) {
