@@ -282,6 +282,31 @@
     </div>
     <!-- latest news and announcement section ended -->
 
+    <!-- data section start -->
+
+    <div class="container-fluid text-center">
+        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Data</p>
+        <div class="row px-5 mx-5">
+            <div class="col-md-12 p-3">
+                <p class="fs-6" style="padding: 0px 200px 0px 200px">ISER-N in collaboration with universities and
+                    research organizations in Nepal and abroad has collected a large number of longitudinal panel and
+                    cross-sectional data on various topics. ISER-N has collected a wide range of data on population
+                    health (psychological and physical health), environment, population dynamics, family change,
+                    migration, education and social change. Moreover, most of the data are available for students,
+                    teachers, professors, and scholars in Nepal and throughout the world. The measurements themselves
+                    included survey data, ethnographic data, anthropometric, biomarkers, botanical counts, land use
+                    measures, and geographic information system data collection. The data are available in ISER-N office
+                    at Fulbari, Chitwan while one can also electronically access them from Inter-university Consortium
+                    for Political and Social Research (ICPSR) at the University for Michigan and UK Data Bank through
+                    the following link listed below.</p>
+            </div>
+            <div class="p-4">
+                <a href="/data" class="btn p-3" style="background-color: #01274c; color:white;">Find More</a>
+            </div>
+        </div>
+    </div>
+    <!-- data section ends -->
+
     <!-- publication section started -->
 
     <div class="container py-4">
@@ -336,7 +361,7 @@
         <!-- Pagination -->
         <div class="d-flex justify-content-center">
             <nav aria-label="Page navigation example">
-                <ul class="pagination">
+                <ul id="pagination_links" class="pagination">
                     <!-- Pagination links will be dynamically populated here -->
                 </ul>
             </nav>
@@ -346,6 +371,7 @@
                 Publications</a>
         </div>
     </div>
+    <!-- publication ends here -->
 
     <!-- work with us section start -->
 
@@ -385,29 +411,7 @@
             </div>
         </div>
     </div>
-    <!-- data section start -->
 
-    <div class="container-fluid text-center">
-        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Data</p>
-        <div class="row px-5 mx-5">
-            <div class="col-md-12 p-3">
-                <p class="fs-6" style="padding: 0px 200px 0px 200px">ISER-N in collaboration with universities and
-                    research organizations in Nepal and abroad has collected a large number of longitudinal panel and
-                    cross-sectional data on various topics. ISER-N has collected a wide range of data on population
-                    health (psychological and physical health), environment, population dynamics, family change,
-                    migration, education and social change. Moreover, most of the data are available for students,
-                    teachers, professors, and scholars in Nepal and throughout the world. The measurements themselves
-                    included survey data, ethnographic data, anthropometric, biomarkers, botanical counts, land use
-                    measures, and geographic information system data collection. The data are available in ISER-N office
-                    at Fulbari, Chitwan while one can also electronically access them from Inter-university Consortium
-                    for Political and Social Research (ICPSR) at the University for Michigan and UK Data Bank through
-                    the following link listed below.</p>
-            </div>
-            <div class="p-4">
-                <a href="/data" class="btn p-3" style="background-color: #01274c; color:white;">Find More</a>
-            </div>
-        </div>
-    </div>
 
 
 

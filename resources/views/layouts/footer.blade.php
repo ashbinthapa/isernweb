@@ -181,7 +181,7 @@
             const table = document.getElementById("example");
             const tableBody = table.querySelector("tbody");
             const rows = tableBody.getElementsByTagName("tr");
-            const rowsPerPage = 10; // Number of rows per page
+            const rowsPerPage = 5; // Number of rows per page
             let currentPage = 1;
 
             // Function to display rows for the current page
@@ -319,6 +319,9 @@
             }
         });
     </script>
+
+
+
     </body>
 
     </html>
