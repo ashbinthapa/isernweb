@@ -109,46 +109,33 @@ body {
 }
 /*raleway font ends*/
 
-
- /* Set text color for navbar links */
- .navbar-header-ul .nav-link {
-   color: white !important;
-   /* Default text color */
- }
-
- /* Change text color when hovering */
- .navbar-header-ul .nav-link:hover,
- .navbar-header-ul .nav-link:focus {
-  color: #f2c100 !important;
-   /* Change to your desired hover color */
- }
-
- /* Position submenu to the right */
- .dropdown-submenu .dropdown-menu {
-   right: auto;
-   left: 50%;
- }
-
- /* Change text color when active */
- .navbar-header-ul .nav-link.active {
-  color: #f2c100 !important;
-      background-color: #05264b;
-   /* Change to your desired active color */
- }
-
-/* Set text color for dropdown items */
-.navbar-header-ul .dropdown-menu .dropdown-item {
-  color: white !important;
-    background-color: #05264b;
+/* Set default text color for navbar links */
+.navbar-header-ul .nav-link {
+  color: white;
 }
 
+/* Change text color and add hover effect for navbar links */
+.navbar-header-ul .nav-link:hover,
+.navbar-header-ul .nav-link:focus,
+.navbar-header-ul .nav-link.active {
+  color: #f2c100;
+}
 
+/* Position submenu to the right */
+.dropdown-submenu .dropdown-menu {
+  left: 50%;
+}
 
+/* Set text color and background color for dropdown items */
+.navbar-header-ul .dropdown-menu .dropdown-item {
+  color: white;
+  background-color: #05264b;
+}
+
+/* Change background color and text color when hovering over dropdown items */
 .navbar-header-ul .dropdown-menu .dropdown-item:hover {
-  background-color: transparent !important;
-  color: #f2c100 !important;
-    background-color: #05264b;
-  /* Change to your desired hover background color */
+  background-color: #f2c100;
+  color: white;
 }
 
 /* Hover effect for dropdown */
@@ -157,7 +144,6 @@ body {
   display: block;
   background-color: #05264b;
 }
-
 
 
 /*search button color*/

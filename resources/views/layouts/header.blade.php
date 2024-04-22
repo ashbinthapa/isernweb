@@ -40,7 +40,7 @@
                                 aria-expanded="false">
                                 News & Announcements
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" style="background-color: #05264b;">
                                 <li><a class="dropdown-item" href="/posts/category/news">News</a></li>
                                 <li><a class="dropdown-item" href="/posts/category/announcement">Announcements</a></li>
                                 <li><a class="dropdown-item" href="/posts/category/events">Events</a></li>
@@ -51,7 +51,7 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Research
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" style="background-color: #05264b;">
                                 <li><a class="dropdown-item" href="{{ asset('/projects/ongoing') }}">Ongoing
                                         Research</a></li>
                                 <li><a class="dropdown-item" href="{{ asset('/projects/completed') }}">Completed
@@ -63,7 +63,7 @@
                                 aria-expanded="false">
                                 Data
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" style="background-color: #05264b;">
                                 <li><a class="dropdown-item" href="/data">Data</a></li>
                                 <li><a class="dropdown-item" href="/data/instruments">Instruments</a></li>
                             </ul>
@@ -73,7 +73,7 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Publications
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" style="background-color: #05264b;">
                                 <li><a class="dropdown-item" href="{{ asset('/publications') }}">Journal
                                         Articles</a>
                                 </li>
@@ -97,11 +97,11 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Policy & Intervations
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" style="background-color: #05264b;">
                                 <li><a class="dropdown-item" href="#">Intervation</a></li>
                                 <li><a class="dropdown-item" href="#">Policy Feedback</a></li>
                                 <li><a class="dropdown-item" href="#">Dissemination</a></li>
@@ -115,7 +115,7 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Capacity Building
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" style="background-color: #05264b;">
                                 <li><a class="dropdown-item" href="#">Comminity Capacity Building</a></li>
                                 <li><a class="dropdown-item" href="#">Training & Workshops</a></li>
                             </ul>
@@ -125,7 +125,7 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 About Us
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" style="background-color: #05264b;">
                                 <li><a class="dropdown-item" href="/about-us">Introduction</a></li>
                                 <li><a class="dropdown-item" href="/about-us/working-approach">Working Approach</a>
                                 </li>
