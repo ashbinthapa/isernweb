@@ -25,7 +25,7 @@ class HomeController extends Controller
 
         $timeline_slider = Timeline::all();
 
-        $publications = Publication::all(); // Retrieve all publication from the database
+        $publications = Publication::latest()->take(8)->get(); // Retrieve all publication from the database
 
 
         $data = [

@@ -18,6 +18,7 @@
     </div>
 </nav>
 
+
 <div class="container p-5">
     <div class="row">
         <div class="col-md-4 mb-3">
@@ -26,7 +27,8 @@
                 <option value="all">All</option>
                 <!-- Populate options dynamically based on available publication types -->
                 @foreach ($publications_data as $type)
-                    <option value="{{ $type->publicationcategory->id }}">{{ $type->publicationcategory->name }}</option>
+                    <option value="{{ $type->publicationcategory->id }}">{{ $type->publicationcategory->name }}
+                    </option>
                 @endforeach
             </select>
         </div>
@@ -39,6 +41,9 @@
                     <option value="{{ $date->year }}">{{ $date->year }}</option>
                 @endforeach
             </select>
+        </div>
+        <div class="col-md-3 p-4">
+            <button id="applyFilterBtn" class="btn btn-primary">Apply Filters</button>
         </div>
     </div>
     <div class="card table-responsive mt-4 text-center">
@@ -55,24 +60,16 @@
                     </th>
                 </tr>
             </thead>
-            <tbody>
-                @foreach ($publications_data as $publication)
-                    <tr data-type="{{ $publication->publicationcategory->id }}" data-date="{{ $publication->year }}">
-                        <td class="align-middle">{{ $publication->publicationcategory->name }}</td>
-                        <td class="align-middle">{{ $publication->title }}</td>
-                        <td class="align-middle"><a href="{{ $publication->link }}" target="_blank" class="fw-bold"
-                                style="text-decoration: none; color: #01274c;">DOI</a></td>
-                        <td class="align-middle">{{ $publication->year }}</td>
-                    </tr>
-                @endforeach
+            <tbody id="tableBody">
+                <!-- Table rows will be added dynamically using JavaScript -->
             </tbody>
         </table>
     </div>
     <!-- Pagination -->
     <div class="d-flex justify-content-center">
         <nav aria-label="Page navigation example">
-            <ul class="pagination">
-                <!-- Pagination links will be dynamically populated here -->
+            <ul id="pagination" class="pagination justify-content-center">
+                <!-- Pagination links will be added dynamically using JavaScript -->
             </ul>
         </nav>
     </div>
