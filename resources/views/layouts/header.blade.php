@@ -41,20 +41,23 @@
                                 News & Announcements
                             </a>
                             <ul class="dropdown-menu" style="background-color: #05264b;">
+                                <li><a class="dropdown-item" href="/posts/">All News & Announcements</a></li>
                                 <li><a class="dropdown-item" href="/posts/category/news">News</a></li>
                                 <li><a class="dropdown-item" href="/posts/category/announcement">Announcements</a></li>
                                 <li><a class="dropdown-item" href="/posts/category/events">Events</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
-                            <a class="nav-link dropdown-toggle" href="{{ asset('/projects') }}" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Research
                             </a>
                             <ul class="dropdown-menu" style="background-color: #05264b;">
-                                <li><a class="dropdown-item" href="{{ asset('/projects/ongoing') }}">Ongoing
+                                <li><a class="dropdown-item" href="/projects">All Research</a></li>
+
+                                <li><a class="dropdown-item" href="/projects/ongoing">Ongoing
                                         Research</a></li>
-                                <li><a class="dropdown-item" href="{{ asset('/projects/completed') }}">Completed
+                                <li><a class="dropdown-item" href="/projects/completed">Completed
                                         Research</a></li>
                             </ul>
                         </li>
@@ -69,31 +72,28 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
-                            <a class="nav-link dropdown-toggle" href="{{ asset('/publications') }}" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Publications
                             </a>
                             <ul class="dropdown-menu" style="background-color: #05264b;">
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Journal
+                                <li><a class="dropdown-item" href="/publications">Journal
                                         Articles</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Book & Book
+                                <li><a class="dropdown-item" href="/publications">Book & Book
                                         Chapter</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Dissertation</a>
+                                <li><a class="dropdown-item" href="/publications">Dissertation</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Presentations</a>
+                                <li><a class="dropdown-item" href="/publications">Presentations</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Policy Brief</a>
+                                <li><a class="dropdown-item" href="/publications">Policy Brief</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Report to
+                                <li><a class="dropdown-item" href="/publications">Report to
                                         Respondent</a></li>
-                                <li><a class="dropdown-item" href="{{ asset('/publications') }}">Annual Report</a>
+                                <li><a class="dropdown-item" href="/publications">Annual Report</a>
                                 </li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Other Publications</a></li>
+                                <li><a class="dropdown-item" href="/publications">Other Publications</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
@@ -119,6 +119,8 @@
                                 Capacity Building
                             </a>
                             <ul class="dropdown-menu" style="background-color: #05264b;">
+                                <li><a class="dropdown-item" href="/capacity-building">Capacity Building</a></li>
+
                                 <li><a class="dropdown-item" href="#">Comminity Capacity Building</a></li>
                                 <li><a class="dropdown-item" href="#">Training & Workshops</a></li>
                             </ul>
