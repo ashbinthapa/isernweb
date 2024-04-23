@@ -39,40 +39,46 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
-/*HomeController*/
-Route::get('/', [HomeController::class, 'index']);
-//Route::get('/', [HomeController::class, 'sliderPost'])->name('posts.sliderPost');
+Route::middleware(['web', 'footerdata'])->group(function () {
+    // Define your routes here
+    /*HomeController*/
+    Route::get('/', [HomeController::class, 'index']);
+    //Route::get('/', [HomeController::class, 'sliderPost'])->name('posts.sliderPost');
 
-/*serarch controller*/
-Route::get('/search', 'App\Http\Controllers\SearchController@index')->name('search');
-
-
-/*PostController*/
-Route::get('/posts/category/{categorySlug}', [PostController::class, 'categoryArchive']);
-Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
-Route::get('/posts', [PostController::class, 'archive']);
+    /*serarch controller*/
+    Route::get('/search', 'App\Http\Controllers\SearchController@index')->name('search');
 
 
+    /*PostController*/
+    Route::get('/posts/category/{categorySlug}', [PostController::class, 'categoryArchive']);
+    Route::get('/posts/{slug}', [PostController::class, 'show'])->name('posts.show');
+    Route::get('/posts', [PostController::class, 'archive']);
 
-/*TimelineController*/
-Route::get('/timeline/{slug}', [TimelineController::class, 'single'])->name('timeline.single');
 
-/*ResearchController*/
-Route::get('/projects', [ResearchController::class, 'archive']);
-Route::get('/projects/{research_status}/{slug}', [ResearchController::class, 'single'])->name('research.single'); /*This single should be load fisrt*/
-Route::get('/projects/{research_status}', [ResearchController::class, 'status'])->name('research.status'); /*This should be load after*/
 
-/*PublicationController*/
-Route::get('/publications', [PublicationController::class, 'archive']);
+    /*TimelineController*/
+    Route::get('/timeline/{slug}', [TimelineController::class, 'single'])->name('timeline.single');
 
-/*ContactController*/
-Route::get('/contact', [ContactController::class, 'showContactForm'])->name('contact');
-Route::post('/contact', [ContactController::class, 'submitContactForm']);
+    /*ResearchController*/
+    Route::get('/projects', [ResearchController::class, 'archive']);
+    Route::get('/projects/{research_status}/{slug}', [ResearchController::class, 'single'])->name('research.single'); /*This single should be load fisrt*/
+    Route::get('/projects/{research_status}', [ResearchController::class, 'status'])->name('research.status'); /*This should be load after*/
 
-/*PageController
-NOTE: LOAD THIS ROUTING AT LAST SO THAT IT DOESN'T CHANGES OTHER SINGLE NAME ROUTING
-*/
-Route::get('/{slug}', [PageController::class, 'single']);
-Route::get('/{parent_slug}/{child_slug}', [PageController::class, 'singleChild'])->name('page.single');
+    /*PublicationController*/
+    Route::get('/publications', [PublicationController::class, 'archive']);
+
+    /*ContactController*/
+    Route::get('/contact', [ContactController::class, 'showContactForm'])->name('contact');
+    Route::post('/contact', [ContactController::class, 'submitContactForm']);
+
+    /*PageController
+    NOTE: LOAD THIS ROUTING AT LAST SO THAT IT DOESN'T CHANGES OTHER SINGLE NAME ROUTING
+    */
+    Route::get('/{slug}', [PageController::class, 'single']);
+    Route::get('/{parent_slug}/{child_slug}', [PageController::class, 'singleChild'])->name('page.single');
+});
+
+
+
 
 require __DIR__.'/auth.php';

@@ -71,23 +71,18 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <h4>Latest Events/News</h4>
                     <div class="sh-recent-posts-widgets">
-                        <div class="sh-recent-posts-widgets-item">
-                            <span class="post-meta-categories">
-                                <a href="https://isernepal.org.np/category/announcement/">Announcement</a>
-                            </span>
-                            <a href="https://isernepal.org.np/vacancy-announcement-for-project-manager/">
-                                <h6>VACANCY ANNOUNCEMENT FOR PROJECT MANAGER</h6>
-                            </a>
-                        </div>
-                        <div class="sh-recent-posts-widgets-item">
-                            <span class="post-meta-categories">
-                                <a href="https://isernepal.org.np/category/announcement/">Announcement</a>
-                            </span>
-                            <a
-                                href="https://isernepal.org.np/vacancy-announcement-for-research-assistant-and-interviewers/">
-                                <h6>VACANCY ANNOUNCEMENT FOR RESEARCH ASSISTANT/INTERVIEWERS</h6>
-                            </a>
-                        </div>
+                        @foreach ($posts_latest_news as $post)
+                            <div class="sh-recent-posts-widgets-item">
+                                <span class="post-meta-categories">
+                                    <a
+                                        href="/posts/category/{{ $post->category->name }}">{{ $post->category->name }}</a>
+                                </span>
+                                <a href="{{ route('posts.show', ['slug' => $post->slug]) }}">
+                                    <h6>{{ $post->title }}</h6>
+                                </a>
+                            </div>
+                        @endforeach
+
                     </div>
                 </div>
             </div>
