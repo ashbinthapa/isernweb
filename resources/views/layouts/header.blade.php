@@ -144,9 +144,12 @@
                                     <a class="dropdown-item dropdown-toggle" href="#" role="button"
                                         aria-expanded="false">Human Resources</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Board Members</a></li>
-                                        <li><a class="dropdown-item" href="#">General Members</a></li>
-                                        <li><a class="dropdown-item" href="#">National Researchers</a></li>
+                                        <li><a class="dropdown-item" href="/about-us/board-members/">Board Members</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="/about-us/general-members/">General
+                                                Members</a></li>
+                                        <li><a class="dropdown-item" href="/about-us/national-researchers/">National
+                                                Researchers</a></li>
                                         <li><a class="dropdown-item" href="#">International Researchers</a>
                                         </li>
                                         <li><a class="dropdown-item" href="#">Scholars</a></li>
