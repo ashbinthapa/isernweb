@@ -17,6 +17,7 @@
         "laravel/tinker": "^2.8",
         "livewire/livewire": "^3.4",
         "livewire/volt": "^1.0",
+        "mohamedsabil83/filament-forms-tinyeditor": "^2.3",
         "spatie/laravel-medialibrary": "11.0.0"
     },
     "require-dev": {

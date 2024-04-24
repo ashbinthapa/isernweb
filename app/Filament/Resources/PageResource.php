@@ -7,6 +7,7 @@ use App\Filament\Resources\PageResource\RelationManagers;
 use App\Models\Page;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -35,27 +36,11 @@ class PageResource extends Resource
 
                 Forms\Components\TextInput::make('slug'),
 
-                Forms\Components\RichEditor::make('content')
-                ->columnSpan('full')
-                ->fileAttachmentsDisk('s3')
-                ->fileAttachmentsDirectory('attachments')
-                ->fileAttachmentsVisibility('private')
-                ->toolbarButtons([
-                    'attachFiles',
-                    'blockquote',
-                    'bold',
-                    'bulletList',
-                    'codeBlock',
-                    'h2',
-                    'h3',
-                    'italic',
-                    'link',
-                    'orderedList',
-                    'redo',
-                    'strike',
-                    'underline',
-                    'undo',
-                ]),
+                TinyEditor::make('content')
+                    ->fileAttachmentsDisk('local')
+                    ->fileAttachmentsVisibility('public')
+                    ->fileAttachmentsDirectory('uploads')
+                    ->columnSpan('full'),
                 Forms\Components\Select::make('parent_id')
                 ->label('Parent Page')
                 ->options(Page::all()->pluck('title', 'id'))
