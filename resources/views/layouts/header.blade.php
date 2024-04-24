@@ -125,7 +125,9 @@
                                 <li><a class="dropdown-item"
                                         href="/capacity-building/community-capacity-building/">Comminity Capacity
                                         Building</a></li>
-                                <li><a class="dropdown-item" href="#">Training & Workshops</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/capacity-building/trainings-and-workshops/">Training & Workshops</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
