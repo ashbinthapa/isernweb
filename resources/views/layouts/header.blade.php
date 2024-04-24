@@ -122,7 +122,9 @@
                             <ul class="dropdown-menu" style="background-color: #05264b;">
                                 <li><a class="dropdown-item" href="/capacity-building">Capacity Building</a></li>
 
-                                <li><a class="dropdown-item" href="#">Comminity Capacity Building</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/capacity-building/community-capacity-building/">Comminity Capacity
+                                        Building</a></li>
                                 <li><a class="dropdown-item" href="#">Training & Workshops</a></li>
                             </ul>
                         </li>
