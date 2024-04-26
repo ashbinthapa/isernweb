@@ -10,7 +10,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Illuminate\Support\Str;
 
 
-class page extends Model implements HasMedia
+class Page extends Model implements HasMedia
 {
     use HasFactory;
 
