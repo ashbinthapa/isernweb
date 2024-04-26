@@ -60,4 +60,12 @@ class User extends Authenticatable
     {
         return $this->hasMany(Publication::class);
     }
+    
+    public function canAccessPanel(Panel $panel): bool
+    {
+        if ($panel->getId() === 'admin') {
+            return $this->email === 'isernepal@gmail.com' ;
+        }
+        return true;
+    }
 }
