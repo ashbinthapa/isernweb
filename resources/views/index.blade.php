@@ -52,7 +52,7 @@
                 aria-label="Slide 10"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-item active" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel1.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -61,7 +61,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel2.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -70,7 +70,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel3.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -79,7 +79,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel4.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -88,7 +88,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel5.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -97,7 +97,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel6.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -106,7 +106,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel7.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -115,7 +115,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel8.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -124,7 +124,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel9.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
@@ -133,7 +133,7 @@
             </div>
             -->
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="{{ asset('images/iser slider carousel10.jpg') }}" class="d-block w-100" alt="...">
                 <!--
             <div class="carousel-caption d-none d-md-block">
