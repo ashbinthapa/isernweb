@@ -282,9 +282,55 @@
     </div>
     <!-- latest news and announcement section ended -->
 
-    <!-- data section start -->
+    <!-- latest research section start -->
 
     <div class="container-fluid text-center">
+        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Latest Research</p>
+        <div class="row px-5 mx-5">
+            <div class="col-md-12 p-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    @php $i = 1; @endphp
+                    @foreach ($data['latest_research'] as $research)
+                        <div class="col p-2">
+                            <div class="card h-100">
+
+                                @if ($i == 1)
+                                    <img src="{{ asset('images/iser slider carousel1.jpg') }}"
+                                        class="card-img-top img-fluid img-thumbnail" alt="{{ $research->title }}">
+                                @elseif ($i == 2)
+                                    <img src="{{ asset('images/iser slider carousel8.jpg') }}"
+                                        class="card-img-top img-fluid img-thumbnail" alt="{{ $research->title }}">
+                                @elseif ($i == 3)
+                                    <img src="{{ asset('images/research1.jpg') }}"
+                                        class="card-img-top img-fluid img-thumbnail" alt="{{ $research->title }}">
+                                @elseif ($i == 4)
+                                    <img src="{{ asset('images/research2.jpg') }}"
+                                        class="card-img-top img-fluid img-thumbnail" alt="{{ $research->title }}">
+                                @endif
+                                @php $i++; @endphp
+                                <div class="card-body">
+
+                                    <a href="{{ route('research.single', ['research_status' => $research->research_status, 'slug' => $research->slug]) }}"
+                                        style="text-decoration: none; color: inherit;">
+                                        <p class="card-title fw-bold fs-5">{{ $research->title }}</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+            <div class="p-4">
+                <a href="/projects" class="btn p-3" style="background-color: #01274c; color:white;">All
+                    Researches</a>
+            </div>
+        </div>
+    </div>
+    <!-- latest research section ends -->
+
+    <!-- data section start -->
+
+    <div class="container-fluid text-center bg-light">
         <p class="fw-bold fs-1 py-4" style="color: #01274c;">Data</p>
         <div class="row px-5 mx-5">
             <div class="col-md-12 p-3">
@@ -306,6 +352,8 @@
         </div>
     </div>
     <!-- data section ends -->
+
+
 
     <!-- publication section started -->
 
@@ -373,9 +421,11 @@
     </div>
     <!-- publication ends here -->
 
+
+
     <!-- work with us section start -->
 
-    <div class="container-fluid text-center bg-light">
+    <div class="container-fluid text-center">
         <p class="fw-bold fs-1 py-4" style="color: #01274c;">Work With Us</p>
         <div class="row px-5 mx-5">
             <div class="col-md-12 p-3">

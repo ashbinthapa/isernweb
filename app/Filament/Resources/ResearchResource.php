@@ -53,7 +53,10 @@ class ResearchResource extends Resource
 
                 MarkdownEditor::make('content')
                     ->label('Content')
-                    ->columnSpan('full')
+                    ->columnSpan('full'),
+                
+                Forms\Components\SpatieMediaLibraryFileUpload::make('image')
+                ->imageEditor(),
                 
             ]);
     }

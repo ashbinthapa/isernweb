@@ -12,6 +12,9 @@ use App\Models\Timeline; // Import the Timeline model
 
 use App\Models\Publication; // Import the Timeline model
 
+use App\Models\Research; // Import the Research model
+
+
 
 class HomeController extends Controller
 {
@@ -27,13 +30,16 @@ class HomeController extends Controller
 
         $publications = Publication::latest()->take(8)->get(); // Retrieve all publication from the database
 
+        $latest_research = Research::latest()->take(4)->get(); // Retrieve latest 3 posts from the database
+
 
         $data = [
             'posts_all' => $posts_all,
             'posts_latest_news' => $posts_latest_news,
             'page_about_us' => $page_about_us,
             'timeline_slider' => $timeline_slider,
-            'publications_data' => $publications, 
+            'publications_data' => $publications,
+            'latest_research' => $latest_research,
         ];
         
         return view('index', ['data' => $data]);
