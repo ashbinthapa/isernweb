@@ -18,6 +18,12 @@ class ContactFormResource extends Resource
     protected static ?string $model = ContactForm::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    
+    // function to remove create button form the contact form
+    public static function canCreate(): bool
+    {
+        return false;
+    }
 
     /*
     public static function form(Form $form): Form
