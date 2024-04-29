@@ -516,32 +516,31 @@
                     ways. We also provide valuable training and support to researchers and scholars willing to
                     conduct research in Chitwan Valley or Nepal.</p>
             </div>
-            <div class="row fw-bold fs-5" style="color: #01274c; padding: 60px">
-                <div class="col-md-4 p-4">
+            <div class="row fw-bold fs-5" style="padding: 60px">
+                <div class="col-md-4 p-4" style="color: #01274c;">
                     <a href="/collaboration/collaborate-with-us" style="text-decoration: none"><i
                             class="fa fa-handshake-o pb-4" style="font-size: 50px; color: #01274c;"
                             aria-hidden="true"></i><br>
-                        Collaborate with us</a>
+                        <p style="color: #01274c;">Collaborate with us</p>
+                    </a>
                 </div>
                 <div class="col-md-4 p-4">
                     <a href="/work-with-us/career-at-isern" style="text-decoration: none;"><i
                             class="fa fa-briefcase pb-4" style="font-size: 50px; color: #01274c;"
                             aria-hidden="true"></i><br>
-                        Career</a>
+                        <p style="color: #01274c;">Career</p>
+                    </a>
                 </div>
                 <div class="col-md-4 p-4">
                     <a href="/#" style="text-decoration: none;"><i class="fa fa-graduation-cap pb-4"
                             style="font-size: 50px; color: #01274c;" aria-hidden="true"></i><br>
-                        Internship</a>
+                        <p style="color: #01274c;">Internship</p>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
+    <!-- work with us section ends here -->
 
     <!-- contact us starts here -->
     <div class="container-fluid py-5 bg-light">
