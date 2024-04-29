@@ -77,7 +77,7 @@ class ContactFormResource extends Resource
         return [
             'index' => Pages\ListContactForms::route('/'),
         //    'create' => Pages\CreateContactForm::route('/create'),
-            'view' => Pages\ViewContactForm::route('/{record}'),
+        //    'view' => Pages\ViewContactForm::route('/{record}'),
         //    'edit' => Pages\EditContactForm::route('/{record}/edit'),
         ];
     }
