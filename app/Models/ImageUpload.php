@@ -10,6 +10,6 @@ class ImageUpload extends Model
     use HasFactory;
 
     protected $fillable = [
-        'path'
+        'path',
     ];
 }
