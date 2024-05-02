@@ -2,7 +2,7 @@
         <div class="container-fluid p-5 custom-footer-style footer-details footer-design">
             <div class="row m-5">
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h4>Contact Details</h4>
+                    <h4 class="fw-bold">Contact Details</h4>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-map" aria-hidden="true"></i>
                             Bharatpur-15, Fulbari, Chitwan, Nepal</li>
@@ -25,7 +25,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h4>Forms</h4>
+                    <h4 class="fw-bold">Forms</h4>
                     <ul class="list-unstyled">
                         <li><a href="#"> <i class="fa fa-link" aria-hidden="true"></i>
                                 Proposal Review Form</a></li>
@@ -34,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h4>Important Links</h4>
+                    <h4 class="fw-bold">Important Links</h4>
                     <ul class="list-unstyled">
                         <li><a href="https://cvfs.isr.umich.edu/"> <i class="fa fa-link" aria-hidden="true"></i>
                                 <strong>CVFS</strong>
@@ -44,13 +44,13 @@
                                 <strong>ICPSR</strong>
                                 -University of Michigan</a></li>
                         <li><a href="https://ukdataservice.ac.uk/"> <i class="fa fa-link" aria-hidden="true"></i>
-                                UK Data Service</a></li>
+                                <strong>UK Data Service</strong></a></li>
                         <li><a href="http://idea.isernepal.org/"> <i class="fa fa-link" aria-hidden="true"></i>
-                                IDEA</a></li>
+                                <strong>IDEA</strong></a></li>
                         <li><a href="https://famelo.netlify.app/"> <i class="fa fa-link" aria-hidden="true"></i>
-                                FAMELO</a></li>
+                                <strong>FAMELO</strong></a></li>
                         <li><a href="http://loaf.isernepal.org/"> <i class="fa fa-link" aria-hidden="true"></i>
-                                LOAF</a></li>
+                                <strong>LOAF</strong></a></li>
                         <li><a href="http://home.isr.umich.edu/"> <i class="fa fa-link" aria-hidden="true"></i>
                                 <strong>ISR</strong>
                                 -University of Michigan</a></li>
@@ -69,7 +69,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h4>Latest Events/News</h4>
+                    <h4 class="fw-bold">Latest Events/News</h4>
                     <div class="sh-recent-posts-widgets">
                         @foreach ($posts_latest_news as $post)
                             <div class="sh-recent-posts-widgets-item">
@@ -78,7 +78,7 @@
                                         href="/posts/category/{{ $post->category->name }}">{{ $post->category->name }}</a>
                                 </span>
                                 <a href="{{ route('posts.show', ['slug' => $post->slug]) }}">
-                                    <h6>{{ $post->title }}</h6>
+                                    <h6 class="fw-bold">{{ $post->title }}</h6>
                                 </a>
                             </div>
                         @endforeach
