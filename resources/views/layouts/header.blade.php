@@ -22,8 +22,8 @@
     </div>
     <header class="sticky-md-top justify-content-center">
         {{-- section for the main header menu nav bar section --}}
-        <nav class="navbar navbar-expand-xl px-5 justify-content-center fw-bold" style="background-color: #5b79b9;">
-            <div class="container-fluid px-5">
+        <nav class="navbar navbar-expand-xl justify-content-center fw-bold" style="background-color: #5b79b9;">
+            <div class="container-fluid">
                 {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
