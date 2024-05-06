@@ -26,8 +26,8 @@
             <div class="container-fluid">
                 {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -35,8 +35,8 @@
 
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="{{ url('/') }}"><i class="fa fa-home"
-                                    aria-hidden="true"></i> Home</a>
+                            <a class="nav-link active" aria-current="true" href="{{ url('/') }}"><i
+                                    class="fa fa-home" aria-hidden="true"></i> Home</a>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"

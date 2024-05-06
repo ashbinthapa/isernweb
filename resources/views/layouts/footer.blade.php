@@ -115,42 +115,7 @@
     <script src="{{ asset('bootstrap-5.3.3-dist/js/popper.min.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.bundle.js') }}"></script>
-    {{-- script for hover down delay not working --}}
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var dropdowns = document.querySelectorAll(".hover-dropdown");
 
-            dropdowns.forEach(function(dropdown) {
-                var timeout;
-                dropdown.addEventListener("mouseenter", function() {
-                    clearTimeout(timeout);
-                    var menu = dropdown.querySelector(".dropdown-menu");
-                    menu.classList.remove("delayed");
-                });
-                dropdown.addEventListener("mouseleave", function() {
-                    var menu = dropdown.querySelector(".dropdown-menu");
-                    timeout = setTimeout(function() {
-                        menu.classList.add("delayed");
-                    }, 2000); // Adjust the delay time here (in milliseconds)
-                });
-
-                // Add event listener to sub-level dropdowns
-                var submenus = dropdown.querySelectorAll(".dropdown-submenu");
-
-                submenus.forEach(function(submenu) {
-                    submenu.addEventListener("mouseenter", function() {
-                        clearTimeout(timeout);
-                    });
-                    submenu.addEventListener("mouseleave", function() {
-                        var menu = submenu.querySelector(".dropdown-menu");
-                        timeout = setTimeout(function() {
-                            menu.classList.add("delayed");
-                        }, 2000); // Adjust the delay time here (in milliseconds)
-                    });
-                });
-            });
-        });
-    </script>
     {{-- script for header search --}}
     <script>
         // Add an event listener to the form submission
