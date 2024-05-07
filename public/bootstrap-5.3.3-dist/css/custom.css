@@ -119,7 +119,7 @@ body {
 .navbar-header-ul .nav-link:hover,
 .navbar-header-ul .nav-link:focus,
 .navbar-header-ul .nav-link.active {
-  color: white;}
+  color: #f2c100;}
 
 /* Position submenu to the right */
 .dropdown-submenu .dropdown-menu {
