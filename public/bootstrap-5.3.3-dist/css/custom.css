@@ -29,24 +29,24 @@
 }
 
 .custom-footer-style{
-    color: white;
-    background: linear-gradient(125deg, rgb(1, 39, 76), rgb(63, 113, 114));
+  color: white;
+  background: linear-gradient(125deg, rgb(1, 39, 76), rgb(63, 113, 114));
 }
 
 .footer-design h4:after {
-    content: '';
-    display: block;
-    width: 35px;
-    height: 3px;
-    background: #fde428;
-    border-radius: 3px;
-    margin: 10px 0 0;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 3px;
+  background: #fde428;
+  border-radius: 3px;
+  margin: 10px 0 0;
 }
 
 
 /*increasing the size of social icons in footer*/
 a.social-icons-size {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 
@@ -165,4 +165,9 @@ body {
 .custom-button:hover {
   background-color: #031c37;
   /* Darken the color a bit on hover */
+}
+
+/*index page updates css*/
+.breaking-updates {
+  margin-bottom: -7px;
 }

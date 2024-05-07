@@ -2,21 +2,21 @@
 
 <body>
     <!-- start updates section -->
-    <div class="row">
-        <div class="col-1 col-sm-1 col-md-1 col-lg-1 pe-md-0 mb-md-1">
+    <div class="row breaking-updates">
+        <div class="col-1">
             <div class="d-inline-block d-md-block bg-danger text-white text-center breaking-caret fw-bold">
                 UPDATES
             </div>
         </div>
         <!--update content-->
-        <div class="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+        <div class="col-10">
             <div class="breaking-box">
                 <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseleave="this.start();">
                     @foreach ($data['posts_all'] as $post)
                         <a class="h6 fw-bold" href="{{ route('posts.show', ['slug' => $post->slug]) }}"
-                            style="text-decoration: none;">
+                            style="text-decoration: none; font-size: 14px;">
                             <span class="position-relative mx-2 badge rounded-0 font-weight-bold"
-                                style="background-color: #05264b">{{ $post->category->name }}</span>
+                                style="background-color: #05264b;">{{ $post->category->name }}</span>
                             {{ $post->title }}
                         </a>
                     @endforeach
