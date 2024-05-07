@@ -202,7 +202,7 @@
 
                     </ul>
                     <form class="d-flex" id="searchForm">
-                        <input class="form-control me-2" id="searchInput" type="search" placeholder="Search"
+                        <input class="form-control" id="searchInput" type="search" placeholder="Search"
                             aria-label="Search">
                         <button class="custom-button" type="submit">Search</button>
                     </form>
