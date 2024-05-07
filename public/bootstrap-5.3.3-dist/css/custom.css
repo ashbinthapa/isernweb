@@ -52,47 +52,47 @@ a.social-icons-size {
 
 /* timeline section css starts*/
 .horizontal-timeline .items {
-    border-top: 3px solid #e9ecef;
-  }
+  border-top: 3px solid #e9ecef;
+}
   
+.horizontal-timeline .items .items-list {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 0;
+}
+  
+.horizontal-timeline .items .items-list:before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
+}
+
+.horizontal-timeline .items .items-list .event-date {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  margin: 10px auto;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+@media (min-width: 1140px) {
   .horizontal-timeline .items .items-list {
-    display: block;
-    position: relative;
-    text-align: center;
-    padding-top: 70px;
-    margin-right: 0;
+    display: inline-block;
+    width: 100%;
+    padding-top: 45px;
   }
-  
-  .horizontal-timeline .items .items-list:before {
-    content: "";
-    position: absolute;
-    height: 36px;
-    border-right: 2px dashed #dee2e6;
-    top: 0;
-  }
-  
+
   .horizontal-timeline .items .items-list .event-date {
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 200px;
-    height: 50px;
-    margin: 10px auto;
-    font-size: 0.9rem;
-    padding: 10px;
+    top: -40px;
   }
-  
-  @media (min-width: 1140px) {
-    .horizontal-timeline .items .items-list {
-      display: inline-block;
-      width: 100%;
-      padding-top: 45px;
-    }
-  
-    .horizontal-timeline .items .items-list .event-date {
-      top: -40px;
-    }
-  }
+}
 
 /* timeline section css ends*/
 
@@ -119,8 +119,7 @@ body {
 .navbar-header-ul .nav-link:hover,
 .navbar-header-ul .nav-link:focus,
 .navbar-header-ul .nav-link.active {
-  color: #f2c100;
-}
+  color: white;}
 
 /* Position submenu to the right */
 .dropdown-submenu .dropdown-menu {
@@ -129,13 +128,13 @@ body {
 
 /* Set text color and background color for dropdown items */
 .navbar-header-ul .dropdown-menu .dropdown-item {
-  color: white;
+  color: #f2c100;
   background-color: #05264b;
+  font-size: 14px;
 }
 
 /* Change background color and text color when hovering over dropdown items */
 .navbar-header-ul .dropdown-menu .dropdown-item:hover {
-  background-color: #f2c100;
   color: white;
 }
 
