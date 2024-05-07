@@ -14,7 +14,7 @@
                 <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseleave="this.start();">
                     @foreach ($data['posts_all'] as $post)
                         <a class="h6 fw-bold" href="{{ route('posts.show', ['slug' => $post->slug]) }}"
-                            style="text-decoration: none; font-size: 14px;">
+                            style="text-decoration: none;">
                             <span class="position-relative mx-2 badge rounded-0 font-weight-bold"
                                 style="background-color: #05264b;">{{ $post->category->name }}</span>
                             {{ $post->title }}

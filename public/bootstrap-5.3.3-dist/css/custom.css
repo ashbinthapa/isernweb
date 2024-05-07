@@ -170,4 +170,6 @@ body {
 /*index page updates css*/
 .breaking-updates {
   margin-bottom: -7px;
+  color: #696969;
+  font-size: 14px;
 }
