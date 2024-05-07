@@ -1,6 +1,11 @@
 @include('layouts.header')
 
 <body>
+    {{-- move to tp button started --}}
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    {{-- move to top button end --}}
+
     <!-- start updates section -->
     <div class="row breaking-updates">
         <div class="col-1">
