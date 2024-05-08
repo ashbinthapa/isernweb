@@ -140,25 +140,21 @@ body {
   background-color: #05264b;
   color: white;
   border: none;
-  padding: 2px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 4px 2px;
+  padding: 0px 8px 0 8px;;
+  font-size: 10px;
   border-radius: 10px;
+  font-weight: 600;
   /* This will change the text color to white for better visibility */
 }
 
 /* Optional: You can adjust other button properties as needed */
 .custom-button-search:hover {
-  background-color: #031c37;
-  /* Darken the color a bit on hover */
+  background-color: #f2c100;  /* Darken the color a bit on hover */
 }
 
 /*index page updates css*/
 .breaking-updates {
-  margin-bottom: -7px;
+  margin-bottom: -8px;
   color: #696969;
   font-size: 14px;
 }
