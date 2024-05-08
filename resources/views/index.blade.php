@@ -184,9 +184,8 @@
                         knowledge into practice.</p>
                 </div>
                 <div class="col-md-12 p-4">
-                    <a href="/about-us" class="btn btn-lg fw-bold"
-                        style="background-color: #01274c; color: white; font-size: 14px;">Find
-                        More...</a>
+                    <a href="/about-us"><button class="custom-button fw-bold">Find
+                            More...</button></a>
                 </div>
             </div>
         </div>

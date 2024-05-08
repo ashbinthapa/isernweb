@@ -208,3 +208,16 @@ body {
   background-color: #f2c100;
   /* Add a dark-grey background on hover */
 }
+
+/*css for the overall buttons in the site*/
+.custom-button {
+  background-color: #031c37;
+  font-size: 14px;
+  border-radius: 100px;
+  color: white;
+  padding: 15px 30px 15px 30px;
+}
+
+.custom-button:hover {
+  background-color: #f2c100;
+}
