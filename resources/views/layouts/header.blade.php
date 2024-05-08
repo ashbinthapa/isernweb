@@ -204,7 +204,7 @@
                     <form class="d-flex" id="searchForm">
                         <input class="form-control" id="searchInput" type="search" placeholder="Search"
                             aria-label="Search">
-                        <button class="custom-button" type="submit">Search</button>
+                        <button class="custom-button-search" type="submit">Search</button>
                     </form>
                 </div>
             </div>

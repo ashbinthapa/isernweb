@@ -211,25 +211,20 @@
                                     <div class="horizontal-timeline">
                                         <ul class="list-inline items">
                                             <li class="list-inline-item items-list px-3">
-
                                                 <div class="event-date badge" style="background-color: #01274c;">
                                                     {{ $timeline->start_date }}
                                                 </div>
-
                                                 <div class="row card pb-2 pt-2">
                                                     <div>
                                                         <p class="fs-6">{{ $timeline->title }}</p>
                                                     </div>
                                                     <div>
-
                                                         <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}"
                                                             class="btn btn-sm"
                                                             style="background-color: #01274c; color:white;">Read
                                                             more</a>
-
                                                     </div>
                                                 </div>
-
                                             </li>
                                         </ul>
                                     </div>

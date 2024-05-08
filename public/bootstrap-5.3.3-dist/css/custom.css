@@ -24,8 +24,8 @@
 }
 
 .footer-details a {
-    text-decoration: none !important; /* Remove underlines from anchor tags */
-    color: white;
+  text-decoration: none !important; /* Remove underlines from anchor tags */
+  color: white;
 }
 
 .custom-footer-style{
@@ -82,17 +82,6 @@ a.social-icons-size {
   padding: 10px;
 }
 
-@media (min-width: 1140px) {
-  .horizontal-timeline .items .items-list {
-    display: inline-block;
-    width: 100%;
-    padding-top: 45px;
-  }
-
-  .horizontal-timeline .items .items-list .event-date {
-    top: -40px;
-  }
-}
 
 /* timeline section css ends*/
 
@@ -147,7 +136,7 @@ body {
 
 
 /*search button color*/
-.custom-button {
+.custom-button-search {
   background-color: #05264b;
   color: white;
   border: none;
@@ -162,7 +151,7 @@ body {
 }
 
 /* Optional: You can adjust other button properties as needed */
-.custom-button:hover {
+.custom-button-search:hover {
   background-color: #031c37;
   /* Darken the color a bit on hover */
 }
