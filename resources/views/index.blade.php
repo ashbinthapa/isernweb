@@ -164,14 +164,14 @@
     <!-- about us section start -->
     @if ($data['page_about_us'])
         <div class="container-fluid text-center bg-light">
-            <h4 class="pt-5 pb-2 fs-4  fw-bold" style="color: #01274c;">Improving Human Lives
+            <h4 class="pt-5 pb-2 fw-bold" style="color: #01274c; font-size: 21px;">Improving Human Lives
                 and Environmental Conditions</h4>
-            <h2 class="fw-bold fs-2" style="color: #01274c;">Institute for
+            <h2 class="fw-bold" style="color: #01274c; font-size: 36px;">Institute for
                 Social
                 and Environmental Research – Nepal (ISER-N)</h2>
-            <div class="row px-5 mx-5">
-                <div class="col-md-12 p-3">
-                    <p class="fs-6" style="padding: 0px 200px 0px 200px">ISER-N is a premier research and
+            <div class="row m-3 justify-content-md-center">
+                <div class="col-md-9">
+                    <p style="font-size: 14px;">ISER-N is a premier research and
                         development
                         institute.
                         ISER-N’s work focuses
@@ -184,8 +184,9 @@
                         knowledge into practice.</p>
                 </div>
                 <div class="col-md-12 p-4">
-                    <a href="/about-us" class="btn btn-lg" style="background-color: #01274c; color: white ">Find
-                        More</a>
+                    <a href="/about-us" class="btn btn-lg fw-bold"
+                        style="background-color: #01274c; color: white; font-size: 14px;">Find
+                        More...</a>
                 </div>
             </div>
         </div>
