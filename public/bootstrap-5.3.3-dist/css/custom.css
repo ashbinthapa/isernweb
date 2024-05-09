@@ -206,3 +206,30 @@ body {
 .custom-button:hover {
   background-color: #f2c100;
 }
+
+
+/* Mobile */
+@media (max-width: 480px) {
+  /* Your CSS styles for mobile devices */
+  
+}
+
+/* Mobile Landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+  /* Your CSS styles for mobile landscape */
+}
+
+/* Tablet */
+@media (max-width: 834px) {
+  /* Your CSS styles for tablets */
+}
+
+/* Tablet Landscape */
+@media (max-width: 1024px) and (orientation: landscape) {
+  /* Your CSS styles for tablet landscape */
+}
+
+/* Laptop */
+@media (max-width: 1440px) {
+  /* Your CSS styles for laptops */
+}
