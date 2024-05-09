@@ -207,7 +207,7 @@
                     <div class="container-fluid py-5">
                         <div class="row">
                             @foreach ($chunk as $timeline)
-                                <div class="col-lg-3">
+                                <div class="col">
                                     <div class="horizontal-timeline">
                                         <ul class="list-inline items">
                                             <li class="list-inline-item items-list px-3">
