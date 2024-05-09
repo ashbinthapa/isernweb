@@ -219,10 +219,9 @@
                                                         <p class="fs-6">{{ $timeline->title }}</p>
                                                     </div>
                                                     <div>
-                                                        <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}"
-                                                            class="btn btn-sm"><button
-                                                                class="custom-button fw-bold">Read
-                                                                more</button></a>
+                                                        <a
+                                                            href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}">Read
+                                                            more</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -332,9 +331,9 @@
 
     <div class="container-fluid text-center bg-light">
         <p class="fw-bold fs-1 py-4" style="color: #01274c;">Data</p>
-        <div class="row px-5 mx-5">
-            <div class="col-md-12 p-3">
-                <p class="fs-6" style="padding: 0px 200px 0px 200px">ISER-N in collaboration with universities and
+        <div class="row px-5 m-3 justify-content-md-center">
+            <div class="col-md-9">
+                <p style="font-size: 14px;">ISER-N in collaboration with universities and
                     research organizations in Nepal and abroad has collected a large number of longitudinal panel and
                     cross-sectional data on various topics. ISER-N has collected a wide range of data on population
                     health (psychological and physical health), environment, population dynamics, family change,
@@ -503,9 +502,9 @@
 
     <div class="container-fluid text-center">
         <p class="fw-bold fs-1 py-4" style="color: #01274c;">Work With Us</p>
-        <div class="row px-5 mx-5">
-            <div class="col-md-12 p-3">
-                <p class="fs-6" style="padding: 0px 200px 0px 200px">ISER-N is a premier research and
+        <div class="row m-3 justify-content-md-center">
+            <div class="col-md-9">
+                <p style="font-size: 14px;">ISER-N is a premier research and
                     In decades, ISER-N has successfully maintained partnerships with various universities, research
                     organizations, and researchers, both in Nepal and abroad. ISER-N is also connected to the
                     respondents who share their thoughts and experiences in response to the questionnaire. It has
