@@ -204,7 +204,7 @@
         <div class="carousel-inner">
             @foreach ($data['timeline_slider']->chunk(4) as $index => $chunk)
                 <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
-                    <div class="container-fluid py-5">
+                    <div class="container-fluid p-5">
                         <div class="row">
                             @foreach ($chunk as $timeline)
                                 <div class="col">
@@ -220,9 +220,9 @@
                                                     </div>
                                                     <div>
                                                         <a href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}"
-                                                            class="btn btn-sm"
-                                                            style="background-color: #01274c; color:white;">Read
-                                                            more</a>
+                                                            class="btn btn-sm"><button
+                                                                class="custom-button fw-bold">Read
+                                                                more</button></a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -271,8 +271,8 @@
                                     <p class="card-title fw-bold fs-5">{{ $post->title }}</p>
                                 </a>
                                 <p class="card-text">{{ $post->excerpt() }}</p>
-                                <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"
-                                    style="background-color: #01274c; color:white;">Read More</a>
+                                <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"><button
+                                        class="custom-button fw-bold">Read More</button></a>
                             </div>
                         </div>
                     </div>
@@ -321,8 +321,8 @@
                 </div>
             </div>
             <div class="p-4">
-                <a href="/projects" class="btn p-3" style="background-color: #01274c; color:white;">All
-                    Researches</a>
+                <a href="/projects" class="btn p-3"><button class="custom-button fw-bold">All
+                        Researches</button></a>
             </div>
         </div>
     </div>
@@ -347,7 +347,7 @@
                     the following link listed below.</p>
             </div>
             <div class="p-4">
-                <a href="/data" class="btn p-3" style="background-color: #01274c; color:white;">Find More</a>
+                <a href="/data" class="btn p-3"><button class="custom-button fw-bold">Find More</button></a>
             </div>
         </div>
     </div>
@@ -415,8 +415,8 @@
             </nav>
         </div>
         <div class="p-4 text-center">
-            <a href="/publications" class="btn p-3" style="background-color: #01274c; color:white;">All
-                Publications</a>
+            <a href="/publications" class="btn p-3"><button class="custom-button fw-bold">All
+                    Publications</button></a>
         </div>
     </div>
     <!-- publication ends here -->
@@ -492,8 +492,8 @@
                 </div>
             </div>
             <div class="p-4">
-                <a href="/projects" class="btn p-3" style="background-color: #01274c; color:white;">All
-                    Researches</a>
+                <a href="/projects" class="btn p-3"><button class="custom-button fw-bold">All
+                        Researches</button></a>
             </div>
         </div>
     </div>
@@ -581,7 +581,7 @@
                             <textarea name="message" class="form-control" rows="5"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                    <button type="submit" class="btn btn-primary custom-button fw-bold">Subscribe</button>
                 </form>
             </div>
         </div>

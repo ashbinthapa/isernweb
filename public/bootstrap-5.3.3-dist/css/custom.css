@@ -76,10 +76,10 @@ a.social-icons-size {
   position: absolute;
   left: 0;
   right: 0;
-  width: 200px;
+  width: 80%;
   height: 50px;
   margin: 10px auto;
-  font-size: 0.9rem;
+  font-size: 14px;
   padding: 10px;
   top: -40px;
 }
