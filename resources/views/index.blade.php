@@ -495,10 +495,6 @@
                     </div>
                 </div>
             </div>
-            <div class="p-4">
-                <a href="/projects" class="btn p-3"><button class="custom-button fw-bold">All
-                        Researches</button></a>
-            </div>
         </div>
     </div>
     <!-- policy and interventions research section ends -->
@@ -547,7 +543,7 @@
     <!-- work with us section ends here -->
 
     <!-- contact us starts here -->
-    <div class="container-fluid py-5 bg-light">
+    <div class="container-fluid py-5 bg-light background-image-contact-us">
         <div class="row justify-content-center"> <!-- Centering the row -->
             <div class="col-md-8"> <!-- Adjust the column width as needed -->
                 <div class="mb-3 text-center"> <!-- Centering the content -->
@@ -568,24 +564,32 @@
                     <!-- Centering the form -->
                     @csrf
                     <div class="mb-3">
-                        <label for="name" class="form-label"> Your Name</label>
+                        <label for="name" class="form-label fw-bold" style="font-size: 14px; color: #01274c;">
+                            Your Name <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                        </label>
                         <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
                             <input type="text" name="name" class="form-control" required>
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Your Email</label>
+                        <label for="email" class="form-label fw-bold"
+                            style="font-size: 14px; color: #01274c;">Your Email <i class="fa fa-envelope-o"
+                                aria-hidden="true"></i>
+                        </label>
                         <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
                             <input type="email" name="email" class="form-control" required>
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
+                        <label for="message" class="form-label fw-bold"
+                            style="font-size: 14px; color: #01274c;">Message <i class="fa fa-comment"
+                                aria-hidden="true"></i>
+                        </label>
                         <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
                             <textarea name="message" class="form-control" rows="5"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary custom-button fw-bold">Subscribe</button>
+                    <button type="submit" class="custom-button fw-bold">Subscribe</button>
                 </form>
             </div>
         </div>

@@ -234,3 +234,10 @@ body {
 @media (max-width: 1440px) {
   /* Your CSS styles for laptops */
 }
+
+.background-image-contact-us {
+  background-image: url(https://isernepal.org.np/wp-content/uploads/2023/09/Picture1.jpg?id=4267) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
