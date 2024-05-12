@@ -241,3 +241,12 @@ body {
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
+
+.history-more-details-button {
+  text-decoration: none;
+  display: inline-block;
+  /* Change display to inline-block */
+  font-size: 20px;
+  color: white;
+  background-color: #05264b;
+}

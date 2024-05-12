@@ -220,10 +220,10 @@
                                                         <p class="fs-6">{{ $timeline->title }}</p>
                                                     </div>
                                                     <div>
-                                                        <a style="text-decoration: none;"
+                                                        <a class="history-more-details-button badge rounded-0 fw-bold"
                                                             href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}">
-                                                            <p>
-                                                                More Details</p>
+                                                            More Details
+
                                                         </a>
                                                     </div>
                                                 </div>
