@@ -193,7 +193,7 @@
                                                 Respondent</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                <li><a class="dropdown-item" href="/about-us/gallery">Gallery</a></li>
                                 <li><a class="dropdown-item" href="{{ asset('/contact') }}">Contact</a></li>
                             </ul>
                         </li>
