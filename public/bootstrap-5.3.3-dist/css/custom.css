@@ -251,7 +251,21 @@ body {
   background-color: #05264b;
 }
 
-.carousel-item img {
-  max-width: 100%;
-  height: auto;
+/* css for index page collaboration section starts */
+.collaboration-image-design {
+  padding: 0 50px 0 50px;
 }
+
+.collaboration-image-design img {
+  max-width: 80%;
+  height: auto;
+  padding: 0 50px 50px 50px;
+}
+
+.collaboration-image-design .carousel-item .col-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* css for index page collaboration section ends */

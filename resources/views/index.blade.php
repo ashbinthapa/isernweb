@@ -549,7 +549,7 @@
                 <p class="fw-bold fs-1" style="color: #01274c;">Collaboration</p>
             </div>
         </div>
-        <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+        <div id="imageSlider" class="carousel slide collaboration-image-design" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row">
