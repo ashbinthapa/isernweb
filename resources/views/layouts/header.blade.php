@@ -197,9 +197,6 @@
                                 <li><a class="dropdown-item" href="{{ asset('/contact') }}">Contact</a></li>
                             </ul>
                         </li>
-
-
-
                     </ul>
                     <form class="d-flex" id="searchForm">
                         <input class="form-control" id="searchInput" type="search" placeholder="Search"

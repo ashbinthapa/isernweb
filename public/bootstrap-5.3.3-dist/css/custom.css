@@ -250,3 +250,8 @@ body {
   color: white;
   background-color: #05264b;
 }
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}

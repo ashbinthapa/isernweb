@@ -542,6 +542,89 @@
     </div>
     <!-- work with us section ends here -->
 
+    <!-- collaboration section starts -->
+    <div id="carouselExampleControls" class="carousel slide text-center bg-light" data-bs-ride="carousel">
+        <div class="row">
+            <div class="col-md-12 py-5">
+                <p class="fw-bold fs-1" style="color: #01274c;">Collaboration</p>
+            </div>
+        </div>
+        <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 1">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 2">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 3">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 1">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 2">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 3">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 1">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 2">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 3">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
+                                class="d-block w-100" alt="Image 4">
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more carousel items here -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- collaboration section ends -->
+
     <!-- contact us starts here -->
     <div class="container-fluid py-5 bg-light background-image-contact-us">
         <div class="row justify-content-center"> <!-- Centering the row -->
