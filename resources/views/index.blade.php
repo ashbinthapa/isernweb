@@ -555,59 +555,155 @@
                     <div class="row">
                         <div class="col-3">
                             <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 1">
+                                class="d-block w-100" alt="1">
                         </div>
                         <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 2">
+                            <img src="{{ asset('images/international collaboration/1200px-University_of_Chicago_shield.svg_.png') }}"
+                                class="d-block w-100" alt="2">
                         </div>
                         <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 3">
+                            <img src="{{ asset('images/international collaboration/1200px-University_of_Illinois_seal.svg_.png') }}"
+                                class="d-block w-100" alt="3">
                         </div>
                         <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 4">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 1">
-                        </div>
-                        <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 2">
-                        </div>
-                        <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 3">
-                        </div>
-                        <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 4">
+                            <img src="{{ asset('images/international collaboration/2015-Penn-State-University-logo-design-2.png') }}"
+                                class="d-block w-100" alt="4">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 1">
+                            <img src="{{ asset('images/international collaboration/a35b71804f6dd902d19458d830536185-university-michigan-u-of-m.jpg') }}"
+                                class="d-block w-100" alt="5">
                         </div>
                         <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 2">
+                            <img src="{{ asset('images/international collaboration/brown-300x149.png') }}"
+                                class="d-block w-100" alt="6">
                         </div>
                         <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 3">
+                            <img src="{{ asset('images/international collaboration/CABI_Logo_Accessible_RGB2.png') }}"
+                                class="d-block w-100" alt="7">
                         </div>
                         <div class="col-3">
-                            <img src="{{ asset('images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png') }}"
-                                class="d-block w-100" alt="Image 4">
+                            <img src="{{ asset('images/international collaboration/Cardiff_University-9A1akwptkym-MgziUdThDSRllCG-i_mH.jpg') }}"
+                                class="d-block w-100" alt="8">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/CAS_logo_2.png') }}"
+                                class="d-block w-100" alt="9">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/chester_zoo_8.png') }}"
+                                class="d-block w-100" alt="10">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/Chpel_hill.jpg') }}"
+                                class="d-block w-100" alt="11">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/d93fa4942488ae36649b5c0caf8bf804.jpg') }}"
+                                class="d-block w-100" alt="12">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/download_1.png') }}"
+                                class="d-block w-100" alt="13">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/download_2.png') }}"
+                                class="d-block w-100" alt="14">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/download.png') }}"
+                                class="d-block w-100" alt="15">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/EvK2CNRo-co1.jpg') }}"
+                                class="d-block w-100" alt="16">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/hard.jpg') }}"
+                                class="d-block w-100" alt="17">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/Kansas_State_University_Logo_copy.png') }}"
+                                class="d-block w-100" alt="18">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/logo-ESRC-213x120.jpg') }}"
+                                class="d-block w-100" alt="19">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/logo-ucberkeley.png') }}"
+                                class="d-block w-100" alt="20">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/mcgill.jpg') }}"
+                                class="d-block w-100" alt="21">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/MIDS.jpg') }}"
+                                class="d-block w-100" alt="22">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/R5WJI2Z5_400x400.jpg') }}"
+                                class="d-block w-100" alt="23">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/Seal_of_the_Ohio_State_University.png') }}"
+                                class="d-block w-100" alt="24">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/University-of-West-Georgia1.jpg') }}"
+                                class="d-block w-100" alt="25">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/international collaboration/UW_Seal2.png') }}"
+                                class="d-block w-100" alt="26">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/other collaborations/AFU_Logo.png') }}" class="d-block w-100"
+                                alt="27">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/other collaborations/bharatpur-_logo-1024x1024 (1).png') }}"
+                                class="d-block w-100" alt="28">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="{{ asset('images/other collaborations/bharatpur-_logo-1024x1024.png') }}"
+                                class="d-block w-100" alt="29">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/other collaborations/manipal-logo.png') }}"
+                                class="d-block w-100" alt="30">
+                        </div>
+                        <div class="col-3">
+                            <img src="{{ asset('images/other collaborations/Nepal-Government-logo.png') }}"
+                                class="d-block w-100" alt="31">
                         </div>
                     </div>
                 </div>
@@ -692,7 +788,8 @@
                         {{ session('success') }}
                     @endif
                 </div>
-                <div class="modal-footer justify-content-center"> <!-- Centering the modal footer buttons -->
+                <div class="modal-footer justify-content-center">
+                    <!-- Centering the modal footer buttons -->
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
