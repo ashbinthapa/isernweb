@@ -257,9 +257,10 @@ body {
 }
 
 .collaboration-image-design img {
-  max-width: 80%;
+  max-width: 300px;
   height: auto;
   padding: 0 50px 50px 50px;
+  max-height: 300px;
 }
 
 .collaboration-image-design .carousel-item .col-3 {
