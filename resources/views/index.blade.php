@@ -296,41 +296,43 @@
                     @php $i = 1; @endphp
                     @foreach ($data['latest_research'] as $research)
                         <div class="col p-2">
-                            <div class="card h-100">
+                            <!-- Card content -->
+                            <!-- Image -->
+                            @if ($i == 1)
+                                <img src="{{ asset('images/iser slider carousel1.jpg') }}" class="index-image-size"
+                                    alt="{{ $research->title }}">
+                            @elseif ($i == 2)
+                                <img src="{{ asset('images/iser slider carousel8.jpg') }}" class="index-image-size"
+                                    alt="{{ $research->title }}">
+                            @elseif ($i == 3)
+                                <img src="{{ asset('images/research1.jpg') }}" class="index-image-size"
+                                    alt="{{ $research->title }}">
+                            @elseif ($i == 4)
+                                <img src="{{ asset('images/research2.jpg') }}" class="index-image-size"
+                                    alt="{{ $research->title }}">
+                            @endif
+                            @php $i++; @endphp
 
-                                @if ($i == 1)
-                                    <img src="{{ asset('images/iser slider carousel1.jpg') }}"
-                                        class="card-img-top img-fluid img-thumbnail" alt="{{ $research->title }}">
-                                @elseif ($i == 2)
-                                    <img src="{{ asset('images/iser slider carousel8.jpg') }}"
-                                        class="card-img-top img-fluid img-thumbnail" alt="{{ $research->title }}">
-                                @elseif ($i == 3)
-                                    <img src="{{ asset('images/research1.jpg') }}"
-                                        class="card-img-top img-fluid img-thumbnail" alt="{{ $research->title }}">
-                                @elseif ($i == 4)
-                                    <img src="{{ asset('images/research2.jpg') }}"
-                                        class="card-img-top img-fluid img-thumbnail" alt="{{ $research->title }}">
-                                @endif
-                                @php $i++; @endphp
-                                <div class="card-body">
-
-                                    <a href="{{ route('research.single', ['research_status' => $research->research_status, 'slug' => $research->slug]) }}"
-                                        style="text-decoration: none; color: inherit;">
-                                        <p class="card-title fw-bold fs-5">{{ $research->title }}</p>
-                                    </a>
-                                </div>
+                            <!-- Card body -->
+                            <div class="card-body">
+                                <a href="{{ route('research.single', ['research_status' => $research->research_status, 'slug' => $research->slug]) }}"
+                                    style="text-decoration: none; color: inherit;">
+                                    <p class="card-title fw-bold px-5" style="font-size: 14px;">
+                                        {{ $research->title }}</p>
+                                </a>
                             </div>
                         </div>
                     @endforeach
                 </div>
             </div>
+            <!-- Button -->
             <div class="p-4">
-                <a href="/projects" class="btn p-3"><button class="custom-button fw-bold">All
-                        Researches</button></a>
+                <a href="/projects" class="btn p-3"><button class="custom-button fw-bold">All Researches</button></a>
             </div>
         </div>
     </div>
     <!-- latest research section ends -->
+
 
     <!-- data section start -->
 
