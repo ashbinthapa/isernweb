@@ -270,3 +270,11 @@ body {
 }
 
 /* css for index page collaboration section ends */
+
+/*css for index page policy and interventions section image size starts*/
+.index-image-size {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+/*css for index page policy and interventions section image size ends*/

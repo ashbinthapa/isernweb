@@ -433,71 +433,49 @@
         <div class="row px-5 mx-5">
             <div class="col-md-12 p-3">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <!-- Card 1 -->
                     <div class="col p-2">
-                        <div class="card h-100">
-
-                            <img src="{{ asset('images/iser slider carousel1.jpg') }}"
-                                class="card-img-top img-fluid img-thumbnail" alt="">
-
-
-                            <div class="card-body">
-
-                                <a href="/policy-and-interventions/Intervention"
-                                    style="text-decoration: none; color: inherit;">
-                                    <p class="card-title fw-bold fs-5">Program Achievement</p>
-                                </a>
-                            </div>
-                        </div>
+                        <!-- Card content -->
+                        <img src="{{ asset('images/iser slider carousel1.jpg') }}" class="index-image-size"
+                            alt="">
+                        <a href="/policy-and-interventions/Intervention"
+                            style="text-decoration: none; color: inherit;">
+                            <p class="card-title fw-bold fs-5">Program Achievement</p>
+                        </a>
                     </div>
+                    <!-- Card 2 -->
                     <div class="col p-2">
-                        <div class="card h-100">
-
-                            <img src="{{ asset('images/iser slider carousel8.jpg') }}"
-                                class="card-img-top img-fluid img-thumbnail" alt="">
-
-                            <div class="card-body">
-
-                                <a href="/policy-and-interventions/policy-feedback/"
-                                    style="text-decoration: none; color: inherit;">
-                                    <p class="card-title fw-bold fs-5">Policy Feedback</p>
-                                </a>
-                            </div>
-                        </div>
+                        <!-- Card content -->
+                        <img src="{{ asset('images/iser slider carousel8.jpg') }}" class="index-image-size"
+                            alt="">
+                        <a href="/policy-and-interventions/policy-feedback/"
+                            style="text-decoration: none; color: inherit;">
+                            <p class="card-title fw-bold fs-5">Policy Feedback</p>
+                        </a>
                     </div>
+                    <!-- Card 3 -->
                     <div class="col p-2">
-                        <div class="card h-100">
-
-                            <img src="{{ asset('images/research1.jpg') }}"
-                                class="card-img-top img-fluid img-thumbnail" alt="">
-
-                            <div class="card-body">
-
-                                <a href="/dissemination" style="text-decoration: none; color: inherit;">
-                                    <p class="card-title fw-bold fs-5">Dissemination</p>
-                                </a>
-                            </div>
-                        </div>
+                        <!-- Card content -->
+                        <img src="{{ asset('images/research1.jpg') }}" class="index-image-size" alt="">
+                        <a href="/dissemination" style="text-decoration: none; color: inherit;">
+                            <p class="card-title fw-bold fs-5">Dissemination</p>
+                        </a>
                     </div>
+                    <!-- Card 4 -->
                     <div class="col p-2">
-                        <div class="card h-100">
-
-                            <img src="{{ asset('images/research2.jpg') }}"
-                                class="card-img-top img-fluid img-thumbnail" alt="">
-
-                            <div class="card-body">
-
-                                <a href="/policy-and-interventions/interaction-program-with-respondents"
-                                    style="text-decoration: none; color: inherit;">
-                                    <p class="card-title fw-bold fs-5">Respondent Interaction</p>
-                                </a>
-                            </div>
-                        </div>
+                        <!-- Card content -->
+                        <img src="{{ asset('images/research2.jpg') }}" class="index-image-size" alt="">
+                        <a href="/policy-and-interventions/interaction-program-with-respondents"
+                            style="text-decoration: none; color: inherit;">
+                            <p class="card-title fw-bold fs-5">Respondent Interaction</p>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- policy and interventions research section ends -->
+
 
     <!-- work with us section start -->
 
