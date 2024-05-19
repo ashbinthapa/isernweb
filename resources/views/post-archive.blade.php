@@ -37,8 +37,8 @@
                                 <p class="card-title fw-bold fs-5">{{ $post->title }}</p>
                             </a>
                             <p class="card-text">{{ $post->excerpt() }}</p>
-                            <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"
-                                style="background-color: #01274c; color:white;">Read More</a>
+                            <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"><button
+                                    class="custom-button fw-bold">Read More</button></a>
                         </div>
                     </div>
                 </div>
