@@ -155,7 +155,7 @@ body {
   top: 0;
   background-color: #5b79b9;
   /* Initial background color */
-  transition: background-color 0s ease;
+  transition: background-color 1s ease;
   /* Smooth transition for color change */
   z-index: 1;
   /* Ensure it stays on top of other elements */
