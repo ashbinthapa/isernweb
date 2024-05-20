@@ -328,6 +328,24 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
+
+    <script>
+        // script.js
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var header = document.querySelector('.sticky-top-custom');
+
+            function onScroll() {
+                if (window.scrollY > 0) {
+                    header.classList.add('active');
+                } else {
+                    header.classList.remove('active');
+                }
+            }
+
+            window.addEventListener('scroll', onScroll);
+        });
+    </script>
     </body>
 
     </html>

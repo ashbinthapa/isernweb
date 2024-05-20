@@ -148,6 +148,22 @@ body {
   /* This will change the text color to white for better visibility */
 }
 
+/*header sticky css*/
+.sticky-top-custom {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #5b79b9;
+  /* Initial background color */
+  transition: background-color 0s ease;
+  /* Smooth transition for color change */
+  z-index: 1;
+  /* Ensure it stays on top of other elements */
+}
+.sticky-top-custom.active {
+  background-color: #05264b;
+  /* Background color when sticky */
+}
 /* Optional: You can adjust other button properties as needed */
 .custom-button-search:hover {
   background-color: #f2c100;  /* Darken the color a bit on hover */
@@ -278,3 +294,4 @@ body {
   object-fit: contain;
 }
 /*css for index page policy and interventions section image size ends*/
+
