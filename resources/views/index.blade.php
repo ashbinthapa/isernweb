@@ -202,7 +202,7 @@
             </div>
         </div>
         <div class="carousel-inner">
-            @foreach ($data['timeline_slider']->chunk(4) as $index => $chunk)
+            @foreach ($data['timeline_slider']->chunk(8) as $index => $chunk)
                 <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
                     <div class="container-fluid p-5">
                         <div class="row">
