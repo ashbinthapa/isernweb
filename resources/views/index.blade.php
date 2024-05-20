@@ -215,7 +215,7 @@
                                                     style="background-color: #01274c; color: white;">
                                                     {{ $timeline->start_date }}
                                                 </div>
-                                                <div class="row card pb-2 pt-2">
+                                                <div class="shadow p-3 mb-5 bg-body rounded">
                                                     <div>
                                                         <p class="fs-6">{{ $timeline->title }}</p>
                                                     </div>
