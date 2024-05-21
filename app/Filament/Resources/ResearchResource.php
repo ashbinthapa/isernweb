@@ -7,10 +7,10 @@ use App\Filament\Resources\ResearchResource\RelationManagers;
 use App\Models\Research;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Components\Radio;
 use Filament\Forms\Form;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
@@ -51,8 +51,10 @@ class ResearchResource extends Resource
                         'completed' => 'completed'
                     ]),
 
-                MarkdownEditor::make('content')
-                    ->label('Content')
+                TinyEditor::make('content')
+                    ->fileAttachmentsDisk('local')
+                    ->fileAttachmentsVisibility('public')
+                    ->fileAttachmentsDirectory('uploads')
                     ->columnSpan('full'),
                 
                 Forms\Components\SpatieMediaLibraryFileUpload::make('image')
