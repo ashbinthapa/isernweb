@@ -7,9 +7,9 @@ use App\Filament\Resources\TimelineResource\RelationManagers;
 use App\Models\Timeline;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Form;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
@@ -40,7 +40,10 @@ class TimelineResource extends Resource
 
                 TextInput::make('slug'),
 
-                MarkdownEditor::make('content')
+                TinyEditor::make('content')
+                    ->fileAttachmentsDisk('local')
+                    ->fileAttachmentsVisibility('public')
+                    ->fileAttachmentsDirectory('uploads')
                     ->columnSpan('full'),
                 
                 TextInput::make('start_date'),
