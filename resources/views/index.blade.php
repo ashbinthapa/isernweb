@@ -274,7 +274,7 @@
                                     style="text-decoration: none; color: inherit;">
                                     <p class="card-title fw-bold fs-5">{{ $post->title }}</p>
                                 </a>
-                                <p class="card-text">{{ $post->excerpt() }}</p>
+                                <p class="card-text">{{ Str::limit(strip_tags($post->content), 250) }}</p>
                                 <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"><button
                                         class="custom-button fw-bold">Read More</button></a>
                             </div>
