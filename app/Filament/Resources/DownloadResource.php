@@ -10,6 +10,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Form;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\ImageColumn;
@@ -42,8 +43,10 @@ class DownloadResource extends Resource
                 TextInput::make('slug')
                     ->label('Slug'),
 
-                MarkdownEditor::make('content')
-                    ->label('Content')
+                TinyEditor::make('content')
+                    ->fileAttachmentsDisk('local')
+                    ->fileAttachmentsVisibility('public')
+                    ->fileAttachmentsDirectory('uploads')
                     ->columnSpan('full'),
                 
             ]);

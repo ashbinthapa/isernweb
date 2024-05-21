@@ -7,6 +7,7 @@ use App\Filament\Resources\CategoryResource\RelationManagers;
 use App\Models\Category;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -35,8 +36,11 @@ class CategoryResource extends Resource
 
                 Forms\Components\TextInput::make('slug'),
 
-                Forms\Components\MarkdownEditor::make('description')
-                    ->columnSpan('full'),
+                TinyEditor::make('description')
+                ->fileAttachmentsDisk('local')
+                ->fileAttachmentsVisibility('public')
+                ->fileAttachmentsDirectory('uploads')
+                ->columnSpan('full'),
 
                 Forms\Components\Toggle::make('is_visible')
                     ->label('Visible to customers.')

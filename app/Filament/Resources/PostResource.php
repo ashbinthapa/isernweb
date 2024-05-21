@@ -7,6 +7,7 @@ use App\Filament\Resources\PostResource\RelationManagers;
 use App\Models\Post;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -36,8 +37,11 @@ class PostResource extends Resource
 
                 Forms\Components\TextInput::make('slug'),
 
-                Forms\Components\MarkdownEditor::make('content')
-                ->columnSpan('full'),
+                TinyEditor::make('content')
+                    ->fileAttachmentsDisk('local')
+                    ->fileAttachmentsVisibility('public')
+                    ->fileAttachmentsDirectory('uploads')
+                    ->columnSpan('full'),
                 Forms\Components\Checkbox::make('is_published'),
                 Forms\Components\Checkbox::make('is_featured'),
                 

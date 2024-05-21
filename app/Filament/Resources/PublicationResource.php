@@ -7,6 +7,7 @@ use App\Filament\Resources\PublicationResource\RelationManagers;
 use App\Models\Publication;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -37,8 +38,11 @@ class PublicationResource extends Resource
                 Forms\Components\TextInput::make('link'),
                 Forms\Components\TextInput::make('year'),
 
-                Forms\Components\MarkdownEditor::make('content')
-                ->columnSpan('full'),
+                TinyEditor::make('content')
+                    ->fileAttachmentsDisk('local')
+                    ->fileAttachmentsVisibility('public')
+                    ->fileAttachmentsDirectory('uploads')
+                    ->columnSpan('full'),
                 Forms\Components\Checkbox::make('is_published'),
                 Forms\Components\Checkbox::make('is_featured'),
                 
