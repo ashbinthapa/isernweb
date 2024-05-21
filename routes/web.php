@@ -41,6 +41,11 @@ Route::view('profile', 'profile')
 
 Route::middleware(['web', 'footerdata'])->group(function () {
     // Define your routes here
+
+
+    Route::get('/interventions', function () {
+    return view('interventions');
+
     /*HomeController*/
     Route::get('/', [HomeController::class, 'index']);
     //Route::get('/', [HomeController::class, 'sliderPost'])->name('posts.sliderPost');
