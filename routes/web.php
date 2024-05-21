@@ -44,7 +44,8 @@ Route::middleware(['web', 'footerdata'])->group(function () {
 
 
     Route::get('/interventions', function () {
-    return view('interventions');
+        return view('interventions');
+    });
 
     /*HomeController*/
     Route::get('/', [HomeController::class, 'index']);
