@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 class PublicationController extends Controller
 {
-     public function archive(Request $request)
+    public function archive(Request $request)
     {
         $type = $request->input('type', 'all');
         $year = $request->input('year', 'all');

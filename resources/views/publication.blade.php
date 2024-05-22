@@ -64,7 +64,8 @@
                     <tr>
                         <td>{{ $publication->publicationcategory->name }}</td>
                         <td>{{ $publication->title }}</td>
-                        <td><a href="{{ $publication->link }}" target="_blank">View</a></td>
+                        <td><a href="{{ $publication->link }}" target="_blank" class="fw-bold"
+                                style="text-decoration: none; color: #01274c;">DOI</a></td>
                         <td>{{ $publication->year }}</td>
                     </tr>
                 @endforeach
