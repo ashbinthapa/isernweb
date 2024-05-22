@@ -14,6 +14,9 @@ use App\Models\Publication; // Import the Timeline model
 
 use App\Models\Research; // Import the Research model
 
+use App\Models\PublicationCategory; // Import the PublicationCategory model
+
+
 
 
 class HomeController extends Controller
@@ -30,6 +33,8 @@ class HomeController extends Controller
 
         $publications = Publication::latest()->take(8)->get(); // Retrieve all publication from the database
 
+        $publicationsCategory = PublicationCategory::get(); // Retrieve all publicationCategoty from the database
+
         $latest_research = Research::latest()->take(4)->get(); // Retrieve latest 3 posts from the database
 
 
@@ -40,6 +45,7 @@ class HomeController extends Controller
             'timeline_slider' => $timeline_slider,
             'publications_data' => $publications,
             'latest_research' => $latest_research,
+            'publicationsCategory' => $publicationsCategory,
         ];
         
         return view('index', ['data' => $data]);

@@ -369,14 +369,14 @@
         <div class="row">
 
             <!-- Replace dropdown with checkboxes -->
-            @foreach ($data['publications_data'] as $type)
+            @foreach ($data['publicationsCategory'] as $type)
                 <div class="col-md-3 mb-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="{{ $type->publicationcategory->id }}"
-                            id="checkboxPublicationType{{ $type->publicationcategory->id }}">
+                        <input class="form-check-input" type="checkbox" value="{{ $type->id }}"
+                            id="checkboxPublicationType{{ $type->id }}">
                         <label class="form-check-label fw-bold fs-6" style="color: #01274c;"
-                            for="checkboxPublicationType{{ $type->publicationcategory->id }}">
-                            {{ $type->publicationcategory->name }}
+                            for="checkboxPublicationType{{ $type->id }}">
+                            {{ $type->name }}
                         </label>
                     </div>
                 </div>

@@ -132,98 +132,14 @@
 
     {{-- script for filter of publication by its type and date --}}
     <script>
-        // Sample data, replace with your actual data
-        const publicationsData = {!! isset($publications_data) ? json_encode($publications_data) : '[]' !!};
-
-        let currentPage = 1;
-        const rowsPerPage = 5;
-
-        function renderTable(page) {
-            const startIndex = (page - 1) * rowsPerPage;
-            const endIndex = startIndex + rowsPerPage;
-            const filteredData = applyFilters(publicationsData);
-            const paginatedData = filteredData.slice(startIndex, endIndex);
-
-            const tableBody = document.getElementById('tableBody');
-            tableBody.innerHTML = '';
-
-            paginatedData.forEach(publication => {
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                <td class="align-middle">${publication.publicationcategory.name}</td>
-                <td class="align-middle">${publication.title}</td>
-                <td class="align-middle"><a href="${publication.link}" target="_blank" class="fw-bold"
-                        style="text-decoration: none; color: #01274c;">DOI</a></td>
-                <td class="align-middle">${publication.year}</td>
-            `;
-                tableBody.appendChild(row);
-            });
-        }
-
-        function renderPagination() {
-            const totalPages = Math.ceil(publicationsData.length / rowsPerPage);
-            const pagination = document.getElementById('pagination');
-            pagination.innerHTML = '';
-
-            for (let i = 1; i <= totalPages; i++) {
-                const li = document.createElement('li');
-                li.classList.add('page-item');
-                const a = document.createElement('a');
-                a.classList.add('page-link');
-                a.href = '#';
-                a.textContent = i;
-                a.addEventListener('click', () => {
-                    currentPage = i;
-                    renderTable(currentPage);
-                    renderPagination();
-                });
-                li.appendChild(a);
-                pagination.appendChild(li);
-            }
-        }
-
-        function applyFilters(data) {
-            const typeFilter = document.getElementById('filterPublicationType').value;
-            const dateFilter = document.getElementById('filterPublicationDate').value;
-
-            return data.filter(publication => {
-                if (typeFilter !== 'all' && publication.publicationcategory.id !== parseInt(typeFilter)) {
-                    return false;
-                }
-                if (dateFilter !== 'all' && publication.year.toString() !== dateFilter) {
-                    return false;
-                }
-                return true;
-            });
-        }
-
-        function sortTable(columnIndex) {
-            const key = `column${columnIndex}`;
-            publicationsData.sort((a, b) => {
-                const valueA = a[key].toUpperCase();
-                const valueB = b[key].toUpperCase();
-                if (valueA < valueB) {
-                    return -1;
-                }
-                if (valueA > valueB) {
-                    return 1;
-                }
-                return 0;
-            });
-            renderTable(currentPage);
-        }
-        // Add event listener to the "Apply Filters" button
-        document.getElementById('applyFilterBtn').addEventListener('click', function() {
-            renderTable(currentPage);
-            renderPagination();
+        document.getElementById('filterPublicationType').addEventListener('change', function() {
+            document.getElementById('filterForm').submit();
         });
 
-
-        // Initial render
-        renderTable(currentPage);
-        renderPagination();
+        document.getElementById('filterPublicationDate').addEventListener('change', function() {
+            document.getElementById('filterForm').submit();
+        });
     </script>
-
     <script>
         $(document).ready(function() {
             // Function to filter table rows based on selected publication types

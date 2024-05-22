@@ -71,8 +71,12 @@ Route::middleware(['web', 'footerdata'])->group(function () {
     Route::get('/projects/{research_status}', [ResearchController::class, 'status'])->name('research.status'); /*This should be load after*/
 
     /*PublicationController*/
-    Route::get('/publications', [PublicationController::class, 'archive']);
+    // web.php
+    Route::get('/publications', [PublicationController::class, 'archive'])->name('publications.archive');
 
+    /*
+    Route::get('/publications', [PublicationController::class, 'archive']);
+    */
     /*ContactController*/
     Route::get('/contact', [ContactController::class, 'showContactForm'])->name('contact');
     Route::post('/contact', [ContactController::class, 'submitContactForm']);
