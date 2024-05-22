@@ -40,7 +40,7 @@
                     <label for="message" class="form-label fw-bold">Message</label>
                     <textarea name="message" class="form-control" required rows="5"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="custom-button fw-bold">Submit</button>
             </form>
         </div>
         <div class="col-md-6 mt-4 mt-md-0">
