@@ -41,6 +41,7 @@ class PageResource extends Resource
                     ->fileAttachmentsVisibility('public')
                     ->fileAttachmentsDirectory('uploads')
                     ->columnSpan('full'),
+                
                 Forms\Components\Select::make('parent_id')
                 ->label('Parent Page')
                 ->options(Page::all()->pluck('title', 'id'))
