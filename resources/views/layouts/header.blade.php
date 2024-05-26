@@ -151,7 +151,9 @@
                                                 Members</a></li>
                                         <li><a class="dropdown-item" href="/about-us/national-researchers/">National
                                                 Researchers</a></li>
-                                        <li><a class="dropdown-item" href="#">International Researchers</a>
+                                        <li><a class="dropdown-item"
+                                                href="/about-us/international-researchers/">International
+                                                Researchers</a>
                                         </li>
                                         <li><a class="dropdown-item" href="#">Scholars</a></li>
                                         <li><a class="dropdown-item" href="#">Staff</a></li>
