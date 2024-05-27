@@ -1927,6 +1927,123 @@
 
 
 {{-- international collaboration section for main site code starts --}}
+<div class="container my-5">
+    <p class="mb-4 fw-bold fs-4">{{ $page->title }}</p>
+
+    <div class="row">
+        <div class="col-md-12"> <!-- Increased width to 9 columns -->
+            <p class="lead">{!! $page->content !!}</p>
+        </div>
+
+        <div class="col-md-3"> <!-- Decreased width to 3 columns -->
+            <div class="rounded-sm h-[200px] bg-white p-3 mb-4">
+                @if ($page->getFirstMediaUrl())
+                    <img src="{{ $page->getFirstMediaUrl() }}" alt="" class="img-fluid rounded" />
+                @endif
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- collaboration section starts -->
+<div class="container text-center p-4">
+    <div class="row">
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/150px-Massachusetts_General_Hospital_logo.svg_.png"
+                class="img-fluid" alt="1">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/1200px-University_of_Chicago_shield.svg_.png"
+                class="img-fluid" alt="2">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/1200px-University_of_Illinois_seal.svg_.png"
+                class="img-fluid" alt="3">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/2015-Penn-State-University-logo-design-2.png"
+                class="img-fluid" alt="4">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/a35b71804f6dd902d19458d830536185-university-michigan-u-of-m.jpg"
+                class="img-fluid" alt="5">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/brown-300x149.png" class="img-fluid" alt="6">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/CABI_Logo_Accessible_RGB2.png" class="img-fluid"
+                alt="7">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/Cardiff_University-9A1akwptkym-MgziUdThDSRllCG-i_mH.jpg"
+                class="img-fluid" alt="8">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/CAS_logo_2.png" class="img-fluid" alt="9">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/chester_zoo_8.png" class="img-fluid" alt="10">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/Chpel_hill.jpg" class="img-fluid" alt="11">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/d93fa4942488ae36649b5c0caf8bf804.jpg" class="img-fluid"
+                alt="12">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/download_1.png" class="img-fluid" alt="13">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/download_2.png" class="img-fluid" alt="14">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/download.png" class="img-fluid" alt="15">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/EvK2CNRo-co1.jpg" class="img-fluid" alt="16">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/hard.jpg" class="img-fluid" alt="17">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/Kansas_State_University_Logo_copy.png" class="img-fluid"
+                alt="18">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/logo-ESRC-213x120.jpg" class="img-fluid" alt="19">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/logo-ucberkeley.png" class="img-fluid" alt="20">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/mcgill.jpg" class="img-fluid" alt="21">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/MIDS.jpg" class="img-fluid" alt="22">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/R5WJI2Z5_400x400.jpg" class="img-fluid" alt="23">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/Seal_of_the_Ohio_State_University.png" class="img-fluid"
+                alt="24">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/University-of-West-Georgia1.jpg" class="img-fluid"
+                alt="25">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 p-2">
+            <img src="/images/international collaboration/UW_Seal2.png" class="img-fluid" alt="26">
+        </div>
+    </div>
+</div>
+<!-- collaboration section ends -->
+
+
 
 
 {{-- international collaboration section for main site code ends --}}
