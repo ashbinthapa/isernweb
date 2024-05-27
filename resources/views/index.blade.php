@@ -223,7 +223,6 @@
                                                         <a class="history-more-details-button badge rounded-0 fw-bold"
                                                             href="{{ route('timeline.single', ['slug' => $timeline->slug]) }}">
                                                             More Details
-
                                                         </a>
                                                     </div>
                                                 </div>
