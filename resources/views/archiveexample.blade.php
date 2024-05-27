@@ -1924,3 +1924,6 @@
 </div>
 
 {{-- international researchers section ends --}}
+
+
+{{-- international collaboration section for main site code starts --}}
