@@ -217,7 +217,7 @@
                                                 </div>
                                                 <div class="shadow p-3 mb-5 bg-body rounded">
                                                     <div>
-                                                        <p class="fs-6">{{ $timeline->title }}</p>
+                                                        <p class="fs-4">{{ $timeline->title }}</p>
                                                     </div>
                                                     <div>
                                                         <a class="history-more-details-button badge rounded-0 fw-bold"

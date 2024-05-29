@@ -2050,7 +2050,7 @@
 
 
 
-{{-- staff section design starts --}}
+{{--  backup code for human resource --}}
 <div class="container-fluid text-center">
     <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
@@ -2075,7 +2075,8 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Indra-Kumari-Chaudhary.jpg" class="d-block w-100" alt="...">
+                    <img src="/images/general-members/Indra-Kumari-Chaudhary.jpg" class="d-block w-100"
+                        alt="...">
                 </P>
                 <p>Mrs. Indra Kumari Chaudhary
                 </P>
@@ -2127,14 +2128,14 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/mrs adina gurung.jpg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Nabin Adhikari.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Nabin Adhikari
                 </P>
                 <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">PROJECT MANAGER</p>
                 <p><a style="text-decoration: none;" href="mailto:nabinadkiser@outlook.com">Email</a>
                 </p>
-                <p><a style="text-decoration: none;" href="/images/board-members/Adina-Gurung-cv.pdf">Cirriculum
+                <p><a style="text-decoration: none;" href="/images/staff/Nabin-Adhikari.pdf">Cirriculum
                         Viate</a>
                 </P>
             </div>
@@ -2194,14 +2195,14 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Saujanya-Wagle.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Saujanya Wagle
                 </P>
                 <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">RESEARCH OFFICER - ANALYST</p>
                 <p><a style="text-decoration: none;" href="mailto:saujanyaiser@outlook.com">Email</a>
                 </p>
-                <p><a style="text-decoration: none;" href="/images/general-members/Deb-Prasad-Pandey.pdf">Cirriculum
+                <p><a style="text-decoration: none;" href="/images/staff/Saujanya-Wagle-Resume.pdf">Cirriculum
                         Viate</a>
                 </P>
             </div>
@@ -2233,7 +2234,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/sundari_lama.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sundari Lama
                 </P>
@@ -2249,7 +2250,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Nira-Gurung.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Nira Gurung
                 </P>
@@ -2260,7 +2261,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sita-Chaudhary.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sita Chaudhary
                 </P>
@@ -2284,7 +2285,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Kamana-Ghimiredv.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Kamana Ghimire
                 </P>
@@ -2326,7 +2327,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Subhadra-Gyawali.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Subhadra Gyanwali
                 </P>
@@ -2404,7 +2405,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/shagun_gurung.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sagun Gurung
                 </P>
@@ -2440,7 +2441,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/shanti_mahato.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Shanti Mahato
                 </P>
@@ -2456,7 +2457,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/saru_kc.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Saru K.C.
                 </P>
@@ -2468,7 +2469,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/tara_mahato.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Tara Mahato
                 </P>
@@ -2480,7 +2481,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/tilaknath ghimire.jpeg" class="d-block w-100" alt="...">
                 </P>
                 <p>Tilaknath Ghimire
                 </P>
@@ -2492,7 +2493,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/sanjit_gharti.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sanjit Gharti
                 </P>
@@ -2508,7 +2509,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/reena_tamang.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Reena Tamang
                 </P>
@@ -2544,7 +2545,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Reena Gurung.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Reena Gurung
                 </P>
@@ -2578,6 +2579,17 @@
                 </p>
             </div>
         </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Krishna Adhikari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Krishna Adhikari
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
 
         <div class="col p-2">
             <div class="card h-100">
@@ -2591,6 +2603,11 @@
             </div>
         </div>
 
+        
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
@@ -2602,14 +2619,10 @@
                 </p>
             </div>
         </div>
-
-
-    </div>
-    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Nisha Kumal.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Nisha Kumal
 
@@ -2622,7 +2635,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Nisha Kafle.jpeg" class="d-block w-100" alt="...">
                 </P>
                 <p>Nisha Kafle
 
@@ -2635,7 +2648,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Ritika Gurung.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Ritika Gurung
 
@@ -2645,10 +2658,15 @@
             </div>
         </div>
 
+        
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Shova Gurung.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Shova Gurung
 
@@ -2657,14 +2675,10 @@
                 </p>
             </div>
         </div>
-
-
-    </div>
-    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sujata Gurung.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sujata Gurung
 
@@ -2691,7 +2705,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sharmila-Khanal.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sarmila Khanal
 
@@ -2702,6 +2716,11 @@
             </div>
         </div>
 
+        
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
@@ -2715,10 +2734,6 @@
                 </p>
             </div>
         </div>
-
-
-    </div>
-    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
@@ -2736,7 +2751,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Rishi Ram Neupane.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Rishi Ram Neupane
 
@@ -2750,7 +2765,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Niraj Gurung.jpeg" class="d-block w-100" alt="...">
                 </P>
                 <p>Niraj Gurung
 
@@ -2760,6 +2775,12 @@
                 </p>
             </div>
         </div>
+        
+
+
+    </div>
+
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
@@ -2775,11 +2796,6 @@
                 </p>
             </div>
         </div>
-
-
-    </div>
-
-    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
 
         <div class="col p-2">
             <div class="card h-100">
@@ -2798,7 +2814,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Putali Darai.jpeg" class="d-block w-100" alt="...">
                 </P>
                 <p>Putali Darai
 
@@ -2813,7 +2829,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Shreemaya Thapa.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Shreemaya Thapa
 
@@ -2824,6 +2840,12 @@
             </div>
         </div>
 
+        
+
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
@@ -2841,15 +2863,10 @@
                 </P>
             </div>
         </div>
-
-
-
-    </div>
-    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/tula ram sijali.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Tula Ram Sijali
 
@@ -2866,7 +2883,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/rija-manandhar.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Rija Manandhar
 
@@ -2898,10 +2915,15 @@
             </div>
         </div>
 
+        
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Salina Maharjan.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Salina Maharjan
 
@@ -2910,14 +2932,10 @@
                 </p>
             </div>
         </div>
-
-
-    </div>
-    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Shuvekshya Tiwari.png" class="d-block w-100" alt="...">
                 </P>
                 <p>Shuvekshya Tiwari
 
@@ -2929,7 +2947,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Prakriti Poudel.png" class="d-block w-100" alt="...">
                 </P>
                 <p>Prakriti Poudel
 
@@ -2939,22 +2957,11 @@
                 </p>
             </div>
         </div>
+        
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
-                </P>
-                <p>Salina Maharjan
-
-                </P>
-                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
-                </p>
-            </div>
-        </div>
-        <div class="col p-2">
-            <div class="card h-100">
-                <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Surendra BK.jpeg" class="d-block w-100" alt="...">
                 </P>
                 <p>Surendra B.K.
 
@@ -2970,7 +2977,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Utpal Devkota.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Utpal Devkota
 
@@ -3008,7 +3015,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Nimesh Neupane.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Nimesh Neupane
 
@@ -3025,7 +3032,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sushil Thapa.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sushil Thapa
 
@@ -3051,7 +3058,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Suman Pandit.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Suman Pandit
 
@@ -3128,7 +3135,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Pratikshya Subedi.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Pratikshya Subedi
 
@@ -3146,7 +3153,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sujata Bhusal.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sujata Bhusal
 
@@ -3175,7 +3182,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Nisha Paudel.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Nisha Paudel
 
@@ -3190,7 +3197,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Nabin Poudel.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Nabin Poudel
 
@@ -3223,7 +3230,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Parbati Shrestha.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Parbati Shrestha
 
@@ -3238,7 +3245,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Pramila Chapagain.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Pramila Chapagain
 
@@ -3313,7 +3320,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Saraswoti Giri.jpeg" class="d-block w-100" alt="...">
                 </P>
                 <p>Saraswoti Giri
 
@@ -3329,7 +3336,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Samana Gurung.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Samana Gurung
 
@@ -3343,7 +3350,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sabina Mahato.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sabina Mahato
 
@@ -3371,7 +3378,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sunita Ale Magar.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sunita Ale Magar
 
@@ -3537,7 +3544,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Shanta Adhikari.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Shanta Adhikari
 
@@ -3613,7 +3620,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sangita Dhungana.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sangita Dhungana
 
@@ -3664,7 +3671,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sudha Chaulagain.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sudha Chaulagain
 
@@ -3680,7 +3687,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Shusila Kafle.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Shusila Kafle
 
@@ -3700,7 +3707,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Shanti Darai.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Shanti Darai
 
@@ -3716,7 +3723,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sushanta Upreti.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sushanta Upreti
 
@@ -3732,7 +3739,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Ramu P. Dawadi.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Ramu P. Dawadi
 
@@ -3749,7 +3756,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sanjaya Poudel.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sanjaya Poudel
 
@@ -3770,7 +3777,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Saroj Lamichhane.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Saroj Lamichhane
 
@@ -3787,7 +3794,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sapana Kafle.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sapana Kafle
 
@@ -3804,7 +3811,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Saraswati Bhujel.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Saraswati Bhujel
 
@@ -3839,7 +3846,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sushmita Subedi.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sushmita Subedi
 
@@ -3889,7 +3896,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sandesh Parajuli.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sandesh Parajuli
 
@@ -3909,7 +3916,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Sahadev Acharya.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Sahadev Acharya
 
@@ -3978,7 +3985,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Nar B. Gurung.jpeg" class="d-block w-100" alt="...">
                 </P>
                 <p>Nar B. Gurung
 
@@ -4016,7 +4023,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Brikha B. Ghale.jpeg" class="d-block w-100" alt="...">
                 </P>
                 <p>Brikha B. Ghale
 
@@ -4052,4 +4059,5 @@
     </div>
 
 </div>
-{{--  staff section design ends --}}
+
+{{-- backup code for human resources ends --}}
