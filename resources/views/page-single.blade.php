@@ -19,4 +19,22 @@
         </ul>
     </div>
 </nav>
+
+<div class="container my-5">
+    <p class="mb-4 fw-bold fs-4">{{ $page->title }}</p>
+
+    <div class="row">
+        <div class="col-md-12"> <!-- Increased width to 9 columns -->
+            <p class="lead">{!! $page->content !!}</p>
+        </div>
+
+        <div class="col-md-3"> <!-- Decreased width to 3 columns -->
+            <div class="rounded-sm h-[200px] bg-white p-3 mb-4">
+                @if ($page->getFirstMediaUrl())
+                    <img src="{{ $page->getFirstMediaUrl() }}" alt="" class="img-fluid rounded" />
+                @endif
+            </div>
+        </div>
+    </div>
+</div>
 @include('layouts.footer')
