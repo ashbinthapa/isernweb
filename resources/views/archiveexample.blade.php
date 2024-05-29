@@ -2603,7 +2603,7 @@
             </div>
         </div>
 
-        
+
 
 
     </div>
@@ -2658,7 +2658,7 @@
             </div>
         </div>
 
-        
+
 
 
     </div>
@@ -2691,7 +2691,7 @@
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
-                    <img src="public/images/staff/Baldev Chaudhary.jpg" class="d-block w-100" alt="...">
+                    <img src="/images/staff/Baldev Chaudhary.jpg" class="d-block w-100" alt="...">
                 </P>
                 <p>Baldev Chaudhary
 
@@ -2716,7 +2716,7 @@
             </div>
         </div>
 
-        
+
 
 
     </div>
@@ -2775,7 +2775,7 @@
                 </p>
             </div>
         </div>
-        
+
 
 
     </div>
@@ -2840,7 +2840,7 @@
             </div>
         </div>
 
-        
+
 
 
 
@@ -2915,7 +2915,7 @@
             </div>
         </div>
 
-        
+
 
 
     </div>
@@ -2957,7 +2957,7 @@
                 </p>
             </div>
         </div>
-        
+
         <div class="col p-2">
             <div class="card h-100">
                 <p class="p-1">
