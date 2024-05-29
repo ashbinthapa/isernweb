@@ -2047,3 +2047,2009 @@
 
 
 {{-- international collaboration section for main site code ends --}}
+
+
+
+{{-- staff section design starts --}}
+<div class="container-fluid text-center">
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/dirgha-j-ghimire.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Prof. Dr. Dirgha J. Ghimire
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXECUTIVE DIRECTOR</p>
+                <p><a style="text-decoration: none;" href="https://dirghaghimire.isernepal.org/">Website</a>
+                </P>
+                <p><a style="text-decoration: none;"
+                        href="/images/general-members/Dirgha-Ghimire.pdf">mailto:nepdjg@umich.edu</a>
+                </P>
+                <p><a style="text-decoration: none;" href="/images/general-members/Dirgha-Ghimire.pdf">Cirriculum
+                        Viate</a>
+                </P>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Indra-Kumari-Chaudhary.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mrs. Indra Kumari Chaudhary
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">PROGRAM COORDINATOR</p>
+
+                <p><a style="text-decoration: none;" href="mailto:indraiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/general-members/Indra-Chaudhary.pdf">Cirriculum
+                        Viate</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/prem-p-pandit.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mr. Prem Prakash Pandit
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">STUDY MANAGER</p>
+                <p><a style="text-decoration: none;" href="mailto:premiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/general-members/Prem-Pandit.pdf">Cirriculum
+                        Viate</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/mrs adina gurung.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mrs. Adina Gurung
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">DATA MANAGER</p>
+                <p><a style="text-decoration: none;" href="mailto:nabinadkiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/board-members/Adina-Gurung-cv.pdf">Cirriculum
+                        Viate</a>
+                </P>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/mrs adina gurung.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Nabin Adhikari
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">PROJECT MANAGER</p>
+                <p><a style="text-decoration: none;" href="mailto:nabinadkiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/board-members/Adina-Gurung-cv.pdf">Cirriculum
+                        Viate</a>
+                </P>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Rajendra-Ghimire.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mr. Rajendra Ghimire
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">RESEARCH OFFICER</p>
+                <p><a style="text-decoration: none;" href="mailto:rajendraiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/general-members/Rajendra-Ghimire.pdf">Cirriculum
+                        Viate</a>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Krishna-Shrestha.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mr. Krishna Shrestha
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">RESEARCH OFFICER</p>
+                <p><a style="text-decoration: none;" href="mailto:kshresthatiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/general-members/Krishna-Shrestha.pdf">Cirriculum
+                        Viate</a>
+                </P>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mrs. Gita Subedi
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">FINANCE OFFICER</p>
+                <p><a style="text-decoration: none;" href="mailto:gitaiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/general-members/Deb-Prasad-Pandey.pdf">Cirriculum
+                        Viate</a>
+                </P>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Saujanya Wagle
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">RESEARCH OFFICER - ANALYST</p>
+                <p><a style="text-decoration: none;" href="mailto:saujanyaiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/general-members/Deb-Prasad-Pandey.pdf">Cirriculum
+                        Viate</a>
+                </P>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mr. Mangal Raj Darai
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. ACCOUNT OFFICER</p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Dil_Bahadur_C K.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Dil Bahadur C.K.
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sundari Lama
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Nira Gurung
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sita Chaudhary
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Gobinda-Lamichhane.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Govinda Lamichhane
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Kamana Ghimire
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bina_Mahato.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bina Mahato
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">TEAM LEADER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/mina gurung.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mina Gurung
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">SENIOR INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Mangal-Raj-Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Subhadra Gyanwali
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">SENIOR INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/bhumila_devkota.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bhumila Devkota
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">SENIOR INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/bishal_adhikari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bishal Adhikari
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">SENIOR INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Ashish-Gurung.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Ashish Gurung
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bishal-Pandit.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bishal Pandit
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/durga-lama.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Durga Lama
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Sagun Gurung
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Asmita Adhikari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Asmita Adhikari
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bharat-Baral.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bharat Baral
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Shanti Mahato
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Saru K.C.
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Tara Mahato
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Tilaknath Ghimire
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Sanjit Gharti
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Reena Tamang
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/hina chaudhary.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Hina Chaudhary
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bluvision Subedi.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bluvision Subedi
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Reena Gurung
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="public/images/staff/Anjana Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Anjana Darai
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Manita Paudel.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Manita Paudel
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bishnu Maya Chaudhary.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bishnu Maya Chaudhary
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Muna CK.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Muna C.K.
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Nisha Kumal
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Nisha Kafle
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Ritika Gurung
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Shova Gurung
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Sujata Gurung
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="public/images/staff/Baldev Chaudhary.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Baldev Chaudhary
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">DATA ENTRY
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Sarmila Khanal
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">DATA ENTRY
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bhagawati-Neupane.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bhagawati Neupane
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">DATA ENTRY
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Asmita-Adhikari-Koirala.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Asmita Adhikari Koirala
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">DATA ENTRY
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Rishi Ram Neupane
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">LOGISTIC ASSISTANT
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Niraj Gurung
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">OFFICE ASSISTANT
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Mohan Ghale.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mohan Ghale
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">NIGHT GUARD
+
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Mohan Prasad Ghale.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mohan Prasad Ghale
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">NIGHT GUARD
+
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Putali Darai
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">GARDENER
+
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Dr-Anuja-Dangol.png" class="d-block w-100" alt="...">
+                </P>
+                <p>Shreemaya Thapa
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">GARDENER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bishnu Adhikari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bishnu Adhikari
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">DATA MANAGER
+                </p>
+                <p><a style="text-decoration: none;" href="mailto:bishnuiser@outlook.com">Email</a>
+                </p>
+                <p><a style="text-decoration: none;" href="/images/staff/Bishnu-Adhikari_CV.docx">Cirriculum
+                        Viate</a>
+                </P>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Tula Ram Sijali
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">STUDY MANAGER
+
+                </p>
+                <p><a style="text-decoration: none;" href="mailto:tulaiser@outlook.com">Email</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Rija Manandhar
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">SENIOR RESEARCH OFFICER
+
+
+                </p>
+                <p><a style="text-decoration: none;" href="#">Email</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Birendra Kunwar.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Birendra Kunwar
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">RESEARCH OFFICER
+
+
+                </p>
+                <p><a style="text-decoration: none;" href="mailto:briendraiser@outlook.com">Email</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Salina Maharjan
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Shuvekshya Tiwari
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Prakriti Poudel
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Salina Maharjan
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Surendra B.K.
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Utpal Devkota
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Asmita Thapa.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Asmita Thapa
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Ambika Baniya.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Ambika Baniya
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Nimesh Neupane
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">RESEARCH OFFICER
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sushil Thapa
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">WEBMASTER
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Amrit Dawadi.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Amrit Dawadi
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. TECHNICIAN
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Suman Pandit
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">ASST. PROGRAMMER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Kabita Kumari Mahato.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Kabita Kumari Mahato
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">SENIOR INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Jamuna Lama.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Jamuna Lama
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Ajita Adhikari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Ajita Adhikari
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Manisha Lamichhane.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Manisha Lamichhane
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Pratikshya Subedi
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sujata Bhusal
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Mebhisha Khadka.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mebhisha Khadka
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Nisha Paudel
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Nabin Poudel
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bindu Shrestha.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bindu Shrestha
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Parbati Shrestha
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Pramila Chapagain
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Merisa B.K..jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Merisa B.K.
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Kusum Rimal.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Kusum Rimal
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Ganga BK.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Ganga B.K.
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Dipesh chan.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Dipesh chan
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Saraswoti Giri
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Samana Gurung
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sabina Mahato
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Muna Sapkota.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Muna Sapkota
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sunita Ale Magar
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Mina Mahato.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mina Mahato
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Menuka Tuladhar.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Menuka Tuladhar
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Menu Gayak.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Menu Gayak
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Manita Gurung.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Manita Gurung
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Mamata Shrestha.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mamata Shrestha
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Mahadev Subedi.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Mahadev Subedi
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Krishna Bhandari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Krishna Bhandari
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Kopila Bhandari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Kopila Bhandari
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Kalpana Tamang.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Kalpana Tamang
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Gayatri Gurung.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Gayatri Gurung
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Shanta Adhikari
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Abshek Adhikari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Abshek Adhikari
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Ganga Ale Magar.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Ganga Ale Magar
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bishal Paudel.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bishal Paudel
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Binod Adhikari.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Binod Adhikari
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sangita Dhungana
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Dipendra Raj Dhungana.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Dipendra Raj Dhungana
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Deepa Dawadi.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Deepa Dawadi
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sudha Chaulagain
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Shusila Kafle
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Shanti Darai
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sushanta Upreti
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Ramu P. Dawadi
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXAMINER
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sanjaya Poudel
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXAMINER
+
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Saroj Lamichhane
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXAMINER
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sapana Kafle
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXAMINER
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Saraswati Bhujel
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXAMINER
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bindu Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bindu Darai
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXAMINER
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sushmita Subedi
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXAMINER
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Manoj Poudel.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Manoj Poudel
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">EXAMINER
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Anil Sunar.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Anil Sunar
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sandesh Parajuli
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Sahadev Acharya
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">INTERVIEWER
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Bimal Darai.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Bimal Darai
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">OFFICE ASSISTANT
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Manoj Darai.jpg" class="d-block w-100" alt="...">
+                </P>
+                <p>Manoj Darai
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">OFFICE ASSISTANT
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Devaki Darai.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Devaki Darai
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">GARDENER
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Nar B. Gurung
+
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">NIGHT GUARD
+
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Dambar B. Ghale.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Dambar B. Ghale
+
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">NIGHT GUARD
+
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/general-members/Gita-subedi.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Brikha B. Ghale
+
+
+
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">NIGHT GUARD
+
+
+
+                </p>
+            </div>
+        </div>
+
+
+        <div class="col p-2">
+            <div class="card h-100">
+                <p class="p-1">
+                    <img src="/images/staff/Gopal Thapa.jpeg" class="d-block w-100" alt="...">
+                </P>
+                <p>Gopal Thapa
+
+                </P>
+                <p class="card-text fw-bold" style="color: #05264b; font-size: 18px;">DRIVER
+
+
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{{--  staff section design ends --}}
