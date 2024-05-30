@@ -780,7 +780,7 @@
     <!-- contact us starts here -->
     <div class="container-fluid py-5 bg-light background-image-contact-us">
         <div class="row justify-content-center"> <!-- Centering the row -->
-            <div class="col-md-8"> <!-- Adjust the column width as needed -->
+            <div class="col-12"> <!-- Adjust the column width as needed -->
                 <div class="mb-3 text-center"> <!-- Centering the content -->
                     <p class="fw-bold fs-1 py-4" style="color: #01274c;">Get the latest ISER-N Research &
                         Publications</p>
@@ -795,6 +795,11 @@
                     @endif
                 </div>
 
+
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-8">
                 <form action="{{ route('contact') }}" method="POST" class="text-center">
                     <!-- Centering the form -->
                     @csrf
