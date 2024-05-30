@@ -371,3 +371,18 @@ body {
 }
 
 /* css for latest research section of index page ends */
+
+/* policy and interventions section starts */
+.ashbin-text-b {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3f3f3f;
+  text-decoration: none;
+  /* Removing underline by default */
+}
+
+.ashbin-text-b:hover {
+  color: #f2c100;
+  /* Change color on hover */
+}
+/* policy and interventions section ends */
