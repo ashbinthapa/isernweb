@@ -8,20 +8,20 @@
 
     <!-- start updates section -->
     <div class="row breaking-updates">
-        <div class="col-1">
-            <div class="d-inline-block d-md-block bg-danger text-white text-center breaking-caret fw-bold">
+        <div class="col-1 d-flex align-items-center">
+            <div class="bg-danger text-white text-center breaking-caret fw-bold w-100">
                 UPDATES
             </div>
         </div>
-        <!--update content-->
-        <div class="col-10">
-            <div class="breaking-box">
+        <!-- update content -->
+        <div class="col-10 d-flex align-items-center">
+            <div class="breaking-box w-100">
                 <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseleave="this.start();">
                     @foreach ($data['posts_all'] as $post)
-                        <a class="h6 fw-bold" href="{{ route('posts.show', ['slug' => $post->slug]) }}"
-                            style="text-decoration: none;">
+                        <a class="fw-bold" href="{{ route('posts.show', ['slug' => $post->slug]) }}"
+                            style="text-decoration: none;   color: #696969;">
                             <span class="position-relative mx-2 badge rounded-0 font-weight-bold"
-                                style="background-color: #05264b;">{{ $post->category->name }}</span>
+                                style="background-color: #05264b; font-size: 14px;">{{ $post->category->name }}</span>
                             {{ $post->title }}
                         </a>
                     @endforeach
@@ -30,6 +30,8 @@
         </div>
     </div>
     <!-- end update section -->
+
+
 
 
     <!--Slider started-->

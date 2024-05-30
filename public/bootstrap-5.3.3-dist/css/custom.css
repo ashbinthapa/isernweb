@@ -188,12 +188,31 @@ body {
   background-color: #f2c100;  /* Darken the color a bit on hover */
 }
 
-/*index page updates css*/
+/*index page updates css starts*/
 .breaking-updates {
-  margin-bottom: -8px;
-  color: #696969;
-  font-size: 14px;
+  margin-bottom: 0px;
+  font-size: 14px !important;
+  height: 38px;
+  /* Ensure the row takes the full height of its container */
 }
+
+.breaking-caret {
+  height: 100%;
+  /* Ensure the UPDATES div takes the full height of its column */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.breaking-box {
+  height: 100%;
+  /* Ensure the breaking-box takes the full height of its column */
+  display: flex;
+  align-items: center;
+}
+
+
+/*index page updates css ends*/
 
 /*move to top button css*/
 #myBtn {
