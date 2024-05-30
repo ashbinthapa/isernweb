@@ -10,6 +10,7 @@
   height: auto;
   /* Set desired height */
   /* Add any other styling properties as needed */
+    z-index: 0 !important;
 }
 
 /* Adjust icon size if needed */
@@ -294,10 +295,4 @@ body {
   object-fit: contain;
 }
 /*css for index page policy and interventions section image size ends*/
-
-/* css for custom-carousel  starts*/
-.custom-carousel {
-  z-index: 0 !important;
-}
-/*  css for custom-carousel ends */
  
