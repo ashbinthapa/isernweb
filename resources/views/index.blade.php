@@ -287,18 +287,18 @@
     </div>
     <!-- latest news and announcement section ended -->
 
-    <!-- latest research section start -->
+    <!-- latest research section start
 
     <div class="container-fluid text-center">
         <p class="fw-bold fs-1 py-4" style="color: #01274c;">Latest Research</p>
         <div class="row px-5 mx-5">
             <div class="col-md-12 p-3">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    {{-- 
                     @php $i = 1; @endphp
                     @foreach ($data['latest_research'] as $research)
                         <div class="col p-2">
-                            <!-- Card content -->
-                            <!-- Image -->
+                            
                             @if ($i == 1)
                                 <img src="{{ asset('images/iser slider carousel1.jpg') }}" class="index-image-size"
                                     alt="{{ $research->title }}">
@@ -324,15 +324,80 @@
                             </div>
                         </div>
                     @endforeach
+                     --}}
                 </div>
             </div>
-            <!-- Button -->
             <div class="p-4">
                 <a href="/projects" class="btn p-3"><button class="custom-button fw-bold">All Researches</button></a>
             </div>
         </div>
     </div>
-    <!-- latest research section ends -->
+     latest research section ends -->
+
+    <!-- research section starts -->
+    <div class="container my-5">
+        <p class="fw-bold fs-1 py-4 text-center" style="color: #01274c;">Latest Research</p>
+
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+                    <img src="/images/research2.jpg" class="custom-card-img-top" alt="Image 1">
+                    <div class="custom-card-body p-3">
+                        <a class="ashbin-text-a" href="https://cvfs.isr.umich.edu/">
+                            <p class="custom-card-text">Chitwan Valley Family Study: Changing Social Context and Family
+                                Formation</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+                    <img src="/images/research1.jpg" class="custom-card-img-top" alt="Image 2">
+                    <div class="custom-card-body p-3">
+                        <a class="ashbin-text-a"
+                            href="/projects/ongoing/Study%20on%20People,%20Places,%20and%20Payments%20in%20a%20Complex%20Human-Environment%20Systems%20in%20Eastern%20Chitwan:%202023-ongoing">
+                            <p class="custom-card-text">Study on People, Place and Payments in a Complex
+                                Human-Environment
+                                System in Eastern Chitwan</p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+                    <img src="/images/iser slider carousel1.jpg" class="custom-card-img-top" alt="Image 4">
+                    <div class="custom-card-body p-3">
+                        <a class="ashbin-text-a"
+                            href="/projects/ongoing/Supplementing%20measures%20of%20social%20accountability%20and%20enhancing%20understanding%20of%20accountability%20and%20students%E2%80%99%20achievement%20during%20the%20COVID-19%20pandemic:%202023-ongoing">
+                            <p class="custom-card-text">Supplementing measures of social accountability and enhancing
+                                understanding of accountability and students’ achievement during the COVID-19 pandemic
+                            </p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+                    <img src="/images/iser slider carousel8.jpg" class="custom-card-img-top" alt="Image 3">
+                    <div class="custom-card-body p-3">
+                        <a class="ashbin-text-a"
+                            href="/projects/ongoing/Measuring%20the%20effects%20of%20parental%20education%20campaigns%20on%20child%20development:%202021-ongoing">
+                            <p class="custom-card-text">Measuring the effects of parental education campaigns on child
+                                development</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="/projects" class="btn p-3"><button class="custom-button fw-bold">All
+                    Researches</button></a>
+        </div>
+    </div>
+
+    <!-- research section ends -->
 
 
     <!-- data section start -->
