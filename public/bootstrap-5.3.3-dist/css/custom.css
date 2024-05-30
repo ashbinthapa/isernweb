@@ -24,6 +24,24 @@
   background-color: #01274c;
 }
 
+.carousel-indicators button {
+  background-color: white !important;
+  color: white !important;
+  font-size: 16px !important;
+  border-radius: 50px !important;
+  /* Makes the button rounded */
+  cursor: pointer !important;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s !important;
+  height: 15px !important;
+  width: 15px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+}
+
+.carousel-indicators button:hover {
+  background-color: #05264b !important;
+}
+
 .footer-details a {
   text-decoration: none !important; /* Remove underlines from anchor tags */
   color: white;
