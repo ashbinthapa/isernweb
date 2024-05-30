@@ -23,7 +23,7 @@
 
     <div class="row">
         <div class="col-md-12"> <!-- Increased width to 9 columns -->
-            <p class="fs-6">{{ date('F j, Y', strtotime($post->updated_at)) }}
+            <p class="fs-6">{{ date('F j, Y', strtotime($post->published_at)) }}
             </p>
         </div>
         <div class="col-md-12"> <!-- Increased width to 9 columns -->

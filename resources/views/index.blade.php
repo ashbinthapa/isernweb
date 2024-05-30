@@ -264,7 +264,7 @@
                                     class="card-img-top .img-fluid img-thumbnail" alt="ISER-N">
                             @endif
                             <div class="card-body">
-                                <p class="fs-6">{{ date('F j, Y', strtotime($post->updated_at)) }}
+                                <p class="fs-6">{{ date('F j, Y', strtotime($post->published_at)) }}
                                 </p>
                                 <span class="position-relative badge rounded-0 font-weight-bold"
                                     style="background-color: #05264b;">{{ $post->category->name }}</span>
