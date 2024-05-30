@@ -405,7 +405,7 @@
     <div class="container-fluid text-center bg-light">
         <p class="fw-bold fs-1 py-4" style="color: #01274c;">Data</p>
         <div class="row px-5 m-3 justify-content-md-center">
-            <div class="col-md-9">
+            <div class="col-10">
                 <p style="font-size: 14px;">ISER-N in collaboration with universities and
                     research organizations in Nepal and abroad has collected a large number of longitudinal panel and
                     cross-sectional data on various topics. ISER-N has collected a wide range of data on population
