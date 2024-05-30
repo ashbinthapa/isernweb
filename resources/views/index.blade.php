@@ -166,7 +166,7 @@
     <!-- about us section start -->
     @if ($data['page_about_us'])
         <div class="container-fluid text-center bg-light">
-            <h4 class="pt-5 pb-2 fw-bold" style="color: #01274c; font-size: 21px;">Improving Human Lives
+            <h4 class="pt-5 pb-2" style="color: #000080; font-size: 21px; font-weight: 700;">Improving Human Lives
                 and Environmental Conditions</h4>
             <h2 class="fw-bold" style="color: #01274c; font-size: 36px;">Institute for
                 Social
@@ -214,12 +214,12 @@
                                         <ul class="list-inline items">
                                             <li class="list-inline-item items-list px-3">
                                                 <div class="event-date"
-                                                    style="background-color: #01274c; color: white;">
+                                                    style="background-color: #01274c; color: white; font-size: 12px;">
                                                     {{ $timeline->start_date }}
                                                 </div>
                                                 <div class="shadow p-3 mb-5 bg-body rounded">
                                                     <div>
-                                                        <p class="fs-4">{{ $timeline->title }}</p>
+                                                        <p style="font-size: 12px;">{{ $timeline->title }}</p>
                                                     </div>
                                                     <div>
                                                         <a class="history-more-details-button badge rounded-0 fw-bold"
