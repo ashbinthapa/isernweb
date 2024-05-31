@@ -77,12 +77,12 @@
                             <div class="sh-recent-posts-widgets">
                                 @foreach ($posts_latest_news as $post)
                                     <div class="sh-recent-posts-widgets-item">
-                                        <span class="post-meta-categories">
+                                        <span class="post-meta-categories fw-bold">
                                             <a
                                                 href="/posts/category/{{ $post->category->name }}">{{ $post->category->name }}</a>
                                         </span>
                                         <a href="{{ route('posts.show', ['slug' => $post->slug]) }}">
-                                            <h6 class="fw-bold">{{ $post->title }}</h6>
+                                            <h6>{{ $post->title }}</h6>
                                         </a>
                                     </div>
                                 @endforeach
