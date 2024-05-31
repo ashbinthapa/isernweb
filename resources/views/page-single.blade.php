@@ -1,28 +1,29 @@
 @include('layouts.header')
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <ul class="navbar-nav">
+        <p class="fw-bold fs-4 mt-4">{{ $page->title }}</p>
+        <ul class="navbar-nav d-flex flex-row flex-wrap align-items-center">
             @if (isset($parentPage))
                 <!-- Check if parent page exists -->
                 <li class="nav-item">
-                    <a class="nav-link fw-bold fs-4" style="color: #01274c;"
+                    <a class="nav-link fw-bold fs-4 fs-lg-4" style="color: #01274c;"
                         href="/{{ $parentPage->slug }}">{{ $parentPage->title }}</a>
                 </li>
-                <li class="nav-item p-3">
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                <li class="nav-item">
+                    <i class="fa fa-angle-right mx-2" aria-hidden="true"></i>
                 </li>
             @endif
-            <li class="nav-item pt-2">
-                <a class="nav-link fw-bold fs-6" style="color: #01274c;">{{ $page->title }}</a>
+            <li class="nav-item">
+                <a class="nav-link fw-bold fs-6 fs-lg-6" style="color: #01274c;">{{ $page->title }}</a>
             </li>
             <!-- Add more navigation items as needed -->
         </ul>
     </div>
 </nav>
 
-<div class="container my-5">
-    <p class="mb-4 fw-bold fs-4">{{ $page->title }}</p>
 
+
+<div class="container my-5">
     <div class="row">
         <div class="col-md-12"> <!-- Increased width to 9 columns -->
             <p class="lead">{!! $page->content !!}</p>
