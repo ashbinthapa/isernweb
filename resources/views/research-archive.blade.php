@@ -10,10 +10,10 @@
     </div>
 </nav>
 
-<div class="container-fluid text-center py-4" style="font-size: 14px">
+<div class="container py-4" style="font-size: 14px">
     <div class="row justify-content-center">
-        <div class="col-md-8"> <!-- Increased width to 9 columns -->
-            <p class="p-3">Findings from high quality rigorous scientific research are
+        <div class="col-12"> <!-- Increased width to 9 columns -->
+            <p>Findings from high quality rigorous scientific research are
                 crucial to identify emerging
                 social and environmental issues, formulating appropriate policies and to make informed decisions for
                 sustainable development. The theoretical motivation of ISE-N’s research programs lies in the
