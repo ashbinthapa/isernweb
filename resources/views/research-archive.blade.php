@@ -46,7 +46,7 @@
     <div class="tab-content" id="filterTabContent">
         <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
             <div class="container-fluid fw-bold">
-                <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
+                <div class="container text-left" style="margin-top: 20px; margin-bottom: 20px;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         @foreach ($research_data['ongoing_research'] as $ongoing_research)
                             <div class="col p-2">
@@ -80,7 +80,7 @@
         </div>
         <div class="tab-pane fade" id="category1" role="tabpanel" aria-labelledby="category1-tab">
             <div class="container-fluid">
-                <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
+                <div class="container text-left" style="margin-top: 20px; margin-bottom: 20px;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         @foreach ($research_data['ongoing_research'] as $ongoing_research)
                             <div class="col p-2">
@@ -101,7 +101,7 @@
         </div>
         <div class="tab-pane fade" id="category2" role="tabpanel" aria-labelledby="category2-tab">
             <div class="container-fluid">
-                <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
+                <div class="container text-left" style="margin-top: 20px; margin-bottom: 20px;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         @foreach ($research_data['completed_research'] as $completed_research)
                             <div class="col p-2">

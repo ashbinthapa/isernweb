@@ -30,7 +30,7 @@
     @endif
 </div>
 <div class="container-fluid">
-    <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
+    <div class="container text-left" style="margin-top: 20px; margin-bottom: 20px;">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             @foreach ($data as $data)
                 <div class="col p-2">

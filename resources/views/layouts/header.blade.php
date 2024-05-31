@@ -82,23 +82,24 @@
                                 Publications
                             </a>
                             <ul class="dropdown-menu" style="background-color: #05264b;">
-                                <li><a class="dropdown-item" href="/publications">Journal
+                                <li><a class="dropdown-item" href="/publications?type=1&year=all">Journal
                                         Articles</a>
                                 </li>
-                                <li><a class="dropdown-item" href="/publications">Book & Book
+                                <li><a class="dropdown-item" href="/publications?type=2&year=all">Book & Book
                                         Chapter</a>
                                 </li>
-                                <li><a class="dropdown-item" href="/publications">Dissertation</a>
+                                <li><a class="dropdown-item" href="/publications?type=3&year=all">Dissertation</a>
                                 </li>
-                                <li><a class="dropdown-item" href="/publications">Presentations</a>
+                                <li><a class="dropdown-item" href="/publications?type=4&year=all">Presentations</a>
                                 </li>
-                                <li><a class="dropdown-item" href="/publications">Policy Brief</a>
+                                <li><a class="dropdown-item" href="/publications?type=5&year=all">Policy Brief</a>
                                 </li>
-                                <li><a class="dropdown-item" href="/publications">Report to
+                                <li><a class="dropdown-item" href="/publications?type=6&year=all">Report to
                                         Respondent</a></li>
-                                <li><a class="dropdown-item" href="/publications">Annual Report</a>
+                                <li><a class="dropdown-item" href="/publications?type=7&year=all">Annual Report</a>
                                 </li>
-                                <li><a class="dropdown-item" href="/publications">Other Publications</a></li>
+                                <li><a class="dropdown-item" href="/publications?type=8&year=all">Other
+                                        Publications</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
