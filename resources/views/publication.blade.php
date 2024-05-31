@@ -21,7 +21,7 @@
 <div class="container p-5">
     <form id="filterForm" method="GET" action="{{ route('publications.archive') }}">
         <div class="row">
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3 p-1">
                 <label for="filterPublicationType" class="form-label">Filter by Publication Type:</label>
                 <select id="filterPublicationType" name="type" class="form-select">
                     <option value="all" {{ request('type') == 'all' ? 'selected' : '' }}>All</option>
@@ -32,7 +32,7 @@
                     @endforeach
                 </select>
             </div>
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3 p-1">
                 <label for="filterPublicationDate" class="form-label">Filter by Publication Date:</label>
                 <select id="filterPublicationDate" name="year" class="form-select">
                     <option value="all" {{ request('year') == 'all' ? 'selected' : '' }}>All</option>
@@ -43,9 +43,10 @@
                     @endforeach
                 </select>
             </div>
-            <div class="col-md-3 p-4">
-                <button id="applyFilterBtn" type="submit" class="btn btn-primary">Apply Filters</button>
-            </div>
+
+        </div>
+        <div class="pl-1">
+            <button id="applyFilterBtn" type="submit" class="btn btn-primary">Apply Filters</button>
         </div>
     </form>
 
@@ -65,7 +66,9 @@
                         <td>{{ $publication->publicationcategory->name }}</td>
                         <td>{{ $publication->title }}</td>
                         <td><a href="{{ $publication->link }}" target="_blank" class="fw-bold"
-                                style="text-decoration: none; color: #01274c;">DOI</a></td>
+                                style="text-decoration: none; color: #01274c;"><button
+                                    class="publication-doi-button">DOI
+                                </button></a></td>
                         <td>{{ $publication->year }}</td>
                     </tr>
                 @endforeach
@@ -73,7 +76,7 @@
         </table>
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center pt-2">
         {{ $publications_data['publications']->links('vendor.pagination.bootstrap-5') }}
     </div>
 </div>

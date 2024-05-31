@@ -166,6 +166,7 @@ body {
   /* This will change the text color to white for better visibility */
 }
 
+/* header search button */
 .header-search-buttton {
   border-radius: 10px;
   border-color: white;
@@ -173,6 +174,21 @@ body {
   font-weight: 600;
   color: #3f3f3f;
 }
+
+/* publication doi button */
+.publication-doi-button {
+background-color: #05264b;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 200;
+}
+
+.publication-doi-button:hover {
+  background-color: #f2c100;
+}
+
 /*header sticky css*/
 .sticky-top-custom {
   position: -webkit-sticky;

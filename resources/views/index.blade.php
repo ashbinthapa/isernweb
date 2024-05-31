@@ -471,7 +471,9 @@
                             <td class="align-middle">{{ $publication->publicationcategory->name }}</td>
                             <td class="align-middle">{{ $publication->title }}</td>
                             <td class="align-middle"><a href="{{ $publication->link }}" target="_blank"
-                                    class="fw-bold" style="text-decoration: none; color: #01274c;">DOI</a></td>
+                                    class="fw-bold" style="text-decoration: none; color: #01274c;">
+                                    <button class="publication-doi-button">DOI
+                                    </button></a></td>
                             <td class="align-middle">{{ $publication->year }}</td>
                         </tr>
                     @endforeach
