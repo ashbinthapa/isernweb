@@ -253,7 +253,7 @@
 
     <!-- latest news and announcement section started -->
     <div class="container-fluid bg-light py-4">
-        <div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
+        <div class="container text-left" style="margin-top: 20px; margin-bottom: 20px;">
             <p class="fw-bold fs-1" style="color: #01274c;">Latest News and
                 Announcement</p>
 
@@ -275,7 +275,7 @@
                                     style="text-decoration: none; color: inherit;">
                                     <p class="card-title fw-bold fs-5">{{ $post->title }}</p>
                                 </a>
-                                <p class="card-text">{{ Str::limit(strip_tags($post->content), 250) }}</p>
+                                <p class="card-text">{!! Str::limit(strip_tags($post->content), 250) !!}</p>
                                 <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"><button
                                         class="custom-button fw-bold">Read More</button></a>
                             </div>
