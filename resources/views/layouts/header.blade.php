@@ -20,10 +20,10 @@
             </a>
         </div>
     </div>
-    <header class="sticky-top-custom justify-content-center">
+    <header class="container-fluid sticky-top-custom justify-content-center">
         {{-- section for the main header menu nav bar section --}}
         <nav class="navbar navbar-expand-xl justify-content-center fw-bold">
-            <div class="container-fluid">
+            <div class="container">
                 {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -34,6 +34,10 @@
                     <ul class="navbar-nav navbar-header-ul me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/') }}"><i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/') }}">
                                 Home</a>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
@@ -203,7 +207,7 @@
                     <form class="d-flex" id="searchForm">
                         <input class="form-control" id="searchInput" type="search" placeholder="Search"
                             aria-label="Search">
-                        <button class="custom-button-search" type="submit">Search</button>
+                        <button class="header-search-buttton" type="submit">Search</button>
                     </form>
                 </div>
             </div>
