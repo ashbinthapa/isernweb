@@ -408,3 +408,51 @@ background-color: #05264b;
   /* Change color on hover */
 }
 /* policy and interventions section ends */
+
+/* community capacity building design starts */
+.ashbin-community-capacity-design h2 {
+  background-color: #05264b;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+/* community capacity building design ends */
+
+/*  communicity capacity building and trainging page css starts */
+.ashbin-accordion {
+  background-color: #05264b;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.ashbin-active,
+.ashbin-accordion:hover {
+  background-color: #ccc;
+}
+
+.ashbin-accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.ashbin-active:after {
+  content: "\2212";
+}
+
+.ashbin-panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+/*  communicity capacity building and trainging page css ends */

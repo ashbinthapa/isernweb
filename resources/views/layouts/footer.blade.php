@@ -267,6 +267,26 @@
             window.addEventListener('scroll', onScroll);
         });
     </script>
+
+    {{-- communicity capacity building and trainging page script starts --}}
+    <script>
+        var acc = document.getElementsByClassName("ashbin-accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("ashbin-active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+    {{-- communicity capacity building and trainging page script ends --}}
     </body>
 
     </html>

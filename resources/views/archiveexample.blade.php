@@ -4061,3 +4061,58 @@
 </div>
 
 {{-- backup code for human resources ends --}}
+
+
+{{-- community capacity building content starts --}}
+<div>
+    <button class="ashbin-accordion"> Natural Resource Management and Environmental Conservation
+    </button>
+    <div class="ashbin-panel">
+        <p> This training program is designed to provide basic knowledge and practical skills related to natural
+            resource management and environmental conservation to students, teachers and local community leaders on
+            a regular basis. In addition to this, ISER-N also organizes environmental awareness programs to
+            celebrate the World Environment Day.</p>
+    </div>
+
+    <button class="ashbin-accordion"> Soil Conservation and Bio-Engineering
+    </button>
+    <div class="ashbin-panel">
+        <p> Trainings for local communities of flood and soil erosion prone areas are organized regularly to provide
+            technical knowledge and practical skills on soil conservation and bioengineering techniques. The
+            trainings are conducted twice a year: one in winter and the other right before the rainy season.
+            ISER-N also conducts awareness programs on bio-engineering technology (for example, single-node bamboo
+            propagation technique) with the aim of controlling edge cutting by the Narayani River.</p>
+    </div>
+
+    <button class="ashbin-accordion"> Training on Modern Agricultural Technology Use</button>
+    <div class="ashbin-panel">
+        <p>Trainings on modern agricultural technologies are designed to help farmers increase agricultural
+            productivity through providing technical knowledge and practical skills to farmers regarding appropriate
+            and environment friendly agricultural technologies. The training areas include: system rice
+            intensification (SRI), integrated pest management (IPM), organic farming, vegetable farming, poultry
+            farming, and livestock production.</p>
+    </div>
+    <button class="ashbin-accordion">Biodiversity and Traditional Knowledge Documentation</button>
+    <div class="ashbin-panel">
+        <p>This training program is designed to document indigenous knowledge and information on local biodiversity
+            and provide training to transfer such knowledge to young generation collaborating with academic
+            institutions and civic societies. This study helps us to understand the value of conservation of local
+            knowledge and biodiversity in the livelihood enhancement in a local context. It also helps us to know
+            the factors that influence the loss of indigenous knowledge and biodiversity.</p>
+    </div>
+    <button class="ashbin-accordion">Trainers Training</button>
+    <div class="ashbin-panel">
+        <p> ISER-N has been conducting several adult literacy and child education programs in the western Chitwan
+            Valley. Each year, before the start of the programs, trainings are provided to the resource persons who
+            run the classes. The resource persons are selected from among the local school teachers of the program
+            implementing areas by the local communities.</p>
+    </div>
+    <button class="ashbin-accordion"> Farmers Field Visit</button>
+    <div class="ashbin-panel">
+        <p> ISER-N organizes farmers field visits to promote farmer-to-farmer learning on improved agricultural
+            practices. Farmers from one area where new agricultural technologies have not yet been introduced are
+            taken to the farmers’ fields where new technologies have been practiced. These tours provide opportunity
+            to observe actual use of technology in the field and to interact with the technology adopters.</p>
+    </div>
+</div>
+{{-- community capacity building content ends --}}
