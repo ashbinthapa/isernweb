@@ -332,7 +332,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Dr-dirgha-ghimire.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -363,7 +363,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/dr-prem-bahadur-bhandari.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -399,7 +399,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Dharma-raj-dangol.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -427,7 +427,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Uttam-Sharma.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -453,7 +453,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Keshav Pokhrel.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -481,8 +481,8 @@
     <div class="card">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="/images/national researchers/Dr-Naba.jpg" class="img-fluid rounded-start index-image-size"
-                    alt="Profile Image">
+                <img src="/images/national researchers/Dr-Naba.jpg"
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -515,7 +515,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Dr-Sachet-Prabhat-Shrestha.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -543,7 +543,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Pratik-Adhikary.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -573,8 +573,8 @@
     <div class="card">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="/images/national researchers/Abha-pic.jpg" class="img-fluid rounded-start index-image-size"
-                    alt="Profile Image">
+                <img src="/images/national researchers/Abha-pic.jpg"
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -603,7 +603,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Mr-Deba-Prasad-Pandey.png"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -639,7 +639,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/dr-kapil-dev-upadhyaya.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -669,7 +669,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/dr-humnath-bhandari-1.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -700,7 +700,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/dr-hridaya-devkota.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -729,7 +729,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/dr-harish-chandra-neupane.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -761,7 +761,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Chandra-Prasad-Sedai.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -789,7 +789,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Dr-Sharat-Chandra-Verma.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -817,8 +817,8 @@
     <div class="card">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="/images/national researchers/Dr-yubraj.jpg" class="img-fluid rounded-start index-image-size"
-                    alt="Profile Image">
+                <img src="/images/national researchers/Dr-yubraj.jpg"
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -849,8 +849,8 @@
     <div class="card">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="/images/national researchers/Pashupati.jpg" class="img-fluid rounded-start index-image-size"
-                    alt="Profile Image">
+                <img src="/images/national researchers/Pashupati.jpg"
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -882,7 +882,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/dr-meeta-sainju-pradhan.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -914,7 +914,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/VAIDYA-Yashas.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -942,7 +942,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Mr-Ram-Prasad-Luitel.png"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -970,7 +970,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Dr-V-M-Alurkar.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -999,7 +999,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/binoj-kumar-shrestha.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1027,7 +1027,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/national researchers/Shristi-Shrestha.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1064,7 +1064,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/abigail-york.png"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1111,7 +1111,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/thornton_arland.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1148,7 +1148,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/rowan-brian.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1202,7 +1202,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/emily-mckendry-smith.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1242,7 +1242,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/Emily-Treleaven.jpeg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1282,7 +1282,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/jennifer-glich.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1322,7 +1322,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/jennifer-s-barber.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1360,7 +1360,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/dr li an.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1400,7 +1400,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/Lisa pearce.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1454,7 +1454,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/dr michael bates.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1497,7 +1497,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/prof dr natalie d eggum.png"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1545,7 +1545,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/nathalie williams.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1604,7 +1604,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/sarah_brauner-otto.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1643,7 +1643,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/sarah-j-hayford.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1684,7 +1684,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/scott-t-yakibu.png"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1732,7 +1732,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/sean-t-murphy.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1767,7 +1767,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/dr sharon j hall.png"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1808,7 +1808,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/thornton_rebecca.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1838,7 +1838,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/prof dr willian g axinn.png"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -1891,7 +1891,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="/images/international researchers/nick-nash.jpg"
-                    class="img-fluid rounded-start index-image-size" alt="Profile Image">
+                    class="img-fluid rounded-start  index-image-size custom-card-img-top" alt="Profile Image">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -4116,3 +4116,304 @@
     </div>
 </div>
 {{-- community capacity building content ends --}}
+
+
+
+{{-- training and workshops content starts --}}
+<div>
+    <button class="ashbin-accordion">Nepali Students, Scholars and Research Staff Trained in USA
+    </button>
+    <div class="ashbinpanel">
+        <p>
+            1. Summer Institute Courses, Survey Research Center, University of Michigan – 50 Participants<br>
+            2. Long-term Academic Training – 13 Participants<br>
+            3. Other Seminar and Workshops – 6 Participants</p>
+    </div>
+
+    <button class="ashbin-accordion">International Students, Research Scholars and Post Doctoral Fellows Field
+        Training in Nepal
+    </button>
+    <div class="ashbinpanel">
+        <p>
+            1. Undergraduate Students – 9 Participants<br>
+            2. Graduate Students – 27 Participants<br>
+            3. Post Doctoral Fellows/Junior Faculty – 8 Participants<br>
+            4. Policy Communication Fellows – 5 Participants</p>
+    </div>
+
+    <button class="ashbin-accordion">On Site Training: Training and Workshops</button>
+    <div class="ashbinpanel">
+        <p>
+            1. Data Users’ Workshop – 121 Participants<br>
+            2. Training on Survey Research Techniques & Survey Data Analysis – 236 Participants<br>
+            3. General Interviewing Techniques Training – 577 Participants<br>
+            4. Interns- 3 Participants</p>
+    </div>
+</div>
+{{-- training and workshops content ends --}}
+
+
+
+
+{{-- research infrastructures content starts --}}
+<div>
+    <button class="ashbin-accordion">ISER-N Server Room and Laptop Storage
+    </button>
+    <div class="ashbinpanel">
+        <div class="col-10">
+            <img src="/images/research-infrastructure/computer1.jpg" class="custom-card-img-top" alt="Image 4">
+            <img src="/images/research-infrastructure/server1.jpg" class="custom-card-img-top" alt="Image 4">
+            <img src="/images/research-infrastructure/laptop-storage.jpg" class="custom-card-img-top"
+                alt="Image 4">
+
+        </div>
+        <p>
+            The computing facility includes 224 laptops, 21 desktop computers, 25 tablets, 50 GPS devices, 31 mobile
+            phone sets, 13 voice recorders, 11 landline phones and 21 camera sets that are regularly used for field data
+            collection and management at main and site offices. For uninterrupted internet connection, highly essential
+            25 for regular data transfer through CAPI, strong dedicated internet connection (5 MBPS and 2 MBPS) through
+            multiple service providers have been installed. These equipment and devices are also backed up by three
+            strong Google Wi-Fi routers, a Microtik router (1100AH) and six portable router (wi-fi devices). Also,
+            ISER-N uses and maintains its own server “Windows Server 2012, R2, 64 GB RAM, 8TB Hard Disk” and “Linux
+            Server, 16GB RAM, 1TB Hard Disk” for regular interview data processing and secure backup.</p>
+    </div>
+
+    <button class="ashbin-accordion">Research specific equipment
+    </button>
+    <div class="ashbinpanel">
+        <div class="col-10">
+            <img src="/images/research-infrastructure/soil-lab.jpg" class="custom-card-img-top" alt="Image 4">
+            <img src="/images/research-infrastructure/air-quality.jpg" class="custom-card-img-top" alt="Image 4">
+            <img src="/images/research-infrastructure/height-measurement.jpg" class="custom-card-img-top"
+                alt="Image 4">
+
+        </div>
+        <p>
+            ISER-N maintains necessary supporting equipment specific to each research project such as several saliva
+            storage racks (each having a storage capacity of 600 to 1000 saliva sample) and bar code to label each
+            sample for saliva sample processing; UCB-PATS, Micropem, SKC Pump, ToxiRae, and Sums-Stove for indoor air
+            quality measurement; SLIT LAMP, imaging module, etc. for different health studies; photo machine, printers
+            and others. Besides, ISER-N has a separate soil lab for preliminary soil tests with distilled water set up,
+            freezer, hot air oven, soil pH meter and other necessary equipment.</p>
+    </div>
+
+    <button class="ashbin-accordion">Office Building & Guest House</button>
+    <div class="ashbinpanel">
+        <div class="col-10">
+            <img src="/images/research-infrastructure/isern-building.jpg" class="custom-card-img-top"
+                alt="Image 4">
+            <img src="/images/research-infrastructure/Guest-house.jpg" class="custom-card-img-top" alt="Image 4">
+        </div>
+        <p>
+            Located in south central Nepal in Chitwan, ISER-N’s premise consists of the main office building and the
+            guest house. The office building is furnished with air conditioning, two generators (35 KVA and 15KVA)and
+            solar power back up (3.78KW) for uninterrupted power supply and several voltage stabilizers to control the
+            climate and to regulate the power. The guest house with five bedrooms and a meeting room is designed to
+            provide accommodation for visiting scholars and researchers with all the modern amenities. The institute
+            also maintains several additional field/site offices located throughout the study area in Chitwan.</p>
+    </div>
+    <button class="ashbin-accordion">Training Halls</button>
+    <div class="ashbinpanel">
+        <div class="col-10">
+            <img src="/images/research-infrastructure/training-hall.jpg" class="custom-card-img-top"
+                alt="Image 4">
+            <img src="/images/research-infrastructure/training-hall2.jpg" class="custom-card-img-top"
+                alt="Image 4">
+            <img src="/images/research-infrastructure/long-distance-learning.jpg" class="custom-card-img-top"
+                alt="Image 4">
+
+        </div>
+        <p>
+            <strong>ISER-N Training Hall</strong> The institute has a spacious training hall that can comfortably
+            accommodate up to 50 participants and is equipped with a large screen and a high definition projector set up
+            with automated system; two meeting halls each having capacity to accommodate 10 to 15 persons and contains
+            LED TV (60 inch) with cables to display presentation; a coding room; several office rooms for research staff
+            and administrative personnel; telephone survey facility room; secure storage rooms for data storage; and a
+            library. The library offers a wide variety of materials related to population, the environment and social
+            science.
+
+            <strong>Albert and Charlotte Anderson Long Distance Learning Room</strong> The Long Distance Learning Room
+            is the initiative of ISER-N to promote learning through the use of technology to support demographic
+            research and training by overcoming the need for trainers to travel from different parts of the world.
+            Instead, professors and trainers can simply use the technology to share necessary knowledge and guidance
+            with the help of this program, saving both time and financial resources. The Long Distance Learning Room
+            Program is the first and only of its kind in Nepal and has been funded by Albert and Charlotte Anderson
+            since 2015.The room has been set up with the advanced video conference technology using Polycom server,
+            three LED TVs (65 inch each) and can accommodate up to 20 participants.
+        </p>
+    </div>
+</div>
+{{-- research infrastructures content ends --}}
+
+
+<div class="container-fluid">
+    <p>Based on research findings and experiences and the needs of the local communities, ISER-N implements a small set
+        of selective policy advocacy and development programs to help improve the socio-economic wellbeing and
+        environmental conditions of the local communities.</p>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col p-4">
+                <p class=" fw-bold">Child Education</p>
+                <p>Research findings revealed that lack of parental guidance and support to complete homework is the
+                    main reason for school drop-outs and are higher among ethnic minority children. To address this
+                    problem, the institute has designed and has been running a Child Education Program explicitly
+                    targeting the children of ethnic minority communities in western Chitwan. Awareness programs are run
+                    for parents and an after-school education program for children along with provision of educational
+                    materials free of cost.</p>
+                <div id="carouselExample" class="carousel slide align-items-end">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"><img class="d-block w-100"
+                                src="../../../images/child education/Education3.jpg" alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Child-Education2.jpg" alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/ChildEducation.jpg" alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Out-of-School-Children-Education.jpg"
+                                alt="..." /></div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev"> <span class="visually-hidden">Previous</span> </button> <button
+                        class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next"> <span class="visually-hidden">Next</span> </button>
+                </div>
+            </div>
+            <div class="col p-4">
+                <p class=" fw-bold">Adult Education</p>
+                <p>With the financial and technical assistance of the District Education Office, Bharatpur, the
+                    institute has been conducting adult literacy classes for Dalit and Janajati communities,
+                    particularly in areas that are least served by development activities. To run these programs, ISER-N
+                    partners with local organizations.</p>
+                <p><img class="d-block w-100" src="../../../images/child education/Adult-Education.jpg"
+                        alt="..." /></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-4">
+                <p class=" fw-bold">Emergency Relief</p>
+                <p>In case of emergency situations, such as earthquakes, fires, and floods, ISER-N partners with other
+                    organizations to facilitate relief work and provides some immediate relief supplies: food, clean and
+                    safe drinking water, and medicines. At the same time, ISER-N provides several awareness programs on
+                    environmental sanitation, clean and safe drinking water, and communicable diseases in the affected
+                    areas.</p>
+                <div id="carouselExample3" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"><img class="d-block w-100"
+                                src="../../../images/child education/Flood-victims-Emergency-relief.jpg"
+                                alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Flood-victims-Emergency-relief2.jpg"
+                                alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Flood-victims-Emergency-relief3.jpg"
+                                alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Flood-victims-Emergency-relief4.jpg"
+                                alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Flood-victims-Emergency-relief5.jpg"
+                                alt="..." /></div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
+                        data-bs-slide="prev"> <span class="visually-hidden">Previous</span> </button> <button
+                        class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
+                        data-bs-slide="next"> <span class="visually-hidden">Next</span> </button>
+                </div>
+            </div>
+            <div class="col p-4">
+                <p class=" fw-bold">Women&rsquo;s Reproductive Health Check-up Camp</p>
+                <p>In collaboration with the district-level line agencies, particularly the Nepal Family Planning
+                    Association, ISER-N regularly runs women&rsquo;s reproductive health camps at different sites in
+                    western Chitwan. The aims of these camps are to provide information about women&rsquo;s reproductive
+                    health, and to conduct general reproductive health check-ups by the health practitioners and
+                    gynecologists. These camps have directly benefited women as well as researchers.</p>
+                <div id="carouselExample4" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"><img class="d-block w-100"
+                                src="../../../images/child education/Reproductive-Health-4.jpg" alt="..." />
+                        </div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Reproductive-Health1.jpg" alt="..." />
+                        </div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Reproductive-Health3.jpg" alt="..." />
+                        </div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Reproductive-Health4.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4"
+                        data-bs-slide="prev"> <span class="visually-hidden">Previous</span> </button> <button
+                        class="carousel-control-next" type="button" data-bs-target="#carouselExample4"
+                        data-bs-slide="next"> <span class="visually-hidden">Next</span> </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-4">
+                <p class=" fw-bold">Soil Conservation and Bio-Engineering</p>
+                <p>In order to protect the local environment from further deterioration, the institute encourages the
+                    use of locally available, low-cost, environmentally friendly soil conservation and bio-engineering
+                    technologies. With this goal, ISER-N has initiated several conservation programs including the
+                    plantation of Vetivar, Amriso, and bamboo for river bank protection. To produce a large number of
+                    bamboo seedlings, the institute introduced the single-node bamboo propagation technology in the area
+                    and encouraged local communities to plant these seedlings along the Narayani River. This program has
+                    been highly successful in protecting the edge-cutting by river and is well received by the local
+                    communities.</p>
+                <div id="carouselExample5" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"><img class="d-block w-100"
+                                src="../../../images/child education/BAmboo-saplings-Inter-node-Cutting-Technology-Training.jpg"
+                                alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Environment-Conservation-Training.jpg"
+                                alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/Environment-Training2.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5"
+                        data-bs-slide="prev"> <span class="visually-hidden">Previous</span> </button> <button
+                        class="carousel-control-next" type="button" data-bs-target="#carouselExample5"
+                        data-bs-slide="next"> <span class="visually-hidden">Next</span> </button>
+                </div>
+            </div>
+            <div class="col p-4">
+                <p class=" fw-bold">Agricultural Extension Program</p>
+                <p>The programs on agricultural extension are designed to disseminate new low-cost appropriate
+                    agricultural technology to help farmers increase crop production. The institute introduced advanced,
+                    high-yielding, rice farming technology called the System of Rice Intensification (SRI) among farmers
+                    of western Chitwan by training and encouraging farmers. With the aim of familiarizing the farmers
+                    with this technology, the institute supported a small number of demonstrations in the area. The
+                    demonstrations were highly successful and were visited by farmers from other areas of western
+                    Chitwan. The visitors were highly impressed and expressed their motivation to adopt this innovative
+                    technology.</p>
+                <div id="carouselExample6" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"><img class="d-block w-100"
+                                src="../../../images/child education/agricultural extension program.jpg"
+                                alt="..." /></div>
+                        <div class="carousel-item"><img class="d-block w-100"
+                                src="../../../images/child education/agricultural extension program2.jpg"
+                                alt="..." /></div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6"
+                        data-bs-slide="prev"> <span class="visually-hidden">Previous</span> </button> <button
+                        class="carousel-control-next" type="button" data-bs-target="#carouselExample6"
+                        data-bs-slide="next"> <span class="visually-hidden">Next</span> </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-4">
+                <p class=" fw-bold">Advocacy Program</p>
+                <p>The institute conducts advocacy programs in areas of human rights, women&rsquo;s rights, domestic
+                    violence, girls trafficking, government laws and regulations. These programs are targeted to women
+                    and ethnic minorities including those from Dalit and Janajati communities.</p>
+                <p><img class="d-block w-100" src="../../../images/child education/Advocacy.jpg" alt="..." />
+                </p>
+            </div>
+            <div class="col p-4">&nbsp;</div>
+        </div>
+    </div>
+</div>
