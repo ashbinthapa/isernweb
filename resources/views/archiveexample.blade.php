@@ -4417,3 +4417,61 @@
         </div>
     </div>
 </div>
+
+
+
+
+{{-- funding agencies starts --}}
+<div class="sh-image-gallery-item"
+    style="box-sizing: border-box; display: inline-block; vertical-align: top; margin-right: -4px; width: 246px; padding: 15px;">
+    <div class="sh-gallery-item" style="box-sizing: border-box; position: relative; overflow: hidden;">&nbsp;</div>
+</div>
+<div class="container text-center p-4">
+    <div class="row">
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/569_seal_foil.png" alt="1" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/2015-Penn-State-University-logo-design-2.png" alt="2" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/cardiff-university.png" alt="3" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/Chpel_hill.jpg" alt="4" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/download_1.png" alt="5" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid" src="/images/funding-agencies/ESRC.jpg"
+                alt="6" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/Fulbright-logo-new-1024x396.jpg" alt="7" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/georgetown-university.jpg" alt="8" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid" src="/images/funding-agencies/micda.png"
+                alt="9" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/nasa-logo-1024x857.png" alt="10" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid" src="/images/funding-agencies/NICHD.png"
+                alt="11" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid" src="/images/funding-agencies/norc.png"
+                alt="12" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/NSF_logo.jpg" alt="13" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/nsf-pire-1024x477.jpg" alt="14" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid" src="/images/funding-agencies/PSC.jpg"
+                alt="15" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid" src="/images/funding-agencies/sdsu.png"
+                alt="16" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/UNF_Logo-1024x243.png" alt="17" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/United_States_Fish_and_Wildlife_Service.png" alt="18" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/University_of_Chicago_shield.svg_.png" alt="19" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/university-michigan-u-of-m.jpg" alt="20" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid" src="/images/funding-agencies/USAID.png"
+                alt="21" /></div>
+        <div class="col-6 col-md-3 col-lg-2 p-2"><img class="img-fluid"
+                src="/images/funding-agencies/UW_Seal2.png" alt="22" /></div>
+    </div>
+</div>
+{{-- funding agencies ends --}}
