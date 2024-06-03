@@ -204,6 +204,7 @@ background-color: #05264b;
 .sticky-top-custom.active {
   background-color: #05264b;
   /* Background color when sticky */
+  z-index: 3;
 }
 /* Optional: You can adjust other button properties as needed */
 .custom-button-search:hover {
