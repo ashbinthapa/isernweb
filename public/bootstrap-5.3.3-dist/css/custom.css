@@ -420,8 +420,8 @@ background-color: #05264b;
 
 /*  communicity capacity building and trainging page css starts */
 .ashbin-accordion {
-  background-color: #05264b;
-  color: white;
+  background-color: #f4f4f4;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -434,7 +434,8 @@ background-color: #05264b;
 
 .ashbin-active,
 .ashbin-accordion:hover {
-  background-color: #ccc;
+  background-color: #05264b;
+  color: white;
 }
 
 .ashbin-accordion:after {
