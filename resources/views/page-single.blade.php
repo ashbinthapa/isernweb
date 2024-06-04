@@ -44,4 +44,59 @@
         </div>
     </div>
 </div>
+
+<!-- gallery page start -->
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+
+                    <div class="custom-card-body p-3">
+                        <a class="ashbin-text-b" href="/policy-and-interventions/Intervention">
+                            <p class="custom-card-text">Program Achievement</p>
+                            <img src="/images/child education/ChildEducation.jpg" class="custom-card-img-top"
+                                alt="Image 1">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+                    <img src="/images/policy-feedback.jpg" class="custom-card-img-top" alt="Image 2">
+                    <div class="custom-card-body p-3">
+                        <a class="ashbin-text-b" href="/policy-and-interventions/policy-feedback/">
+                            <p class="custom-card-text">Policy Feedback</p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+                    <img src="/images/dissemination.jpg" class="custom-card-img-top" alt="Image 4">
+                    <div class="custom-card-body p-3">
+                        <a class="ashbin-text-b" href="/dissemination">
+                            <p class="custom-card-text">Dissemination</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="custom-card">
+                    <img src="/images/respondent-interaction.jpg" class="custom-card-img-top" alt="Image 3">
+                    <div class="custom-card-body p-3">
+                        <a class="ashbin-text-b" href="/policy-and-interventions/interaction-program-with-respondents">
+                            <p class="custom-card-text">Respondent Interaction</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- gallery page ends -->
 @include('layouts.footer')
