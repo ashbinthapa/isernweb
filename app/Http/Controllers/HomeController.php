@@ -29,7 +29,7 @@ class HomeController extends Controller
 
         $page_about_us = Page::where('slug', 'about-us')->first(); // Retrieve about-us pages from the database
 
-        $timeline_slider = Timeline::all();
+        $timeline_slider = Timeline::latest()->get();
 
         $publications = Publication::latest()->take(8)->get(); // Retrieve all publication from the database
 
