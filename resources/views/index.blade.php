@@ -209,7 +209,7 @@
         </div>
         <div class="carousel-inner">
             @foreach ($data['timeline_slider']->chunk(5) as $index => $chunk)
-                <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+                <div class="carousel-item {{ $index === 0 ? 'active' : '' }}" data-bs-interval="6000">
                     <div class="container-fluid p-5">
                         <div class="row">
                             @foreach ($chunk as $timeline)
@@ -257,11 +257,11 @@
 
     <!-- latest news and announcement section started -->
     <div class="container-fluid bg-light py-4">
-        <div class="container text-left" style="margin-top: 20px; margin-bottom: 20px;">
-            <p class="fw-bold fs-1" style="color: #01274c;">Latest News and
+        <div class="container" style="margin-top: 20px; margin-bottom: 20px;">
+            <p class="fw-bold fs-1 text-center" style="color: #01274c;">Latest News and
                 Announcement</p>
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-left">
                 @foreach ($data['posts_latest_news'] as $post)
                     <div class="col p-2">
                         <div class="card h-100">
