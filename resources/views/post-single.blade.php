@@ -1,15 +1,15 @@
 @include('layouts.header')
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <ul class="navbar-nav">
+    <div class="container d-flex align-items-center">
+        <ul class="navbar-nav d-flex align-items-center text-center">
             <li class="nav-item">
-                <a class="nav-link fw-bold fs-4" style="color: #01274c;" href="/posts">Posts</a>
+                <a class="nav-link fw-bold fs-6" style="color: #01274c;" href="/posts">Posts</a>
             </li>
-            <li class="nav-item p-3">
+            <li class="nav-item">
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
             </li>
-            <li class="nav-item pt-2">
-                <a class="nav-link fw-bold fs-6" style="color: #01274c;"
+            <li class="nav-item">
+                <a class="nav-link fw-bold fs-5" style="color: #01274c;"
                     href="/posts/category/{{ $post->category->name }}">{{ $post->category->name }}</a>
             </li>
             <!-- Add more navigation items as needed -->
