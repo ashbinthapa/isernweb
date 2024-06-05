@@ -4,7 +4,7 @@
         <p class="fw-bold fs-4 mt-4">{{ $page->title }}</p>
         <ul class="navbar-nav d-flex flex-row flex-wrap align-items-center">
             <li class="nav-item">
-                <a class="nav-link fw-bold fs-4 fs-lg-4" style="color: #01274c;" href="{{ url('/') }}">Home</a>
+                <a class="nav-link fs-6 fs-lg-6" style="color: #01274c;" href="{{ url('/') }}">Home</a>
             </li>
             <li class="nav-item">
                 <i class="fa fa-angle-right mx-2" aria-hidden="true"></i>
@@ -12,7 +12,7 @@
             @if (isset($parentPage))
                 <!-- Check if parent page exists -->
                 <li class="nav-item">
-                    <a class="nav-link fw-bold fs-4 fs-lg-4" style="color: #01274c;"
+                    <a class="nav-link fs-6 fs-lg-6" style="color: #01274c;"
                         href="/{{ $parentPage->slug }}">{{ $parentPage->title }}</a>
                 </li>
                 <li class="nav-item">
@@ -20,7 +20,7 @@
                 </li>
             @endif
             <li class="nav-item">
-                <a class="nav-link fw-bold fs-6 fs-lg-6" style="color: #01274c;">{{ $page->title }}</a>
+                <a class="nav-link fw-bold fs-5 fs-lg-5" style="color: #01274c;">{{ $page->title }}</a>
             </li>
             <!-- Add more navigation items as needed -->
         </ul>
