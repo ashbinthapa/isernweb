@@ -45,11 +45,16 @@
 .footer-details a {
   text-decoration: none !important; /* Remove underlines from anchor tags */
   color: white;
+  font-size: 14px;
 }
 
 .custom-footer-style{
   color: white;
   background: linear-gradient(125deg, rgb(1, 39, 76), rgb(63, 113, 114));
+}
+
+.footer-design h5 {
+  font-size: 20px;
 }
 
 .footer-design h5:after {
