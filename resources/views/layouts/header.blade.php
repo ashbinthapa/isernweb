@@ -46,7 +46,7 @@
                                 News & Announcements
                             </a>
                             <ul class="dropdown-menu" style="background-color: #05264b;">
-                                <li><a class="dropdown-item" href="/posts/">All News & Announcements</a></li>
+                                {{-- <li><a class="dropdown-item" href="/posts/">All News & Announcements</a></li> --}}
                                 <li><a class="dropdown-item" href="/posts/category/news">News</a></li>
                                 <li><a class="dropdown-item" href="/posts/category/announcement">Announcements</a></li>
                                 <li><a class="dropdown-item" href="/posts/category/events">Events</a></li>
