@@ -44,19 +44,25 @@
             </div>
 
         </div>
-        {{-- <div class="pl-1">
-            <button id="applyFilterBtn" type="submit" class="btn btn-primary">Apply Filters</button>
-        </div> --}}
     </form>
+    <div>
+        <a href="/publications">
+            <button class="custom-button fw-bold">CLEAR ALL FLITERS</button>
+        </a>
+    </div>
 
-    <div class="card table-responsive mt-4 text-center">
+    <div class="card table-responsive mt-4 text-left">
         <table id="example" class="table table-striped table-borderless">
             <thead class="fw-bold custom-table-header">
                 <tr>
-                    <th scope="col" class="col-3">Publication Type</th>
-                    <th scope="col" class="col-6">Publication</th>
-                    <th scope="col" class="col-1">Link</th>
-                    <th scope="col" class="col-2">Year</th>
+                    <th scope="col" data-column="0" class="col-3 sortable">Publication Type <i
+                            class="fa fa-sort"></i></th>
+                    <th scope="col" data-column="1" class="col-6 sortable">Publication <i class="fa fa-sort"></i>
+                    </th>
+                    <th scope="col" data-column="2" class="col-1 sortable">Link <i class="fa fa-sort"></i>
+                    </th>
+                    <th scope="col" data-column="3" class="col-2 sortable">Year <i class="fa fa-sort"></i>
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -76,8 +82,9 @@
     </div>
 
     <div class="d-flex justify-content-center pt-2">
-        {{ $publications_data['publications']->links('vendor.pagination.bootstrap-5') }}
+        {{ $publications_data['publications']->appends(['type' => request('type'), 'year' => request('year')])->links('vendor.pagination.bootstrap-5') }}
     </div>
 </div>
+
 
 @include('layouts.footer')
