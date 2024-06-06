@@ -1,20 +1,19 @@
 @include('layouts.header')
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/publications">Publications</a>
-                </li>
-                <!-- Add more navigation items as needed -->
-            </ul>
-        </div>
+        <p class="fw-bold fs-4 mt-4">Publications</p>
+        <ul class="navbar-nav d-flex flex-row flex-wrap align-items-center">
+            <li class="nav-item">
+                <a class="nav-link fs-6 fs-lg-6" style="color: #01274c;" href="{{ url('/') }}">Home</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-angle-right mx-2" aria-hidden="true"></i>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fw-bold fs-5 fs-lg-5" style="color: #01274c;">Publications</a>
+            </li>
+            <!-- Add more navigation items as needed -->
+        </ul>
     </div>
 </nav>
 
@@ -45,9 +44,9 @@
             </div>
 
         </div>
-        <div class="pl-1">
+        {{-- <div class="pl-1">
             <button id="applyFilterBtn" type="submit" class="btn btn-primary">Apply Filters</button>
-        </div>
+        </div> --}}
     </form>
 
     <div class="card table-responsive mt-4 text-center">

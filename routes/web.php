@@ -43,9 +43,13 @@ Route::middleware(['web', 'footerdata'])->group(function () {
     // Define your routes here
 
 
-    Route::get('/interventions', function () {
-        return view('interventions');
-    });
+    // Route::get('/interventions', function () {
+    //     return view('interventions');
+    // });
+
+    // Route::get('/about-us/board-members', function () {
+    //      return view('board-members');
+    // });
 
     /*HomeController*/
     Route::get('/', [HomeController::class, 'index']);
