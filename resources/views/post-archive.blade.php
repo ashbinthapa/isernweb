@@ -33,10 +33,11 @@
                             style="background-color: #05264b;">{{ $post->category->name }}</span>
 
                         <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
-                            style="text-decoration: none; color: inherit;">
-                            <p class="card-title fw-bold fs-5">{{ $post->title }}</p>
+                            style="text-decoration: none; color: inherit; font-size: 16px;">
+                            <p class="card-title fw-bold">{{ $post->title }}</p>
                         </a>
-                        <p class="card-text">{{ Str::limit(strip_tags($post->content), 250) }}</p>
+                        <p class="card-text" style="font-size: 14px;">
+                            {{ Str::limit(strip_tags($post->content), 250) }}</p>
                         <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"><button
                                 class="custom-button fw-bold">Read More</button></a>
                     </div>
