@@ -13,8 +13,8 @@
 
 <body>
     {{-- div for the main header logo section --}}
-    <div class="grid text-center" style="background-color: #05264b;">
-        <div class="container py-4">
+    <div class="container-fluid py-4" style="background-color: #05264b;">
+        <div class="container">
             <a href="{{ url('/') }}">
                 <img src="{{ asset('images/isernepal website logo.png') }}" class="img-fluid" alt="ISER-N">
             </a>
