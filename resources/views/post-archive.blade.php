@@ -34,7 +34,7 @@
 
                         <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
                             style="text-decoration: none; color: inherit; font-size: 16px;">
-                            <p class="card-title fw-bold">{{ $post->title }}</p>
+                            <p class="card-title fw-bold">{{ Str::limit(strip_tags($post->title), 75) }}</p>
                         </a>
                         <p class="card-text" style="font-size: 14px;">
                             {{ Str::limit(strip_tags($post->content), 250) }}</p>
