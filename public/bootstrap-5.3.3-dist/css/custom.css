@@ -124,6 +124,10 @@ body {
 /*raleway font ends*/
 
 /* Set default text color for navbar links */
+.navbar-nav .nav-item .nav-link.active {
+  color: #f2c100;  /* Example color for active link */
+}
+
 .navbar-header-ul .nav-link {
   color: white;
   font-size: 14px;
@@ -133,7 +137,8 @@ body {
 .navbar-header-ul .nav-link:hover,
 .navbar-header-ul .nav-link:focus,
 .navbar-header-ul .nav-link.active {
-  color: #f2c100;}
+  color: #f2c100;
+}
 
 /* Position submenu to the right */
 .dropdown-submenu .dropdown-menu {
