@@ -70,10 +70,18 @@
                     <tr>
                         <td>{{ $publication->publicationcategory->name }}</td>
                         <td>{{ $publication->title }}</td>
-                        <td><a href="{{ $publication->link }}" target="_blank" class="fw-bold"
-                                style="text-decoration: none; color: #01274c;"><button
-                                    class="publication-doi-button">DOI
-                                </button></a></td>
+                        @if (!empty($publication->link))
+                            <td>
+                                <a href="{{ $publication->link }}" target="_blank" class="fw-bold"
+                                    style="text-decoration: none; color: #01274c;">
+                                    <button class="publication-doi-button">DOI</button>
+                                </a>
+                            </td>
+                        @else
+                            <td>
+
+                            </td>
+                        @endif
                         <td>{{ $publication->year }}</td>
                     </tr>
                 @endforeach
