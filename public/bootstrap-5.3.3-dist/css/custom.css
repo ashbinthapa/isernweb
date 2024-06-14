@@ -468,3 +468,10 @@ background-color: #05264b;
   overflow: hidden;
 }
 /*  communicity capacity building and trainging page css ends */
+
+/*capatilizing the first letter starts*/
+.capitalize-first-letter {
+    text-transform: capitalize;
+}
+
+/*capatilizing the first letter endss*/

@@ -9,7 +9,7 @@
                 <i class="fa fa-angle-right" aria-hidden="true"></i>
             </li>
             <li class="nav-item pt-2">
-                <a class="nav-link fw-bold fs-6" style="color: #01274c;"
+                <a class="nav-link fw-bold fs-6 capitalize-first-letter" style="color: #01274c;"
                     href="/projects/{{ $data->first()->research_status }}">{{ $data->first()->research_status }}</a>
             </li>
             <!-- Add more navigation items as needed -->
