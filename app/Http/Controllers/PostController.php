@@ -7,9 +7,34 @@ use App\Models\Category; // Import the Post model
 
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+
 
 class PostController extends Controller
 {
+    public function store(Request $request)
+    {
+        $validatedData = $request->validate([
+            'user_id' => 'nullable|exists:users,id',
+            'category_id' => 'nullable|exists:categories,id',
+            'title' => 'required|string',
+            'slug' => 'required|string|unique:posts,slug',
+            'content' => 'nullable|string',
+            'meta_description' => 'nullable|string',
+            'is_featured' => 'boolean',
+            'is_published' => 'boolean',
+            'published_at' => 'nullable|date',
+            'seo_title' => 'nullable|string|max:60',
+            'seo_description' => 'nullable|string|max:160',
+            'image' => 'nullable|image|max:2048'
+        ]);
+
+        $validatedData['slug'] = Str::slug($validatedData['slug']);
+
+        $post = Post::create($validatedData);
+
+        return redirect()->route('posts.show', $post);
+    }
     
     public function archive()
     {

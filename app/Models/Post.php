@@ -5,20 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Illuminate\Support\Str;
-
-
+use Illuminate\Validation\ValidationException;
 
 class Post extends Model implements HasMedia
 {
-    use HasFactory;
-
-    use SoftDeletes;
-
-    use InteractsWithMedia;
+    use HasFactory, SoftDeletes, InteractsWithMedia;
 
     const EXCERPT_LENGTH = 100;
 
@@ -37,18 +33,32 @@ class Post extends Model implements HasMedia
         'image'
     ];
 
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::creating(function ($post) {
+            $requiredFields = ['title', 'slug'];
+            foreach ($requiredFields as $field) {
+                if (empty($post->$field)) {
+                    throw ValidationException::withMessages([
+                        $field => 'This field is required.',
+                    ]);
+                }
+            }
+        });
+    }
+
     public function excerpt()
     {
         return Str::limit($this->content, Post::EXCERPT_LENGTH);
     }
 
-    /** @return BelongsTo<User,self> */
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class, 'user_id');
     }
 
-    /** @return BelongsTo<Category,self> */
     public function category(): BelongsTo
     {
         return $this->belongsTo(Category::class, 'category_id');
@@ -59,11 +69,8 @@ class Post extends Model implements HasMedia
         return $this->morphOne(Searchable::class, 'searchable');
     }
 
-    /** @return MorphMany<Comment> */
     public function comments(): MorphMany
     {
         return $this->morphMany(Comment::class, 'commentable');
     }
-
-
 }
