@@ -146,29 +146,61 @@
                                         href="#" role="button" aria-expanded="false">Human Resources</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item {{ request()->is('about-us/board-members') ? 'active' : '' }}"
-                                                href="/about-us/board-members">Board Members</a></li>
+                                                href="/about-us/board-members/">Board Members</a></li>
                                         <li><a class="dropdown-item {{ request()->is('about-us/general-members') ? 'active' : '' }}"
-                                                href="/about-us/general-members">General Members</a></li>
+                                                href="/about-us/general-members/">General Members</a></li>
                                         <li><a class="dropdown-item {{ request()->is('about-us/national-researchers') ? 'active' : '' }}"
-                                                href="/about-us/national-researchers">National Researchers</a></li>
+                                                href="/about-us/national-researchers/">National Researchers</a></li>
                                         <li><a class="dropdown-item {{ request()->is('about-us/international-researchers') ? 'active' : '' }}"
-                                                href="/about-us/international-researchers">International
+                                                href="/about-us/international-researchers/">International
                                                 Researchers</a></li>
-                                        <li><a class="dropdown-item {{ request()->is('about-us/field-supervisors') ? 'active' : '' }}"
-                                                href="/about-us/field-supervisors">Field Supervisors</a></li>
-                                        <li><a class="dropdown-item {{ request()->is('about-us/research-associates') ? 'active' : '' }}"
-                                                href="/about-us/research-associates">Research Associates</a></li>
-                                        <li><a class="dropdown-item {{ request()->is('about-us/research-enumerators') ? 'active' : '' }}"
-                                                href="/about-us/research-enumerators">Research Enumerators</a></li>
-                                        <li><a class="dropdown-item {{ request()->is('about-us/admin-and-finance') ? 'active' : '' }}"
-                                                href="/about-us/admin-and-finance">Admin & Finance</a></li>
+                                        <li><a class="dropdown-item {{ request()->is('about-us/scholars') ? 'active' : '' }}"
+                                                href="/about-us/scholars">Scholars</a></li>
+                                        <li><a class="dropdown-item {{ request()->is('about-us/staff') ? 'active' : '' }}"
+                                                href="/about-us/staff/">Staff</a></li>
                                     </ul>
                                 </li>
+                                <li><a class="dropdown-item {{ request()->is('research-infrastructure') ? 'active' : '' }}"
+                                        href="/research-infrastructure">Research Infrastructures</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle {{ request()->is('finance-management*') ? 'active' : '' }}"
+                                        href="#" role="button" aria-expanded="false">Finance Management</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item {{ request()->is('funding-agencies') ? 'active' : '' }}"
+                                                href="/funding-agencies">Funding Agencies</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle {{ request()->is('collaboration*') ? 'active' : '' }}"
+                                        href="/collaboration" role="button" aria-expanded="false">Collaboration</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item {{ request()->is('collaboration/national-collaboration') ? 'active' : '' }}"
+                                                href="/collaboration/national-collaboration">National</a></li>
+                                        <li><a class="dropdown-item {{ request()->is('collaboration/international-collaboration') ? 'active' : '' }}"
+                                                href="/collaboration/international-collaboration">International</a>
+                                        </li>
+                                        <li><a class="dropdown-item {{ request()->is('collaboration/collaborate-with-us') ? 'active' : '' }}"
+                                                href="/collaboration/collaborate-with-us">Collaborate With Us</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle {{ request()->is('work-with-us*') ? 'active' : '' }}"
+                                        href="/about-us/work-with-us" role="button" aria-expanded="false">Work With
+                                        Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item {{ request()->is('work-with-us/career-at-isern') ? 'active' : '' }}"
+                                                href="/work-with-us/career-at-isern">Career @ Iser-N</a></li>
+                                        <li><a class="dropdown-item {{ request()->is('work-with-us/training-at-isern') ? 'active' : '' }}"
+                                                href="/work-with-us/training-at-isern">Training @ ISER-N</a></li>
+                                        <li><a class="dropdown-item {{ request()->is('work-with-us/as-a-respondent') ? 'active' : '' }}"
+                                                href="/work-with-us/as-a-respondent">As a Respondent</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item {{ request()->is('about-us/gallery') ? 'active' : '' }}"
+                                        href="/about-us/gallery">Gallery</a></li>
+                                <li><a class="dropdown-item {{ request()->is('contact') ? 'active' : '' }}"
+                                        href="{{ asset('/contact') }}">Contact</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ request()->is('contact-us') ? 'active' : '' }}"
-                                href="{{ url('/contact-us') }}">Contact Us</a>
                         </li>
                     </ul>
                     <form class="d-flex" id="searchForm">
