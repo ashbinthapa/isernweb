@@ -38,14 +38,19 @@ class ResearchResource extends Resource
         return $form
             ->schema([
                 TextInput::make('title')
-                    ->label("Title"),
+                    ->label("Title")
+                    ->required(),
+
 
                 TextInput::make('slug')
-                    ->label('Slug'),
+                    ->label('Slug')
+                    ->required()
+                    ->unique(),
 
                 Radio::make('research_status')
                     ->label('Research Status?')
                     ->boolean()
+                    ->required()
                     ->options([
                         'ongoing' => 'ongoing',
                         'completed' => 'completed'
