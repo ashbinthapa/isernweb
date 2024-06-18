@@ -32,10 +32,15 @@ class PublicationResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('title'),
+                Forms\Components\TextInput::make('title')
+                ->required(),
 
-                Forms\Components\TextInput::make('slug'),
+                Forms\Components\TextInput::make('slug')
+                ->required()
+                ->unique(),
+
                 Forms\Components\TextInput::make('link'),
+                
                 Forms\Components\TextInput::make('year'),
 
                 TinyEditor::make('content')
