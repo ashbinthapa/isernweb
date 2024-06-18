@@ -36,9 +36,12 @@ class TimelineResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('title'),
+                TextInput::make('title')
+                ->required(),
 
-                TextInput::make('slug'),
+                TextInput::make('slug')
+                ->required()
+                ->unique(),
 
                 TinyEditor::make('content')
                     ->fileAttachmentsDisk('local')
