@@ -32,9 +32,12 @@ class PageResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('title'),
+                Forms\Components\TextInput::make('title')
+                ->required(),
 
-                Forms\Components\TextInput::make('slug'),
+                Forms\Components\TextInput::make('slug')
+                ->required()
+                ->unique(),
 
                 TinyEditor::make('content')
                     ->fileAttachmentsDisk('local')
