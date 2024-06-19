@@ -36,8 +36,7 @@ class PageResource extends Resource
                 ->required(),
 
                 Forms\Components\TextInput::make('slug')
-                ->required()
-                ->unique(),
+                ->required(),
 
                 TinyEditor::make('content')
                     ->fileAttachmentsDisk('local')

@@ -44,8 +44,7 @@ class ResearchResource extends Resource
 
                 TextInput::make('slug')
                     ->label('Slug')
-                    ->required()
-                    ->unique(),
+                    ->required(),
 
                 Radio::make('research_status')
                     ->label('Research Status?')

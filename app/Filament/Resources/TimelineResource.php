@@ -40,9 +40,8 @@ class TimelineResource extends Resource
                 ->required(),
 
                 TextInput::make('slug')
-                ->required()
-                ->unique(),
-
+                ->required(),
+                
                 TinyEditor::make('content')
                     ->fileAttachmentsDisk('local')
                     ->fileAttachmentsVisibility('public')

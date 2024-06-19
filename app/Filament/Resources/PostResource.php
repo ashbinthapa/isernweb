@@ -37,8 +37,7 @@ class PostResource extends Resource
                 ->required(),
 
                 Forms\Components\TextInput::make('slug')
-                ->required()
-                ->unique(),
+                ->required(),
                 
                 Forms\Components\TextInput::make('published_at'),
 

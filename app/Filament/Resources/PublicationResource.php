@@ -36,9 +36,8 @@ class PublicationResource extends Resource
                 ->required(),
 
                 Forms\Components\TextInput::make('slug')
-                ->required()
-                ->unique(),
-
+                ->required(),
+                
                 Forms\Components\TextInput::make('link'),
                 
                 Forms\Components\TextInput::make('year'),
