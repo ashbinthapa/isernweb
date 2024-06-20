@@ -13,20 +13,19 @@
 <div class="container py-4" style="font-size: 14px">
     <div class="row justify-content-center">
         <div class="col-12"> <!-- Increased width to 9 columns -->
-            <p>Findings from high quality rigorous scientific research are
-                crucial to identify emerging
-                social and environmental issues, formulating appropriate policies and to make informed decisions for
-                sustainable development. The theoretical motivation of ISE-N’s research programs lies in the
-                investigation of micro – level association to inform our understanding of emerging macro-level social
-                and environmental trends. ISER-N’s research is governed by fundamental principles of democratic values
-                that dignity every human being as equal and strictly adhere to individual rights for privacy. Toward
-                this end, all research programs are mandated to be reviewed and approved by International Review Board
-                (IRB) which is formally designated to approve, monitor, and review biomedical and behavioral research
-                involving humans with the aim of protecting the rights and welfare of every research subject. The data
-                are available in ISER-N office at Fulbari, Chitwan while one can also electronically access them from
+            <p>Findings from high-quality rigorous scientific research are crucial to identify emerging social and
+                environmental issues, formulating appropriate policies and to make informed decisions for sustainable
+                development. The theoretical motivation of ISER-N’s research programs lies in the investigation of
+                micro-level associations to inform our understanding of emerging macro-level social and environmental
+                trends. ISER-N’s research is governed by fundamental principles of democratic values that assert every
+                human being as equal and strictly adhere to individual rights to privacy. Toward this end, all research
+                programs are mandated to be reviewed and approved by an International Review Board (IRB) which is
+                formally designated to approve, monitor, and review biomedical and behavioral research involving humans
+                with the aim of protecting the rights and welfare of every research subject. The data are available in
+                the ISER-N office at Fulbari, Chitwan and can also be electronically accessed from from the
                 Inter-university Consortium for Political and Social Research (ICPSR) at the University for Michigan and
-                UK Data Bank through the following link listed below. The publications resulted from these data are
-                available both in publication Tab and Chitwan Valley family Study website (www.cvfs.isr.umich.edu)</p>
+                the UK Data Bank. The publications resulting from these data are available both in the Publications Tab
+                and the Chitwan Valley Family Study website (www.cvfs.isr.umich.edu).</p>
         </div>
     </div>
     <ul class="nav nav-tabs justify-content-center fw-bold" id="filterTab" role="tablist" style="color: #01274c;">

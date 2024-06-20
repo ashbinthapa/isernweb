@@ -176,7 +176,7 @@
                 and Environmental Research – Nepal (ISER-N)</h2>
             <div class="row m-3 justify-content-md-center">
                 <div class="col-md-9">
-                    <p style="font-size: 14px;">ISER-N is a premier research and
+                    <p style="font-size: 16px;">ISER-N is a premier research and
                         development
                         institute.
                         ISER-N’s work focuses
