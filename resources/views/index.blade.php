@@ -18,10 +18,9 @@
             <div class="breaking-box w-100">
                 <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseleave="this.start();">
                     @foreach ($data['posts_all'] as $post)
-                        <a class="fw-bold" href="{{ route('posts.show', ['slug' => $post->slug]) }}"
-                            style="text-decoration: none;   color: #696969;">
-                            <span class="position-relative mx-2 badge rounded-0 font-weight-bold"
-                                style="background-color: #05264b; font-size: 14px;">{{ $post->category->name }}</span>
+                        <a class="fw-bold breaking-main-text" href="{{ route('posts.show', ['slug' => $post->slug]) }}">
+                            <span
+                                class="position-relative mx-2 badge rounded-0 font-weight-bold breaking-main-category">{{ $post->category->name }}</span>
                             {{ $post->title }}
                         </a>
                     @endforeach

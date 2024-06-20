@@ -244,6 +244,18 @@ background-color: #05264b;
   align-items: center;
 }
 
+.breaking-main-text {
+  text-decoration: none;
+  color: #696969;
+  line-height: 10px !important;
+}
+
+.breaking-main-category {
+  background-color: #05264b;
+  font-size: 14px !important;
+  line-height: 10px !important;
+}
+
 
 /*index page updates css ends*/
 
