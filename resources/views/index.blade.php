@@ -270,9 +270,10 @@
                             <div class="card-body">
                                 <p class="fs-6">{{ date('F j, Y', strtotime($post->published_at)) }}
                                 </p>
-                                <span class="position-relative badge rounded-0 font-weight-bold"
-                                    style="background-color: #05264b; margin-bottom: 10px;">{{ $post->category->name }}</span>
-
+                                <div style="text-align: center;">
+                                    <span class="position-relative badge rounded-0 font-weight-bold"
+                                        style="background-color: #05264b; margin-bottom: 10px;">{{ $post->category->name }}</span>
+                                </div>
                                 <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
                                     style="text-decoration: none; color: inherit; font-size: 16px;">
                                     <p class="card-title fw-bold">{{ Str::limit(strip_tags($post->title), 75) }}</p>
@@ -578,7 +579,7 @@
                     <a href="/collaboration/collaborate-with-us" style="text-decoration: none"><i
                             class="fa fa-handshake-o pb-4" style="font-size: 50px; color: #01274c;"
                             aria-hidden="true"></i><br>
-                        <p style="color: #01274c;">Collaborate with us</p>
+                        <p style="color: #01274c;">Collaborate with Us</p>
                     </a>
                 </div>
                 <div class="col-md-4 p-4">
