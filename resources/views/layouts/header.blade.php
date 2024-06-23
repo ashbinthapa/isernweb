@@ -113,7 +113,7 @@
                                         href="/dissemination">Dissemination</a></li>
                                 <li><a class="dropdown-item {{ request()->is('policy-and-interventions/interaction-program-with-respondents') ? 'active' : '' }}"
                                         href="/policy-and-interventions/interaction-program-with-respondents">Interaction
-                                        Program with Respondent</a></li>
+                                        Program with Respondents</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
@@ -161,7 +161,7 @@
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item {{ request()->is('research-infrastructure') ? 'active' : '' }}"
-                                        href="/research-infrastructure">Research Infrastructures</a></li>
+                                        href="/research-infrastructure">Research Infrastructure</a></li>
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle {{ request()->is('finance-management*') ? 'active' : '' }}"
                                         href="#" role="button" aria-expanded="false">Finance Management</a>
