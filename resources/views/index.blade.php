@@ -189,8 +189,8 @@
                         knowledge into practice.</p>
                 </div>
                 <div class="col-md-12 p-4">
-                    <a href="/about-us"><button class="custom-button fw-bold">Find
-                            More...</button></a>
+                    <a href="/about-us"><button class="custom-button fw-bold">Learn
+                            More</button></a>
                 </div>
             </div>
         </div>
