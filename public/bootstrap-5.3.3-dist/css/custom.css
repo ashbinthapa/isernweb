@@ -311,27 +311,94 @@ background-color: #05264b;
 /* Mobile */
 @media (max-width: 480px) {
   /* Your CSS styles for mobile devices */
-  
+  .event-date-style{
+    background-color: #01274c;
+    color: white;
+    font-size: 12px !important;
+  }
+
+  .timeline-title-design{
+    font-size: 12px;
+
+  }
 }
 
 /* Mobile Landscape */
 @media (max-width: 768px) and (orientation: landscape) {
   /* Your CSS styles for mobile landscape */
+  .event-date-style {
+      background-color: #01274c;
+      color: white;
+      font-size: 15px !important;
+  }
+
+    .timeline-title-design {
+      font-size: 15px;
+  
+    }
 }
 
 /* Tablet */
 @media (max-width: 834px) {
   /* Your CSS styles for tablets */
+  .event-date-style {
+      background-color: #01274c;
+      color: white;
+      font-size: 16px !important;
+  }
+
+    .timeline-title-design {
+      font-size: 16px;
+  
+    }
 }
 
 /* Tablet Landscape */
 @media (max-width: 1024px) and (orientation: landscape) {
   /* Your CSS styles for tablet landscape */
+  .event-date-style {
+      background-color: #01274c;
+      color: white;
+      font-size: 14px !important;
+  }
+
+    .timeline-title-design {
+      font-size: 14px;
+  
+    }
 }
 
 /* Laptop */
 @media (max-width: 1440px) {
   /* Your CSS styles for laptops */
+  .event-date-style {
+      background-color: #01274c;
+      color: white;
+      font-size: 14px !important;
+    }
+
+        .timeline-title-design {
+          font-size: 18px;
+    
+        }
+}
+
+@media (min-width: 1440px) {
+
+  /* Your CSS styles for screens wider than 1440px */
+  .event-date-style {
+    background-color: #01274c;
+    /* You can change this if needed */
+    color: white;
+    /* You can change this if needed */
+    font-size: 16px !important;
+    /* Adjust the font size as needed */
+  }
+
+  .timeline-title-design {
+    font-size: 16px;
+    /* Adjust the font size as needed */
+  }
 }
 
 .background-image-contact-us {

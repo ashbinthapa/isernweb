@@ -216,13 +216,12 @@
                                     <div class="horizontal-timeline">
                                         <ul class="list-inline items">
                                             <li class="list-inline-item items-list px-3">
-                                                <div class="event-date"
-                                                    style="background-color: #01274c; color: white; font-size: 12px;">
+                                                <div class="event-date event-date-style">
                                                     {{ $timeline->start_date }}
                                                 </div>
                                                 <div class="shadow p-3 mb-5 bg-body rounded">
                                                     <div>
-                                                        <p style="font-size: 12px;">{{ $timeline->title }}</p>
+                                                        <p class="timeline-title-design">{{ $timeline->title }}</p>
                                                     </div>
                                                     <div>
                                                         <a class="history-more-details-button badge rounded-0 fw-bold"
