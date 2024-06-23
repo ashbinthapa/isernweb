@@ -271,7 +271,7 @@
                                 <p class="fs-6">{{ date('F j, Y', strtotime($post->published_at)) }}
                                 </p>
                                 <span class="position-relative badge rounded-0 font-weight-bold"
-                                    style="background-color: #05264b;">{{ $post->category->name }}</span>
+                                    style="background-color: #05264b; margin-bottom: 10px;">{{ $post->category->name }}</span>
 
                                 <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
                                     style="text-decoration: none; color: inherit; font-size: 16px;">
