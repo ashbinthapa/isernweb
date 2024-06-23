@@ -777,7 +777,7 @@
             </button>
         </div>
         <div class="p-4 text-center">
-            <a href="/collaboration" class="btn p-3"><button class="custom-button fw-bold">Find More...</button></a>
+            <a href="/collaboration" class="btn p-3"><button class="custom-button fw-bold">Learn More</button></a>
         </div>
     </div>
     <!-- collaboration section ends -->
