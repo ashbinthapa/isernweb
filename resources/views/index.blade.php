@@ -787,8 +787,8 @@
         <div class="row justify-content-center"> <!-- Centering the row -->
             <div class="col-12"> <!-- Adjust the column width as needed -->
                 <div class="mb-3 text-center"> <!-- Centering the content -->
-                    <p class="fw-bold fs-1 py-4" style="color: #01274c;">Get the latest ISER-N Research &
-                        Publications</p>
+                    <p class="fw-bold fs-1 py-4" style="color: #01274c;">Get the latest ISER-N research &
+                        publications</p>
                 </div>
                 <div class="col-mb-3 text-center"> <!-- Centering the content -->
                     @if (session('success'))
