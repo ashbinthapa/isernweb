@@ -322,6 +322,20 @@ background-color: #05264b;
 
   }
 }
+/* Styles for iPhone 11 in landscape mode */
+@media (max-width: 896px) and (min-width: 415px) {
+  .event-date-style {
+    background-color: #01274c;
+    color: white;
+    font-size: 14px;
+    /* Adjust the font size as needed */
+  }
+
+  .timeline-title-design {
+    font-size: 14px;
+    /* Adjust the font size as needed */
+  }
+}
 
 /* Mobile Landscape */
 @media (max-width: 768px) and (orientation: landscape) {
