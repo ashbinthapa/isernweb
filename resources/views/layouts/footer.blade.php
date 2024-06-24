@@ -2,30 +2,62 @@
         <div class="container-fluid custom-footer-style footer-details footer-design py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <h5 class="fw-bold">Contact Details</h4>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map" aria-hidden="true"></i>
-                                    Bharatpur-15, Fulbari, Chitwan, Nepal</li>
-                                <li><i class="fa fa-phone" aria-hidden="true"></i>
-                                    +977-56-591054 ,+977-56-592406</li>
-                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                    iser.nepal@outlook.com</li>
-                                <li><i class="fa fa-clock-o" aria-hidden="true"></i>
-                                    10 A.M. - 5 P.M.</li>
-                                <li>
-                                    <a href="https://www.facebook.com/isernepalofficial/" target="_blank"
-                                        class="social-icons-size">
-                                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank"
-                                        class="social-icons-size">
-                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                    <div class="col-lg-3 col-md-8 col-sm-12 p-3">
+                        <h5 class="fw-bold">Contact Details</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="icon-text-wrapper">
+                                    <div class="icon"><i class="fa fa-map" aria-hidden="true"></i></div>
+                                    <div class="text">Bharatpur-15, Fulbari, Chitwan, Nepal</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-text-wrapper">
+                                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                    <div class="text">+977-56-591054 ,+977-56-592406</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-text-wrapper">
+                                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                                    <div class="text">iser.nepal@outlook.com</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-text-wrapper">
+                                    <div class="icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                                    <div class="text">10 A.M. - 5 P.M.</div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/isernepalofficial/" target="_blank"
+                                    class="social-icons-size">
+                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank"
+                                    class="social-icons-size">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+
+                    <style>
+                        .icon-text-wrapper {
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        .icon {
+                            margin-right: 10px;
+                        }
+
+                        .text {
+                            display: inline-block;
+                        }
+                    </style>
+
+                    <div class="col-lg-3 col-md-8 col-sm-12 p-3">
                         <h5 class="fw-bold">Forms</h4>
                             <ul class="list-unstyled">
                                 <li><a href="#"> <i class="fa fa-link" aria-hidden="true"></i>
@@ -34,7 +66,7 @@
                                         Survey Data Analysis Training</a></li>
                             </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+                    <div class="col-lg-3 col-md-8 col-sm-12 p-3">
                         <h5 class="fw-bold">Important Links</h4>
                             <ul class="list-unstyled">
                                 <li><a href="https://cvfs.isr.umich.edu/"> <i class="fa fa-link" aria-hidden="true"></i>
@@ -72,7 +104,7 @@
                                         Other Links</a></li>
                             </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+                    <div class="col-lg-3 col-md-8 col-sm-12 p-3">
                         <h5 class="fw-bold">Latest Events/News</h4>
                             <div class="sh-recent-posts-widgets">
                                 @foreach ($posts_latest_news as $post)

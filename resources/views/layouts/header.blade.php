@@ -4,6 +4,9 @@
 <head>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-mobile.css') }}">
+    <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-laptop.css') }}">
+    <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-desktop.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
