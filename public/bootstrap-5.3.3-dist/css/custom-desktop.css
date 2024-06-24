@@ -70,6 +70,18 @@
         margin: 10px 0 0;
     }
 
+    .icon-text-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
+
+    .text {
+        display: inline-block;
+    }
 
     /*increasing the size of social icons in footer*/
     a.social-icons-size {
@@ -483,4 +495,38 @@
     .timeline-title-design {
         font-size: 16px;
     }
+
+    .overall-font-size {
+        font-size: 16px;
+    }
+
+    .text-center-ashbin {
+        text-align: center;
+    }
+
+    .overall-text-ashbin-a-tag-title {
+        text-decoration: none;
+        color: inherit;
+        font-size: 20px;
+    }
+
+    .overall-blue-color {
+        color: #01274c;
+    }
+    
+    .overall-blue-color-a-tag {
+        text-decoration: none;
+        color: #01274c;
+    }
+
+    .work-with-us-icon {
+        font-size: 50px;
+        color: #01274c;
+    }
+
+    .index-page-contact-form-text {
+        font-size: 14px;
+        color: #01274c;
+    }
+
 }

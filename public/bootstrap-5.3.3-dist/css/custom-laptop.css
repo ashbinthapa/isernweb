@@ -48,7 +48,7 @@
         text-decoration: none !important;
         /* Remove underlines from anchor tags */
         color: white;
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .custom-footer-style {
@@ -68,6 +68,19 @@
         background: #fde428;
         border-radius: 3px;
         margin: 10px 0 0;
+    }
+
+    .icon-text-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
+
+    .text {
+        display: inline-block;
     }
 
 
@@ -106,7 +119,7 @@
         width: 80%;
         height: 50px;
         margin: 10px auto;
-        font-size: 14px;
+        font-size: 20px;
         padding: 10px;
         top: -40px;
     }
@@ -136,7 +149,7 @@
 
     .navbar-header-ul .nav-link {
         color: white;
-        font-size: 14px;
+        font-size: 20px;
     }
 
     /* Change text color and add hover effect for navbar links */
@@ -155,7 +168,7 @@
     .navbar-header-ul .dropdown-menu .dropdown-item {
         color: #f2c100;
         background-color: #05264b;
-        font-size: 14px;
+        font-size: 20px;
     }
 
     /* Change background color and text color when hovering over dropdown items */
@@ -294,7 +307,7 @@
         /* Some padding */
         border-radius: 10px;
         /* Rounded corners */
-        font-size: 14px;
+        font-size: 20px;
         /* Increase font size */
     }
 
@@ -306,7 +319,7 @@
     /*css for the overall buttons in the site*/
     .custom-button {
         background-color: #031c37;
-        font-size: 14px;
+        font-size: 20px;
         border-radius: 100px;
         color: white;
         padding: 15px 30px 15px 30px;
@@ -386,7 +399,7 @@
     }
 
     .ashbin-text-a {
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 700;
         color: #3f3f3f;
         text-decoration: none;
@@ -542,7 +555,7 @@
     }
 
     .ashbin-text-a {
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 700;
         color: #3f3f3f;
         text-decoration: none;
@@ -639,6 +652,39 @@
     }
 
     .timeline-title-design {
-        font-size: 14px;
+        font-size: 20px;
+    }
+
+    .overall-font-size {
+        font-size: 30px;
+    }
+
+    .text-center-ashbin {
+        text-align: center;
+    }
+
+    .overall-text-ashbin-a-tag-title {
+        text-decoration: none;
+        color: inherit;
+        font-size: 36px;
+    }
+
+    .overall-blue-color {
+        color: #01274c;
+    }
+
+    .overall-blue-color-a-tag {
+        text-decoration: none;
+        color: #01274c;
+    }
+
+    .work-with-us-icon {
+        font-size: 50px;
+        color: #01274c;
+    }
+
+    .index-page-contact-form-text {
+        font-size: 20px;
+        color: #01274c;
     }
 }

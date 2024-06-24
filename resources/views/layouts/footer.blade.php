@@ -42,21 +42,6 @@
                         </ul>
                     </div>
 
-                    <style>
-                        .icon-text-wrapper {
-                            display: flex;
-                            align-items: center;
-                        }
-
-                        .icon {
-                            margin-right: 10px;
-                        }
-
-                        .text {
-                            display: inline-block;
-                        }
-                    </style>
-
                     <div class="col-lg-3 col-md-8 col-sm-12 p-3">
                         <h5 class="fw-bold">Forms</h4>
                             <ul class="list-unstyled">

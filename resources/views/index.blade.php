@@ -176,7 +176,7 @@
                 and Environmental Research – Nepal (ISER-N)</h2>
             <div class="row m-3 justify-content-md-center">
                 <div class="col-md-9">
-                    <p style="font-size: 16px;">ISER-N is a premier research and
+                    <p class="overall-font-size">ISER-N is a premier research and
                         development
                         institute.
                         ISER-N’s work focuses
@@ -203,7 +203,7 @@
     <div id="carouselExampleControls" class="carousel slide text-center" data-bs-ride="carousel">
         <div class="row">
             <div class="col-md-12 py-5">
-                <p class="fw-bold fs-1" style="color: #01274c;">History</p>
+                <p class="fw-bold fs-1" class="overall-blue-color">History</p>
             </div>
         </div>
         <div class="carousel-inner">
@@ -256,7 +256,7 @@
     <!-- latest news and announcement section started -->
     <div class="container-fluid bg-light py-4">
         <div class="container" style="margin-top: 20px; margin-bottom: 20px;">
-            <p class="fw-bold fs-1 text-center" style="color: #01274c;">Latest News and
+            <p class="fw-bold fs-1 text-center" class="overall-blue-color">Latest News and
                 Announcement</p>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-left">
@@ -270,15 +270,15 @@
                             <div class="card-body">
                                 <p class="fs-6">{{ date('F j, Y', strtotime($post->published_at)) }}
                                 </p>
-                                <div style="text-align: center;">
+                                <div class="text-center-ashbin">
                                     <span class="position-relative badge rounded-0 font-weight-bold"
                                         style="background-color: #05264b; margin-bottom: 10px;">{{ $post->category->name }}</span>
                                 </div>
                                 <a href="{{ route('posts.show', ['slug' => $post->slug]) }}"
-                                    style="text-decoration: none; color: inherit; font-size: 16px;">
+                                    class="overall-text-ashbin-a-tag-title">
                                     <p class="card-title fw-bold">{{ Str::limit(strip_tags($post->title), 75) }}</p>
                                 </a>
-                                <p class="card-text" style="font-size: 14px;">{!! Str::limit(strip_tags($post->content), 250) !!}</p>
+                                <p class="card-text overall-font-size">{!! Str::limit(strip_tags($post->content), 250) !!}</p>
                                 <a href="{{ route('posts.show', ['slug' => $post->slug]) }}" class="btn"><button
                                         class="custom-button fw-bold">Read More</button></a>
                             </div>
@@ -293,7 +293,7 @@
     <!-- latest research section start
 
     <div class="container-fluid text-center">
-        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Latest Research</p>
+        <p class="fw-bold fs-1 py-4" class="overall-blue-color">Latest Research</p>
         <div class="row px-5 mx-5">
             <div class="col-md-12 p-3">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
@@ -339,10 +339,10 @@
 
     <!-- research section starts -->
     <div class="container my-5">
-        <p class="fw-bold fs-1 py-4 text-center" style="color: #01274c;">Latest Research</p>
+        <p class="fw-bold fs-1 py-4 text-center" class="overall-blue-color">Latest Research</p>
 
         <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-12 col-lg-3">
                 <div class="custom-card">
                     <img src="/images/research2.jpg" class="custom-card-img-top" alt="Image 1">
                     <div class="custom-card-body p-3">
@@ -353,7 +353,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-12 col-lg-3">
                 <div class="custom-card">
                     <img src="/images/research1.jpg" class="custom-card-img-top" alt="Image 2">
                     <div class="custom-card-body p-3">
@@ -367,7 +367,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-12 col-lg-3">
                 <div class="custom-card">
                     <img src="/images/iser slider carousel1.jpg" class="custom-card-img-top" alt="Image 4">
                     <div class="custom-card-body p-3">
@@ -381,7 +381,7 @@
 
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-12 col-lg-3">
                 <div class="custom-card">
                     <img src="/images/iser slider carousel8.jpg" class="custom-card-img-top" alt="Image 3">
                     <div class="custom-card-body p-3">
@@ -406,10 +406,10 @@
     <!-- data section start -->
 
     <div class="container-fluid text-center bg-light">
-        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Data</p>
+        <p class="fw-bold fs-1 py-4 overall-blue-color">Data</p>
         <div class="row px-5 m-3 justify-content-md-center">
             <div class="col-10">
-                <p style="font-size: 14px;">ISER-N in collaboration with universities and
+                <p class="overall-font-size">ISER-N in collaboration with universities and
                     research organizations in Nepal and abroad has collected a large number of longitudinal panel and
                     cross-sectional data on various topics. ISER-N has collected a wide range of data on population
                     health (psychological and physical health), environment, population dynamics, family change,
@@ -433,7 +433,7 @@
     <!-- publication section started -->
 
     <div class="container py-4">
-        <p class="fw-bold fs-1 py-4 text-center" style="color: #01274c;">Publications</p>
+        <p class="fw-bold fs-1 py-4 text-center">Publications</p>
 
         <div class="row">
 
@@ -443,7 +443,7 @@
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="{{ $type->id }}"
                             id="checkboxPublicationType{{ $type->id }}">
-                        <label class="form-check-label fw-bold fs-6" style="color: #01274c;"
+                        <label class="form-check-label fw-bold fs-6 overall-blue-color"
                             for="checkboxPublicationType{{ $type->id }}">
                             {{ $type->name }}
                         </label>
@@ -474,7 +474,7 @@
                             <td class="align-middle">{{ $publication->publicationcategory->name }}</td>
                             <td class="align-middle">{{ $publication->title }}</td>
                             <td class="align-middle"><a href="{{ $publication->link }}" target="_blank"
-                                    class="fw-bold" style="text-decoration: none; color: #01274c;">
+                                    class="fw-bold overall-blue-color-a-tag">
                                     <button class="publication-doi-button">DOI
                                     </button></a></td>
                             <td class="align-middle">{{ $publication->year }}</td>
@@ -503,10 +503,10 @@
 
     <div class="container-fluid bg-light">
         <div class="container">
-            <p class="fw-bold fs-1 py-4 text-center" style="color: #01274c;">Policy & Interventions</p>
+            <p class="fw-bold fs-1 py-4 text-center overall-blue-color">Policy & Interventions</p>
 
             <div class="row g-4">
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-12 col-lg-3">
                     <div class="custom-card">
                         <img src="/images/child education/ChildEducation.jpg" class="custom-card-img-top"
                             alt="Image 1">
@@ -517,7 +517,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-12 col-lg-3">
                     <div class="custom-card">
                         <img src="/images/policy-feedback.jpg" class="custom-card-img-top" alt="Image 2">
                         <div class="custom-card-body p-3">
@@ -528,7 +528,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-12 col-lg-3">
                     <div class="custom-card">
                         <img src="/images/dissemination.jpg" class="custom-card-img-top" alt="Image 4">
                         <div class="custom-card-body p-3">
@@ -539,7 +539,7 @@
 
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-12 col-lg-3">
                     <div class="custom-card">
                         <img src="/images/respondent-interaction.jpg" class="custom-card-img-top" alt="Image 3">
                         <div class="custom-card-body p-3">
@@ -560,10 +560,10 @@
     <!-- work with us section start -->
 
     <div class="container-fluid text-center">
-        <p class="fw-bold fs-1 py-4" style="color: #01274c;">Work With Us</p>
+        <p class="fw-bold fs-1 py-4 overall-blue-color">Work With Us</p>
         <div class="row m-3 justify-content-md-center">
             <div class="col-md-9">
-                <p style="font-size: 14px;">ISER-N is a premier research and
+                <p class="overall-font-size">ISER-N is a premier research and
                     In decades, ISER-N has successfully maintained partnerships with various universities, research
                     organizations, and researchers, both in Nepal and abroad. ISER-N is also connected to the
                     respondents who share their thoughts and experiences in response to the questionnaire. It has
@@ -575,24 +575,22 @@
                     conduct research in Chitwan Valley or Nepal.</p>
             </div>
             <div class="row fw-bold fs-5" style="padding: 60px">
-                <div class="col-md-4 p-4" style="color: #01274c;">
+                <div class="col-md-4 p-4 overall-blue-color">
                     <a href="/collaboration/collaborate-with-us" style="text-decoration: none"><i
-                            class="fa fa-handshake-o pb-4" style="font-size: 50px; color: #01274c;"
-                            aria-hidden="true"></i><br>
-                        <p style="color: #01274c;">Collaborate with Us</p>
+                            class="fa fa-handshake-o pb-4 work-with-us-icon" aria-hidden="true"></i><br>
+                        <p class="overall-blue-color">Collaborate with Us</p>
                     </a>
                 </div>
                 <div class="col-md-4 p-4">
                     <a href="/work-with-us/career-at-isern" style="text-decoration: none;"><i
-                            class="fa fa-briefcase pb-4" style="font-size: 50px; color: #01274c;"
-                            aria-hidden="true"></i><br>
-                        <p style="color: #01274c;">Career</p>
+                            class="fa fa-briefcase pb-4 work-with-us-icon" aria-hidden="true"></i><br>
+                        <p class="overall-blue-color">Career</p>
                     </a>
                 </div>
                 <div class="col-md-4 p-4">
-                    <a href="/#" style="text-decoration: none;"><i class="fa fa-graduation-cap pb-4"
-                            style="font-size: 50px; color: #01274c;" aria-hidden="true"></i><br>
-                        <p style="color: #01274c;">Internship</p>
+                    <a href="/#" style="text-decoration: none;"><i
+                            class="fa fa-graduation-cap pb-4 work-with-us-icon" aria-hidden="true"></i><br>
+                        <p class="overall-blue-color">Internship</p>
                     </a>
                 </div>
             </div>
@@ -604,7 +602,7 @@
     <div id="carouselExampleControls" class="carousel slide text-center bg-light" data-bs-ride="carousel">
         <div class="row">
             <div class="col-md-12 py-5">
-                <p class="fw-bold fs-1" style="color: #01274c;">Collaboration</p>
+                <p class="fw-bold fs-1" class="overall-blue-color">Collaboration</p>
             </div>
         </div>
         <div id="imageSlider" class="carousel slide collaboration-image-design" data-bs-ride="carousel">
@@ -787,7 +785,7 @@
         <div class="row justify-content-center"> <!-- Centering the row -->
             <div class="col-12"> <!-- Adjust the column width as needed -->
                 <div class="mb-3 text-center"> <!-- Centering the content -->
-                    <p class="fw-bold fs-1 py-4" style="color: #01274c;">Get the latest ISER-N research &
+                    <p class="fw-bold fs-1 py-4" class="overall-blue-color">Get the latest ISER-N research &
                         publications</p>
                 </div>
                 <div class="col-mb-3 text-center"> <!-- Centering the content -->
@@ -809,7 +807,7 @@
                     <!-- Centering the form -->
                     @csrf
                     <div class="mb-3">
-                        <label for="name" class="form-label fw-bold" style="font-size: 14px; color: #01274c;">
+                        <label for="name" class="form-label fw-bold index-page-contact-form-text">
                             Your Name <i class="fa fa-id-card-o" aria-hidden="true"></i>
                         </label>
                         <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
@@ -817,18 +815,16 @@
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label fw-bold"
-                            style="font-size: 14px; color: #01274c;">Your Email <i class="fa fa-envelope-o"
-                                aria-hidden="true"></i>
+                        <label for="email" class="form-label fw-bold index-page-contact-form-text">Your Email <i
+                                class="fa fa-envelope-o" aria-hidden="true"></i>
                         </label>
                         <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
                             <input type="email" name="email" class="form-control" required>
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label fw-bold"
-                            style="font-size: 14px; color: #01274c;">Message <i class="fa fa-comment"
-                                aria-hidden="true"></i>
+                        <label for="message" class="form-label fw-bold index-page-contact-form-text">Message <i
+                                class="fa fa-comment" aria-hidden="true"></i>
                         </label>
                         <div class="col-sm-4 mx-auto"> <!-- Centering the input field -->
                             <textarea name="message" class="form-control" rows="5"></textarea>
