@@ -70,16 +70,16 @@
         margin: 10px 0 0;
     }
 
-    .icon-text-wrapper {
+    .ashbin-icon-text-wrapper {
         display: flex;
         align-items: center;
     }
 
-    .icon {
+    .ashbin-icon {
         margin-right: 10px;
     }
 
-    .text {
+    .ashbin-text {
         display: inline-block;
     }
 

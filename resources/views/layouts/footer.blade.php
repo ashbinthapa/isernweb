@@ -6,27 +6,27 @@
                         <h5 class="fw-bold">Contact Details</h5>
                         <ul class="list-unstyled">
                             <li>
-                                <div class="icon-text-wrapper">
-                                    <div class="icon"><i class="fa fa-map" aria-hidden="true"></i></div>
-                                    <div class="text">Bharatpur-15, Fulbari, Chitwan, Nepal</div>
+                                <div class="ashbin-icon-text-wrapper">
+                                    <div class="ashbin-icon"><i class="fa fa-map" aria-hidden="true"></i></div>
+                                    <div class="ashbin-text"><a>Bharatpur-15, Fulbari, Chitwan, Nepal</a></div>
                                 </div>
                             </li>
                             <li>
-                                <div class="icon-text-wrapper">
-                                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                                    <div class="text">+977-56-591054 ,+977-56-592406</div>
+                                <div class="ashbin-icon-text-wrapper">
+                                    <div class="ashbin-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                    <div class="ashbin-text"><a>+977-56-591054 ,+977-56-592406</a></div>
                                 </div>
                             </li>
                             <li>
-                                <div class="icon-text-wrapper">
-                                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                                    <div class="text">iser.nepal@outlook.com</div>
+                                <div class="ashbin-icon-text-wrapper">
+                                    <div class="ashbin-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                                    <div class="ashbin-text"><a>iser.nepal@outlook.com</a></div>
                                 </div>
                             </li>
                             <li>
-                                <div class="icon-text-wrapper">
-                                    <div class="icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
-                                    <div class="text">10 A.M. - 5 P.M.</div>
+                                <div class="ashbin-icon-text-wrapper">
+                                    <div class="ashbin-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                                    <div class="ashbin-text"><a>10 A.M. - 5 P.M.</a></div>
                                 </div>
                             </li>
                             <li>

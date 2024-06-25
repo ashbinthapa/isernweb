@@ -1,4 +1,5 @@
 /* Mobile devices (481px to 768px wide) */
+/* iPhone 11 in landscape mode falls under this */
 @media (min-width: 481px) and (max-width: 768px) {
 .row {
         --bs-gutter-x: 0rem !important;
@@ -48,7 +49,7 @@
         text-decoration: none !important;
         /* Remove underlines from anchor tags */
         color: white;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .custom-footer-style {
@@ -57,7 +58,7 @@
     }
 
     .footer-design h5 {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .footer-design h5:after {
@@ -70,16 +71,16 @@
         margin: 10px 0 0;
     }
 
-    .icon-text-wrapper {
+    .ashbin-icon-text-wrapper {
         display: flex;
         align-items: center;
     }
 
-    .icon {
+    .ashbin-icon {
         margin-right: 10px;
     }
 
-    .text {
+    .ashbin-text {
         display: inline-block;
     }
 
