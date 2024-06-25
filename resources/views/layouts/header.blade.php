@@ -3,8 +3,11 @@
 
 <head>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-small-mobile.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-mobile.css') }}">
+    <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-tablet.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-laptop.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-desktop.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">

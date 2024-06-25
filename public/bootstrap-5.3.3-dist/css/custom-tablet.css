@@ -1,5 +1,5 @@
-/* Laptops (1025px to 1440px wide) */
-@media (min-width: 1025px) and (max-width: 1440px) {
+/* Tablets and Small Laptops (769px to 1024px wide) */
+@media (min-width: 769px) and (max-width: 1024px) {
     .row {
             --bs-gutter-x: 0rem !important;
         }

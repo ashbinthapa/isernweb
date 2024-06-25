@@ -1,5 +1,5 @@
-/* Mobile devices (481px to 768px wide) */
-@media (min-width: 481px) and (max-width: 768px) {
+/* Small Mobile devices (up to 480px wide) */
+@media (max-width: 480px) {
 .row {
         --bs-gutter-x: 0rem !important;
     }
