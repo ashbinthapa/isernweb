@@ -87,7 +87,7 @@
 
     /*increasing the size of social icons in footer*/
     a.social-icons-size {
-        font-size: 35px;
+        font-size: 40px;
     }
 
 
@@ -120,7 +120,7 @@
         width: 80%;
         height: 50px;
         margin: 10px auto;
-        font-size: 20px;
+        font-size: 30px;
         padding: 10px;
         top: -40px;
     }
@@ -150,7 +150,7 @@
 
     .navbar-header-ul .nav-link {
         color: white;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     /* Change text color and add hover effect for navbar links */
@@ -169,7 +169,7 @@
     .navbar-header-ul .dropdown-menu .dropdown-item {
         color: #f2c100;
         background-color: #05264b;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     /* Change background color and text color when hovering over dropdown items */
@@ -190,7 +190,7 @@
         background-color: #05264b;
         color: white;
         border: none;
-        font-size: 10px;
+        font-size: 15px;
         border-radius: 10px;
         font-weight: 600;
         /* This will change the text color to white for better visibility */
@@ -247,7 +247,7 @@
     /*index page updates css starts*/
     .breaking-updates {
         margin-bottom: 0px;
-        font-size: 14px !important;
+        font-size: 30px !important;
         height: 38px;
         /* Ensure the row takes the full height of its container */
     }
@@ -275,7 +275,7 @@
 
     .breaking-main-category {
         background-color: #05264b;
-        font-size: 14px !important;
+        font-size: 30px !important;
         line-height: 10px !important;
     }
 
@@ -308,7 +308,7 @@
         /* Some padding */
         border-radius: 10px;
         /* Rounded corners */
-        font-size: 20px;
+        font-size: 30px;
         /* Increase font size */
     }
 
@@ -400,7 +400,7 @@
     }
 
     .ashbin-text-a {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 700;
         color: #3f3f3f;
         text-decoration: none;
@@ -416,7 +416,7 @@
 
     /* policy and interventions section starts */
     .ashbin-text-b {
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 700;
         color: #3f3f3f;
         text-decoration: none;
@@ -556,7 +556,7 @@
     }
 
     .ashbin-text-a {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 700;
         color: #3f3f3f;
         text-decoration: none;
@@ -572,7 +572,7 @@
 
     /* policy and interventions section starts */
     .ashbin-text-b {
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 700;
         color: #3f3f3f;
         text-decoration: none;
@@ -590,7 +590,7 @@
     .ashbin-community-capacity-design h2 {
         background-color: #05264b;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 30px;
         color: white;
     }
 
@@ -644,16 +644,14 @@
 
     /*capatilizing the first letter ends*/
 
-    /*capatilizing the first letter ends*/
-
     .event-date-style {
         background-color: #01274c;
         color: white;
-        font-size: 14px !important;
+        font-size: 30px !important;
     }
 
     .timeline-title-design {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .overall-font-size {
@@ -667,7 +665,7 @@
     .overall-text-ashbin-a-tag-title {
         text-decoration: none;
         color: inherit;
-        font-size: 36px;
+        font-size: 35px;
     }
 
     .overall-blue-color {
@@ -685,7 +683,7 @@
     }
 
     .index-page-contact-form-text {
-        font-size: 20px;
+        font-size: 30px;
         color: #01274c;
     }
 }
