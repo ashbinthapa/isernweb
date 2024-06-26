@@ -16,6 +16,7 @@
         </ul>
     </div>
 </nav>
+
 <div class="container p-5">
     <form id="filterForm" method="GET" action="{{ route('publications.archive') }}">
         <div class="row">
@@ -41,54 +42,26 @@
                     @endforeach
                 </select>
             </div>
-            <div>
-                <a href="/publications">
-                    <button class="custom-button fw-bold">CLEAR ALL FLITERS</button>
-                </a>
-            </div>
+
         </div>
     </form>
+    <div>
+        <a href="/publications">
+            <button class="custom-button fw-bold">CLEAR ALL FLITERS</button>
+        </a>
+    </div>
 
     <div class="card table-responsive mt-4 text-left">
         <table id="example" class="table table-striped table-borderless">
             <thead class="fw-bold custom-table-header">
                 <tr>
-                    @php
-                        $sortOrderNext = request('sortOrder') == 'asc' ? 'desc' : 'asc';
-                    @endphp
-                    <th scope="col" class="col-3">
-                        <a
-                            href="{{ route('publications.archive', array_merge(request()->query(), ['sortBy' => 'publicationcategory_id', 'sortOrder' => $sortOrderNext])) }}">
-                            Publication Type
-                            @if (request('sortBy') == 'publicationcategory_id')
-                                <i class="fa fa-sort-{{ request('sortOrder') == 'asc' ? 'up' : 'down' }}"></i>
-                            @else
-                                <i class="fa fa-sort"></i>
-                            @endif
-                        </a>
+                    <th scope="col" data-column="0" class="col-3 sortable">Publication Type <i
+                            class="fa fa-sort"></i></th>
+                    <th scope="col" data-column="1" class="col-6 sortable">Publication <i class="fa fa-sort"></i>
                     </th>
-                    <th scope="col" class="col-6">
-                        <a
-                            href="{{ route('publications.archive', array_merge(request()->query(), ['sortBy' => 'title', 'sortOrder' => $sortOrderNext])) }}">
-                            Publication
-                            @if (request('sortBy') == 'title')
-                                <i class="fa fa-sort-{{ request('sortOrder') == 'asc' ? 'up' : 'down' }}"></i>
-                            @else
-                                <i class="fa fa-sort"></i>
-                            @endif
-                        </a>
+                    <th scope="col" data-column="2" class="col-1 sortable">Link <i class="fa fa-sort"></i>
                     </th>
-                    <th scope="col" class="col-1">Link</th>
-                    <th scope="col" class="col-2">
-                        <a
-                            href="{{ route('publications.archive', array_merge(request()->query(), ['sortBy' => 'year', 'sortOrder' => $sortOrderNext])) }}">
-                            Year
-                            @if (request('sortBy') == 'year')
-                                <i class="fa fa-sort-{{ request('sortOrder') == 'asc' ? 'up' : 'down' }}"></i>
-                            @else
-                                <i class="fa fa-sort"></i>
-                            @endif
-                        </a>
+                    <th scope="col" data-column="3" class="col-2 sortable">Year <i class="fa fa-sort"></i>
                     </th>
                 </tr>
             </thead>
@@ -117,10 +90,9 @@
     </div>
 
     <div class="d-flex justify-content-center pt-2">
-        {{ $publications_data['publications']->appends(['type' => request('type'), 'year' => request('year'), 'sortBy' => request('sortBy'), 'sortOrder' => request('sortOrder')])->links('vendor.pagination.bootstrap-5') }}
+        {{ $publications_data['publications']->appends(['type' => request('type'), 'year' => request('year')])->links('vendor.pagination.bootstrap-5') }}
     </div>
 </div>
-
 
 
 @include('layouts.footer')
