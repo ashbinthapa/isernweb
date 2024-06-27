@@ -16,7 +16,7 @@ class PublicationController extends Controller
         $type = $request->input('type', 'all');
         $year = $request->input('year', 'all');
         $sortBy = $request->input('sortBy', 'id'); // Default sort by 'id'
-        $sortOrder = $request->input('sortOrder', 'asc'); // Default sort order 'asc'
+        $sortOrder = $request->input('sortOrder', 'desc'); // Default sort order 'asc'
 
         // Start with a base query
         $query = Publication::query();
