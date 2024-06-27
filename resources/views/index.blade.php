@@ -574,7 +574,7 @@
                     ways. We also provide valuable training and support to researchers and scholars willing to
                     conduct research in Chitwan Valley or Nepal.</p>
             </div>
-            <div class="row fw-bold fs-5" style="padding: 60px">
+            <div class="row fw-bold" style="padding: 60px">
                 <div class="col-md-4 p-4 overall-blue-color">
                     <a href="/collaboration/collaborate-with-us" style="text-decoration: none"><i
                             class="fa fa-handshake-o pb-4 work-with-us-icon" aria-hidden="true"></i><br>
