@@ -129,14 +129,11 @@
             });
         </script>
     @endif
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/popper.min.js') }}"></script>
-    <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.js') }}"></script>
     <script src="{{ asset('bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+
 
     {{-- script for header search --}}
     <script>

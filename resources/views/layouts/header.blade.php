@@ -30,7 +30,8 @@
         {{-- section for the main header menu nav bar section --}}
         <nav class="navbar navbar-expand-xl justify-content-center fw-bold">
             <div class="container m-3">
-                {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
+                {{-- <a class="navbar-brand" href="#"><img src="/images/ISER-logo_Final English,jpg.jpg"
+                        class="ashbin-logo" alt="ISER-N"></a> --}}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -39,13 +40,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav navbar-header-ul me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ url('/') }}">
-                                <i class="fa fa-home" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ request()->is('/') ? 'active' : '' }}"
-                                href="{{ url('/') }}">Home</a>
+                            <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ url('/') }}"><i
+                                    class="fa fa-home" aria-hidden="true" style="margin-right: 2px"></i> Home</a>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
                             <a class="nav-link dropdown-toggle {{ request()->is('posts*') ? 'active' : '' }}"

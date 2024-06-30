@@ -7,3 +7,9 @@
      /* Set your desired height */
      object-fit: cover;
  }
+
+ .ashbin-logo {
+    height: 30px;
+    width: 30px;
+ }
+
