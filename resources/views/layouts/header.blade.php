@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-laptop.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/custom-desktop.css') }}">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/css/bootstrap.min.css') }}">
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="{{ asset('bootstrap-5.3.3-dist/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 
@@ -19,10 +21,10 @@
 
 <body>
     {{-- div for the main header logo section --}}
-    <div class="container-fluid py-4" style="background-color: #f5f5dc;">
+    <div style="background-color: #f5f5dc;">
         <div class="container">
             <a href="{{ url('/') }}">
-                <img src="{{ asset('images/isernepal website logo.png') }}" class="img-fluid" alt="ISER-N">
+                <img src="/images/isernepal-at.png" class="img-fluid" alt="ISER-N">
             </a>
         </div>
     </div>
