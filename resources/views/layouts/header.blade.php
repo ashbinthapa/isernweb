@@ -43,7 +43,7 @@
                     <ul class="navbar-nav navbar-header-ul me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{ url('/') }}"><i
-                                    class="fa fa-home" aria-hidden="true" style="margin-right: 2px"></i> Home</a>
+                                    class="fa fa-home" aria-hidden="true"></i> Home</a>
                         </li>
                         <li class="nav-item dropdown hover-dropdown">
                             <a class="nav-link dropdown-toggle {{ request()->is('posts*') ? 'active' : '' }}"
