@@ -34,7 +34,7 @@
             <div class="container m-3">
                 {{-- <a class="navbar-brand" href="#"><img src="/images/ISER-logo_Final English,jpg.jpg"
                         class="ashbin-logo" alt="ISER-N"></a> --}}
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler button-custom" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
