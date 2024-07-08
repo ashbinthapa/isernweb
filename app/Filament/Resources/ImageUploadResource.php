@@ -24,8 +24,12 @@ class ImageUploadResource extends Resource
         return $form
             ->schema([
                 Forms\Components\FileUpload::make('path')
-                ->image()
-                ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/gif'])
+                ->disk('public') // Use the public disk
+                ->directory('images') // Store files in the public/images directory
+                ->visibility('public') // Set visibility to public
+                ->acceptedFileTypes(['image/*', 'application/pdf']) // Accept images and PDFs
+                ->preserveFilenames()
+                ->required()
             ]);
     }
 
@@ -33,7 +37,9 @@ class ImageUploadResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\ImageColumn::make('path')
+                Tables\Columns\ImageColumn::make('path'),
+                Tables\Columns\TextColumn::make('path')
+                    
             ])
             ->filters([
                 //

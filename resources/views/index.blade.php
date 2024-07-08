@@ -11,7 +11,8 @@
         <div class="col-1 d-flex align-items-center">
             <div class="bg-danger text-white text-center breaking-caret fw-bold w-100">
                 UPDATES
-            </div>
+                <img src="{{ asset('storage/images/dummy-image-300x298.jpg') }}" class="d-block w-100" alt="...">
+                </div>
         </div>
         <!-- update content -->
         <div class="col-10 d-flex align-items-center">
