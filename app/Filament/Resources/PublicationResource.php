@@ -33,6 +33,7 @@ class PublicationResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('title')
+                ->maxLength(2000)
                 ->required(),
 
                 Forms\Components\TextInput::make('slug')
